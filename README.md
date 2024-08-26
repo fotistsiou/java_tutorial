@@ -2,7 +2,7 @@
 
 ## Java Fundamentals
 * Syntax
-* Packages
+* Packages & API
 * IO Streams
 * Comments
 * Variables

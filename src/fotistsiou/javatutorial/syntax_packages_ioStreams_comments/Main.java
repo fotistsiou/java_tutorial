@@ -1,6 +1,11 @@
-package fotistsiou.javatutorial.syntax_ioStreams_comments;
+/* Package - User-defined Package (create your own package) */
+package fotistsiou.javatutorial.syntax_packages_ioStreams_comments;
 
+/* Package - Built-in Package (package from the Java API) */
+// Import a single class
 import java.util.Scanner;
+// Import the whole package
+// import java.util.*
 
 public class Main {
     public static void main(String[] args) {
