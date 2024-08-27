@@ -8,13 +8,11 @@
 * Variables
 * Data Types
 * Operators
-* Strings
-* Math
-* Booleans
 * Conditional Statements
 * Loops
 * Arrays
 * Methods
+* Build-In Methods
 * Collections Framework
 * Files and APIs
 * OOP

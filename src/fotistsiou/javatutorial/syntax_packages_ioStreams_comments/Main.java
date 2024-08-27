@@ -5,7 +5,7 @@ package fotistsiou.javatutorial.syntax_packages_ioStreams_comments;
 
 // Built-in Package (package from the Java API)
 import java.util.Scanner; // Import a single class
-import java.util.*; // Import the whole package
+
 
 public class Main {
     public static void main(String[] args) {
