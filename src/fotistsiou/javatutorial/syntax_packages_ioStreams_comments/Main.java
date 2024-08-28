@@ -9,7 +9,7 @@ import java.util.Scanner; // Import a single class
 
 public class Main {
     public static void main(String[] args) {
-        /* IO Streams -  */
+        /* IO Streams */
 
         // Output
         System.out.print("Hello! My name is Fotis and I'm ");
