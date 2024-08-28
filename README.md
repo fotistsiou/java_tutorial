@@ -25,5 +25,12 @@
 * Methods
 * Build-In Methods
 * Collections Framework
+  * ArrayList 
+  * LinkedList (List)
+  * HashMap (Map)
+  * HashSet (Set)
+  * Iterator
 * Files and APIs
+  * File Handling
+  * APIs Handling
 * OOP
