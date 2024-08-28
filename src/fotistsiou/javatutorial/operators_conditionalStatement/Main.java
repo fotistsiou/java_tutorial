@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.operators;
+package fotistsiou.javatutorial.operators_conditionalStatement;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -36,6 +36,17 @@ public class Main {
 
         System.out.println("The total of expenses is " + totalOfExpenses);
         System.out.println("The cost per person is " + costPerPerson);
-        System.out.println("Τhe money left over for the rest of the trip is " + leftOver);
+
+        /* Conditional Statements */
+
+        // If Statement
+        if (leftOver > 0) {
+            System.out.println("Τhe money left over for the rest of the trip is " + leftOver);
+        } else if (leftOver == 0) {
+            System.out.println("You have no money left over for the rest of the trip.");
+        } else {
+            System.out.println("Your budget is less than your travel expenses.");
+        }
+
     }
 }
