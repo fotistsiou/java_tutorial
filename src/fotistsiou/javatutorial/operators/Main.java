@@ -14,7 +14,7 @@ public class Main {
         // - Logical operators: &&, ||, !
 
         Scanner scanner = new Scanner(System.in);
-        // Configure "Scanner" to use system's default locale format for double separators.
+        // Configure "Scanner" to use system's default locale format (for double separators).
         Locale systemLocale = Locale.getDefault();
         scanner.useLocale(systemLocale);
 
