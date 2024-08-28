@@ -18,7 +18,7 @@ public class Main {
         Locale systemLocale = Locale.getDefault();
         scanner.useLocale(systemLocale);
 
-        System.out.println("Calculate your travel expenses!");
+        System.out.println("---------- Travel Organization! ----------");
         System.out.println("Enter the number of people of your travel:");
         int numOfPeople = scanner.nextInt();
         System.out.println(("Enter your budget:"));
@@ -34,8 +34,9 @@ public class Main {
         double costPerPerson = totalOfExpenses / numOfPeople;
         double leftOver = budget - totalOfExpenses;
 
-        System.out.println("The total of expenses is " + totalOfExpenses);
-        System.out.println("The cost per person is " + costPerPerson);
+        System.out.println("Your budget: " + budget);
+        System.out.println("The total of expenses: " + totalOfExpenses);
+        System.out.println("The cost per person: " + costPerPerson);
 
         /* Conditional Statements */
 
@@ -48,5 +49,25 @@ public class Main {
             System.out.println("Your budget is less than your travel expenses.");
         }
 
+        // Switch Statement
+        System.out.println("Enter the number of days of your travel:");
+        int numOfDays = scanner.nextInt();
+        switch (numOfDays) {
+            case 1:
+                System.out.println("Your travel is " + numOfDays + " day, so it is short.");
+                break;
+            case 2:
+            case 3:
+            case 4:
+                System.out.println("Your travel is " + numOfDays + " days, so it is short.");
+                break;
+            case 5:
+            case 6:
+            case 7:
+                System.out.println("Your travel is " + numOfDays + " days, so it is neither short nor far.");
+                break;
+            default:
+                System.out.println("Your travel is " + numOfDays + " days, so it is far.");
+        }
     }
 }
