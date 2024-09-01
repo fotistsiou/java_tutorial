@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.operators_conditionalStatement;
+package fotistsiou.javatutorial.c_operators_conditionalStatement;
 
 import java.util.Locale;
 import java.util.Scanner;

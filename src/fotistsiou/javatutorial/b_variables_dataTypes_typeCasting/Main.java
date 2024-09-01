@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.variables_dataTypes_typeCasting;
+package fotistsiou.javatutorial.b_variables_dataTypes_typeCasting;
 
 public class Main {
     public static void main(String[] args) {

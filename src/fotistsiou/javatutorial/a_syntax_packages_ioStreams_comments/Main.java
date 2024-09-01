@@ -1,7 +1,7 @@
 /* Packages & APIs */
 
 // User-defined Package (create your own package)
-package fotistsiou.javatutorial.syntax_packages_ioStreams_comments;
+package fotistsiou.javatutorial.a_syntax_packages_ioStreams_comments;
 
 // Built-in Package (package from the Java API)
 import java.util.Scanner; // Import a single class
