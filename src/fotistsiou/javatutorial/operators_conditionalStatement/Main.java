@@ -38,6 +38,7 @@ public class Main {
         System.out.println("The total of expenses: " + totalOfExpenses);
         System.out.println("The cost per person: " + costPerPerson);
 
+
         /* Conditional Statements */
 
         // If Statement
