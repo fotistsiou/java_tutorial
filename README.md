@@ -24,7 +24,7 @@
   * [Break and Continue](https://www.w3schools.com/java/java_break.asp)
 * [Arrays](https://www.w3schools.com/java/java_arrays.asp)
 * [Methods](https://www.w3schools.com/java/java_methods.asp)
-* Build-In Methods
+* Built-In Methods
   * [String Object](https://www.w3schools.com/java/java_strings.asp)
   * [Math Class](https://www.w3schools.com/java/java_math.asp)
 * Collections Framework
