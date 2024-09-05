@@ -28,6 +28,7 @@
   * Built-In Methods
     * [String Object](https://www.w3schools.com/java/java_strings.asp)
     * [Math Class](https://www.w3schools.com/java/java_math.asp)
+* OOP
 * Collections Framework
   * [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
   * [LinkedList](https://www.w3schools.com/java/java_linkedlist.asp)
@@ -37,5 +38,4 @@
 * Files and APIs
   * [File Handling](https://www.w3schools.com/java/java_files.asp)
   * [APIs Handling](https://www.baeldung.com/java-9-http-client)
-* OOP
 * [Exception Handling](https://www.w3schools.com/java/java_try_catch.asp)
