@@ -23,10 +23,11 @@
   * [For Loop](https://www.w3schools.com/java/java_for_loop.asp)
   * [Break and Continue](https://www.w3schools.com/java/java_break.asp)
 * [Arrays](https://www.w3schools.com/java/java_arrays.asp)
-* [Methods](https://www.w3schools.com/java/java_methods.asp)
-* Built-In Methods
-  * [String Object](https://www.w3schools.com/java/java_strings.asp)
-  * [Math Class](https://www.w3schools.com/java/java_math.asp)
+* Methods
+  * [Methods](https://www.w3schools.com/java/java_methods.asp)
+  * Built-In Methods
+    * [String Object](https://www.w3schools.com/java/java_strings.asp)
+    * [Math Class](https://www.w3schools.com/java/java_math.asp)
 * Collections Framework
   * [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
   * [LinkedList](https://www.w3schools.com/java/java_linkedlist.asp)
