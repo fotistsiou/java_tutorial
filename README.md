@@ -7,7 +7,7 @@
   * Built-in Package (Java API)
 * IO Streams
   * [Output](https://www.w3schools.com/java/java_output.asp)
-  * [Input}(https://www.w3schools.com/java/java_user_input.asp)
+  * [Input](https://www.w3schools.com/java/java_user_input.asp)
 * Comments
 * [Variables](https://www.w3schools.com/java/java_variables.asp)
 * Data Types
