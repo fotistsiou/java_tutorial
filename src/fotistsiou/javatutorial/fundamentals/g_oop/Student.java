@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.g_oop;
+package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public class Student extends Academic {
     String studNumber;

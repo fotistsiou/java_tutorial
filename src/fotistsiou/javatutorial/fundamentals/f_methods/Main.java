@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.f_methods;
+package fotistsiou.javatutorial.fundamentals.f_methods;
 
 import java.util.Scanner;
 

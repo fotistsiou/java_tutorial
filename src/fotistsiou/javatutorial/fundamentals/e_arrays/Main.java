@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.e_arrays;
+package fotistsiou.javatutorial.fundamentals.e_arrays;
 
 import java.util.Arrays;
 

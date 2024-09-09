@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.d_loops;
+package fotistsiou.javatutorial.fundamentals.d_loops;
 
 import java.util.Scanner;
 
