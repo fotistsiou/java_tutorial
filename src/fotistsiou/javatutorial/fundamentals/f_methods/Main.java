@@ -13,9 +13,9 @@ public class Main {
     public static long[] fibonacciCache;
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number that you want to know its Fibonacci number:");
-        int n = sc.nextInt();
+        int n = scanner.nextInt();
 
         // 2nd way - 2nd step
         fibonacciCache = new long[n + 1];
@@ -29,6 +29,8 @@ public class Main {
 
         // 2nd way - Print Fibonacci Number
         System.out.println("Fibonacci of Number " + n + " with Memoization: " + fibonacciMemoization(n));
+
+        scanner.close();
     }
 
     // 1st way - 1st step

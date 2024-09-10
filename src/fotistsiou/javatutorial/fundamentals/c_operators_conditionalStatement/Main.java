@@ -70,5 +70,7 @@ public class Main {
             default:
                 System.out.println("Your travel is " + numOfDays + " days, so it is far.");
         }
+
+        scanner.close();
     }
 }
