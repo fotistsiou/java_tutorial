@@ -1,5 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.b_variables_dataTypes_typeCasting;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /* Variables */
@@ -46,5 +48,23 @@ public class Main {
         System.out.println(myFloat1);
         System.out.println(myInt2);
         System.out.println(myFloat2);
+
+        // Casting using primitive & reference types
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please give a number:");
+        String s6 = scanner.next();
+        System.out.println("Please give another number:");
+        String s7 = scanner.next();
+        String sum = s6+s7;
+        System.out.println("Concatenate Sum is: "+sum); // -> concatenate strings
+        System.out.println("Please give a number:");
+        String s8 = scanner.next();
+        System.out.println("Please give another number:");
+        String s9 = scanner.next();
+        int firstNumber = Integer.parseInt(s8); // -> string to int
+        int secondNumber = Integer.parseInt(s9); // -> string to int
+        int sum2 = firstNumber+secondNumber;
+        System.out.println("Arithmetic sum is: "+sum2); // -> arithmetic sum
+        scanner.close();
     }
 }
