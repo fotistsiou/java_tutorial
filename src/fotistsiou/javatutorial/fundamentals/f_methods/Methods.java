@@ -2,12 +2,12 @@ package fotistsiou.javatutorial.fundamentals.f_methods;
 
 import java.util.Scanner;
 
-public class Main {
+public class Methods {
     /* Methods */
+
     // Calculation of Fibonacci Number
     // 1st way - Fibonacci Number Using recursion in Java (Slow)
     // 2nd way - Fibonacci Number Using Memoization in Java (Quick)
-
 
     // 2nd way - 1st step
     public static long[] fibonacciCache;

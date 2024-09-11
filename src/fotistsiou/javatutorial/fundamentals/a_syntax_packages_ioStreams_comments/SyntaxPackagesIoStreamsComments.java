@@ -7,7 +7,7 @@ package fotistsiou.javatutorial.fundamentals.a_syntax_packages_ioStreams_comment
 import java.util.Scanner; // Import a single class
 
 
-public class Main {
+public class SyntaxPackagesIoStreamsComments {
     public static void main(String[] args) {
         /* IO Streams */
 

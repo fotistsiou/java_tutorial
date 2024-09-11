@@ -1,9 +1,9 @@
-package fotistsiou.javatutorial.fundamentals.c_operators_conditionalStatement;
+package fotistsiou.javatutorial.fundamentals.c_operators_conditionalStatements;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class OperatorsConditionalStatements {
     public static void main(String[] args) {
         /* Operators */
 

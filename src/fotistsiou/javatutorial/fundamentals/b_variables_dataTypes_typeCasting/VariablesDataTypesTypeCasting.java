@@ -2,7 +2,7 @@ package fotistsiou.javatutorial.fundamentals.b_variables_dataTypes_typeCasting;
 
 import java.util.Scanner;
 
-public class Main {
+public class VariablesDataTypesTypeCasting {
     public static void main(String[] args) {
         /* Variables */
 

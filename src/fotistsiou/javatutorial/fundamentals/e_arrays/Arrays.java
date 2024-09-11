@@ -1,8 +1,6 @@
 package fotistsiou.javatutorial.fundamentals.e_arrays;
 
-import java.util.Arrays;
-
-public class Main {
+public class Arrays {
     public static void main(String[] args) {
         /* Arrays */
 
@@ -16,7 +14,7 @@ public class Main {
         }
 
         System.out.println("---- String Representation of the 'deep content' of the 'cars' array ----");
-        System.out.println(Arrays.deepToString(cars));
+        System.out.println(java.util.Arrays.deepToString(cars));
 
         System.out.println("---- 1st way for print the values of an array ----");
         for (int i = 0; i < cars.length; i++) {
