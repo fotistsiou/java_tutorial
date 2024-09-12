@@ -4,6 +4,7 @@ public class Professor extends Academic {
     private String profNumber;
     private String course;
 
+    // Constructor using the 'super' keyword, for assigning values to inherited attributes, when creating objects
     public Professor(
         String name,
         String type,
@@ -18,20 +19,17 @@ public class Professor extends Academic {
     public String getProfNumber() {
         return profNumber;
     }
-
     public String getCourse() {
         return course;
     }
-
     public void setProfNumber(String profNumber) {
         this.profNumber = profNumber;
     }
-
     public void setCourse(String course) {
         this.course = course;
     }
 
-    void teach() {
+    public void teach() {
         System.out.println("Has profNumber " + profNumber + " and teach " + course + ".");
     }
 }

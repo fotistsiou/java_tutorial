@@ -1,7 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public class Student extends Academic {
-    String studNumber;
+    private String studNumber;
 
     public Student() {}
 
