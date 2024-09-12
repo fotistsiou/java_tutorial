@@ -2,19 +2,20 @@ package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public class Main {
     public static void main(String[] args) {
-        Professor professor = new Professor();
-        professor.name = "Efthimios Alepis";
-        professor.type = "Professor";
-        professor.profNumber = "Prof0001";
-        professor.course = "OOP";
+        Professor professor = new Professor(
+                "Efthimios Alepis",
+                "Professor",
+                "Prof0001",
+                "OOP"
+        );
         professor.announce();
         professor.teach();
 
         Student student = new Student();
-        student.name = "Fotios Tsioumas";
-        student.type = "Student";
-        student.studNumber = "Stud21079";
+        student.setName("Fotios Tsioumas");
+        student.setType("Student");
+        student.setStudNumber("Stud21079");
         student.announce();
-        student.examResult(professor.course, 10f);
+        student.examResult(professor.getCourse(), 9.8f);
     }
 }
