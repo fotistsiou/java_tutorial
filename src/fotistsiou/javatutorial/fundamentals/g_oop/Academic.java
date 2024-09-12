@@ -1,14 +1,17 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
-public class Academic {
-    // Use private access modifiers for the attributes
+public abstract class Academic {
+    // Attributes
+    // Used private access modifiers for
     private String name;
     private String type;
 
-    // Constructor 1 - Allows to create object without assigning values to attributes
+    // Constructor 1
+    // Default constructor that allows object creation without assigning values to attributes
     public Academic() {}
 
-    // Constructor 2 - Create an object by directly assigning values to attributes
+    // Constructor 2
+    // Create an object by directly assigning values to attributes
     public Academic (
         String name,
         String type
@@ -17,7 +20,8 @@ public class Academic {
         this.type= type;
     }
 
-    // Public 'Getters & Setters' for the private 'Attributes'
+    // Getters & Setters
+    // Used for access to private attributes
     public String getName() {
         return name;
     }
@@ -31,8 +35,6 @@ public class Academic {
         this.type = type;
     }
 
-    // Public 'Method'
-    public void announce() {
-        System.out.println("The " + type + " " + name + ".");
-    }
+    // Academic Abstract Method
+    public abstract void announce();
 }

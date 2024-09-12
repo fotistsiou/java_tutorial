@@ -1,10 +1,12 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public class Professor extends Academic {
+    // Attributes
     private String profNumber;
     private String course;
 
-    // Constructor using the 'super' keyword, for assigning values to inherited attributes, when creating objects
+    // Constructor 1
+    // Use the 'super' keyword for assigning values to inherited attributes, when creating objects
     public Professor(
         String name,
         String type,
@@ -16,6 +18,7 @@ public class Professor extends Academic {
         this.course = course;
     }
 
+    // Getter & Setters
     public String getProfNumber() {
         return profNumber;
     }
@@ -29,7 +32,14 @@ public class Professor extends Academic {
         this.course = course;
     }
 
+    // Overridden Academic Abstract Method
+    @Override
+    public void announce() {
+        System.out.print("The " + this.getType() + " " + this.getName() + " ");
+    }
+
+    // Professor Method
     public void teach() {
-        System.out.println("Has profNumber " + profNumber + " and teach " + course + ".");
+        System.out.println("has profNumber " + profNumber + " and teach " + course + ".");
     }
 }
