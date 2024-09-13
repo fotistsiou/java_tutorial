@@ -14,7 +14,9 @@ public class Professor extends Academic {
         String course
     ){
         super(name, type);
-        this.profNumber = profNumber;
+        // Assign value within setter
+        this.setProfNumber(profNumber);
+        // Direct assign value
         this.course = course;
     }
 
@@ -25,9 +27,16 @@ public class Professor extends Academic {
     public String getCourse() {
         return course;
     }
+    // Setter with validation
     public void setProfNumber(String profNumber) {
-        this.profNumber = profNumber;
+        if (profNumber.startsWith("Prof")) {
+            this.profNumber = profNumber;
+        } else {
+            System.out.println("The Professor Number is incorrect.");
+            System.exit(123);
+        }
     }
+    // Setter without validation
     public void setCourse(String course) {
         this.course = course;
     }
@@ -40,6 +49,6 @@ public class Professor extends Academic {
 
     // Professor Method
     public void teach() {
-        System.out.println("has profNumber " + profNumber + " and teach " + course + ".");
+        System.out.println("has Professor Number " + this.getProfNumber() + " and teach " + this.getCourse() + ".");
     }
 }
