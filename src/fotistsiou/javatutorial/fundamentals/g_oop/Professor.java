@@ -18,7 +18,7 @@ public class Professor extends Academic {
         this.course = course; // Direct assign value
     }
 
-    // Getter & Setters
+    // Getters & Setters
     public String getProfNumber() {
         return profNumber;
     }
@@ -37,14 +37,15 @@ public class Professor extends Academic {
         this.course = course;
     }
 
-    // Overridden Academic Abstract Method
+    // Overridden Abstract Method
     @Override
     public void announce() {
         System.out.print("The " + Professor.type + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
-    // Professor Method
-    public void teach() {
+    // Final Method
+    // Cannot be overridden by subclass.
+    final void teach() {
         System.out.println("has Professor Number " + this.getProfNumber() + " and teach " + this.getCourse() + ".");
     }
 }

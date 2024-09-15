@@ -15,7 +15,7 @@ public abstract class Academic {
         this.name = name;
     }
 
-    // Getters & Setters
+    // Getter & Setter
     // They are methods to provide access to private attributes
     public String getName() {
         return name;
@@ -24,7 +24,9 @@ public abstract class Academic {
         this.name = name;
     }
 
-    // Academic Abstract Method
+    // Abstract Method
     // It has to be implemented from your subclasses
     public abstract void announce();
+
+
 }

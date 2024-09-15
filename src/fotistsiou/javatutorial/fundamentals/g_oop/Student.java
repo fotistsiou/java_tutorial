@@ -17,7 +17,7 @@ public class Student extends Academic {
         this.setStudNumber(studNumber);
     }
 
-    // Getters & Setters
+    // Getter & Setter
     public String getStudNumber() {
         return studNumber;
     }
@@ -30,13 +30,33 @@ public class Student extends Academic {
         }
     }
 
-    // Overridden Academic Abstract Method
+    // Override Abstract Method
     public void announce() {
         System.out.print("The " + Student.type + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
-    // Student Method
-    void examResult (String course, float grade) {
-        System.out.println("has Student Number " + this.getStudNumber() + " and has " + grade + " in " + course + ".");
+    // Final Method
+    final void examResult (String course, float grade) {
+        System.out.print("has Student Number " + this.getStudNumber() + " and has " + grade + " in " + course + ", ");
+    }
+
+    // Static Method
+    // Belongs to the class.
+    static void semester(int semester) {
+        String semesterAdjective = String.valueOf(semester);
+        switch (semester) {
+            case 1:
+                semesterAdjective += "st";
+                break;
+            case 2:
+                semesterAdjective += "nd";
+                break;
+            case 3:
+                semesterAdjective += "rd";
+                break;
+            default:
+                semesterAdjective += "th";
+        }
+        System.out.println("in the " + semesterAdjective + " semester.");
     }
 }
