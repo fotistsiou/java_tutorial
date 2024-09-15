@@ -5,6 +5,8 @@ public abstract class Academic {
     // Used private access modifiers for
     private String name;
     private String type;
+    // static final variable = variable that cannot be overridden/modified and belongs to the class
+    static final String university = "University of Piraeus";
 
     // Constructor 1
     // Default constructor that allows object creation without assigning values to attributes

@@ -34,7 +34,7 @@ public class Student extends Academic {
 
     // Overridden Academic Abstract Method
     public void announce() {
-        System.out.print("The " + this.getType() + " " + this.getName() + " ");
+        System.out.print("The " + this.getType() + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
     // Student Method

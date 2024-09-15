@@ -44,7 +44,7 @@ public class Professor extends Academic {
     // Overridden Academic Abstract Method
     @Override
     public void announce() {
-        System.out.print("The " + this.getType() + " " + this.getName() + " ");
+        System.out.print("The " + this.getType() + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
     // Professor Method
