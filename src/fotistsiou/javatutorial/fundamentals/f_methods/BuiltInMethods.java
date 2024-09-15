@@ -1,5 +1,8 @@
 package fotistsiou.javatutorial.fundamentals.f_methods;
 
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+
 public class BuiltInMethods {
     /* Built-In Methods */
 
@@ -30,6 +33,18 @@ public class BuiltInMethods {
         } else {
             System.out.println("Numbers " + integer1 + " and " + integer2 + " are equal.");
         }
+
+        // Time Package
+        long startTime = System.nanoTime();
+        LocalTime time = LocalTime.now();
+        LocalDateTime dateTime= LocalDateTime.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        String formattedDateTime = dateTime.format(dateTimeFormatter);
+        System.out.println("Display Current Time: " + time);
+        System.out.println("Display Current Date and Time: " + dateTime);
+        System.out.println("Formatting Date and Time: " + formattedDateTime);
+        long endTime = System.nanoTime();
+        System.out.println("Duration of Process: " + (endTime - startTime)/1000000000.0 + " seconds");
     }
 
     public static void stringEndsWith(String string) {
