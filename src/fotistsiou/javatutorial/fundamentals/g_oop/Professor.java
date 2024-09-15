@@ -4,20 +4,18 @@ public class Professor extends Academic {
     // Attributes
     private String profNumber;
     private String course;
+    static String type = "professor"; // static variable belongs to the class and can be overridden/modified
 
     // Constructor 1
     // Use the 'super' keyword for assigning values to inherited attributes, when creating objects
     public Professor(
         String name,
-        String type,
         String profNumber,
         String course
     ){
-        super(name, type);
-        // Assign value within setter
-        this.setProfNumber(profNumber);
-        // Direct assign value
-        this.course = course;
+        super(name);
+        this.setProfNumber(profNumber); // Assign value within setter
+        this.course = course; // Direct assign value
     }
 
     // Getter & Setters
@@ -27,8 +25,7 @@ public class Professor extends Academic {
     public String getCourse() {
         return course;
     }
-    // Setter with validation
-    public void setProfNumber(String profNumber) {
+    public void setProfNumber(String profNumber) { // Setter with validation
         if (profNumber.startsWith("Prof")) {
             this.profNumber = profNumber;
         } else {
@@ -36,15 +33,14 @@ public class Professor extends Academic {
             System.exit(123);
         }
     }
-    // Setter without validation
-    public void setCourse(String course) {
+    public void setCourse(String course) { // Setter without validation
         this.course = course;
     }
 
     // Overridden Academic Abstract Method
     @Override
     public void announce() {
-        System.out.print("The " + this.getType() + " " + this.getName() + " of " + Academic.university + ", ");
+        System.out.print("The " + Professor.type + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
     // Professor Method

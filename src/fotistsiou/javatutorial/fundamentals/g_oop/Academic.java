@@ -2,11 +2,8 @@ package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public abstract class Academic {
     // Attributes
-    // Used private access modifiers for
-    private String name;
-    private String type;
-    // static final variable = variable that cannot be overridden/modified and belongs to the class
-    static final String university = "University of Piraeus";
+    private String name; // private access modifier is only accessible within the declared class
+    static final String university = "University of Piraeus"; // static final variable cannot be overridden/modified and belongs to the class
 
     // Constructor 1
     // Default constructor that allows object creation without assigning values to attributes
@@ -14,29 +11,20 @@ public abstract class Academic {
 
     // Constructor 2
     // Create an object by directly assigning values to attributes
-    public Academic (
-        String name,
-        String type
-    ){
+    public Academic (String name){
         this.name = name;
-        this.type= type;
     }
 
     // Getters & Setters
-    // Used for access to private attributes
+    // They are methods to provide access to private attributes
     public String getName() {
         return name;
-    }
-    public String getType() {
-        return type;
     }
     public void setName(String name) {
         this.name = name;
     }
-    public void setType(String type) {
-        this.type = type;
-    }
 
     // Academic Abstract Method
+    // It has to be implemented from your subclasses
     public abstract void announce();
 }

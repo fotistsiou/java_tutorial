@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Professor professor = new Professor(
                 "Efthimios Alepis",
-                "professor",
                 "Prof0001",
                 "OOP"
         );
@@ -13,10 +12,8 @@ public class Main {
 
         Student student = new Student();
         student.setName("Fotios Tsioumas");
-        student.setType("student");
         student.setStudNumber("Stud21079");
-        // Process will finish with exit code 124
-        // student.setStudNumber("Prof21079");
+        // student.setStudNumber("Prof21079"); // It will cause an exit with code 124
         student.announce();
         student.examResult(professor.getCourse(), 9.8f);
     }

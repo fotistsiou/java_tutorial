@@ -3,6 +3,7 @@ package fotistsiou.javatutorial.fundamentals.g_oop;
 public class Student extends Academic {
     // Attributes
     private String studNumber;
+    static String type = "student";
 
     // Constructor 1
     public Student() {}
@@ -10,11 +11,9 @@ public class Student extends Academic {
     // Constructor 2
     public Student(
         String name,
-        String type,
         String studNumber
     ){
-        super(name, type);
-        // Assign value within setter
+        super(name);
         this.setStudNumber(studNumber);
     }
 
@@ -22,7 +21,6 @@ public class Student extends Academic {
     public String getStudNumber() {
         return studNumber;
     }
-    // Setter with validation
     public void setStudNumber(String studNumber) {
         if (studNumber.startsWith("Stud")) {
             this.studNumber = studNumber;
@@ -34,7 +32,7 @@ public class Student extends Academic {
 
     // Overridden Academic Abstract Method
     public void announce() {
-        System.out.print("The " + this.getType() + " " + this.getName() + " of " + Academic.university + ", ");
+        System.out.print("The " + Student.type + " " + this.getName() + " of " + Academic.university + ", ");
     }
 
     // Student Method
