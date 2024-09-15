@@ -16,13 +16,13 @@ public class Main {
         // student.setStudNumber("Prof21079"); // It will cause an exit with code 124
         student.announce();
         student.examResult(professor.getCourse(), 9.8f);
-        Student.semester(1);
+        Student.semester(1); // Access through Class
 
         Student student2 = new Student();
         student2.setName("Aspa Sideri");
         student2.setStudNumber("Stud21080");
         student2.announce();
         student2.examResult(professor.getCourse(), 10f);
-        Student.semester(3);
+        Student.semester(3); // Access through Class
     }
 }
