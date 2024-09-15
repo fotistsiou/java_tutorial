@@ -8,19 +8,21 @@ public class VariablesDataTypesTypeCasting {
 
         // To create a variable, you must specify the type and assign it a value
         // To declare more than one variable of the same type, you can use a comma-separated list
-        int hoursInADay = 24, favNum = 4;
+        int hoursInADay = 24;
         float myGrade = 9.39f;
         double pi = 3.1416;
         boolean isTheSkyBlue = true;
         char myLetter = 'F';
         String languageName = "Java";
+        String version = System.getProperty("java.version"); // version of Java at runtime
+        Integer favNum = 4; // Wrapper Class
         System.out.println("Hours in a day: " + hoursInADay);
         System.out.println("My MSc grade is " + myGrade);
-        System.out.println("My favorite number: " + favNum);
         System.out.println("Pi is close to " + pi);
         System.out.println("Is the sky blue?: " + isTheSkyBlue);
         System.out.println("The first letter of my name is the " + myLetter);
-        System.out.println("The programming language we're learning is " + languageName);
+        System.out.println("The programming language we're learning is " + languageName + ", version " + version);
+        System.out.println("My favorite number: " + favNum);
 
 
         /* Java Data Types */
@@ -28,8 +30,8 @@ public class VariablesDataTypesTypeCasting {
         // Data types are divided into two groups:
         // Primitive Data Types: byte, short, int, long, float, double, boolean and char
         // Examples: hoursInADay, favNum, myGrade, pi, isTheSkyBlue, myLetter
-        // Reference Data Types:  Strings, Arrays, Classes, Interface etc
-        // Examples: languageName
+        // Reference Data Types:  Arrays, Strings, Wrapper Classes, Classes, Interface etc
+        // Examples: favNum, languageName, version
 
 
         /* Type Casting */
