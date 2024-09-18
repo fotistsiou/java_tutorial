@@ -2,7 +2,10 @@ package fotistsiou.javatutorial.fundamentals.g_oop;
 
 /* Classes */
 
-public class Student extends Academic {
+// Class Inheritance & Interface Implementation
+// -> "Student" class extends "Academic" abstract class
+// -> "Student" implements "IProfessorContract" interface
+public class Student extends Academic implements IProfessorContract {
     /* Attributes */
 
     private String studNumber;
@@ -54,5 +57,19 @@ public class Student extends Academic {
                 semesterAdjective += "th";
         }
         System.out.println("in the " + semesterAdjective + " semester.");
+    }
+
+    // Overridden Interfaces Method
+    @Override
+    public void raiseHand(String raise) {
+        System.out.println("I am the student " + this.getName() + " and " + raise);
+    }
+    @Override
+    public void lowerHand(String lower) {
+        System.out.println("I am the student " + this.getName() + " and " + lower);
+    }
+    @Override
+    public void speak(String speak) {
+        System.out.println("I am the student " + this.getName() + " and " + speak);
     }
 }

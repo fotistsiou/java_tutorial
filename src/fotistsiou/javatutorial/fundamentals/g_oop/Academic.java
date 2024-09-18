@@ -1,11 +1,10 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
-/* Classes */
-// -> There are "blueprints" for creating instances/objects.
-
-// Abstract Class
-// -> Is a restricted class that cannot be used to create objects.
+/* Abstract Class */
+// -> It is a restricted class, that cannot be used to create objects.
 // -> To access it, it must be inherited from another class.
+// -> Abstraction can also be achieved with Interfaces.
+
 public abstract class Academic {
     /* Attributes */
     // They are instances/objects fields of classes

@@ -1,9 +1,10 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
 /* Classes */
+// -> There are "blueprints" for creating instances/objects.
 
 // Class Inheritance
-// -> Subclass "Professor" inherits from superclass "Academic"
+// -> "Professor" class extends "Academic" abstract class
 public class Professor extends Academic {
     /* Attributes */
 
@@ -64,5 +65,15 @@ public class Professor extends Academic {
     // -> Cannot be overridden by subclass.
     final void teach() {
         System.out.println("has Professor Number " + this.getProfNumber() + " and teach " + this.getCourse() + ".");
+    }
+    // Method with parameter an Interface instance
+    // -> With this way a "Professor" accepts "Students" who implement his contract "IProfessorContract".
+    // -> When a professor calls this method passing an object as an argument,
+    //    the object's class must implement the "IProfessorContract",
+    //    so the object to be accepted
+    void acceptInCourse(IProfessorContract accepted){
+        accepted.speak("I can speak!");
+        accepted.raiseHand("I can raise my hand!");
+        accepted.lowerHand("I can lower my hand!");
     }
 }

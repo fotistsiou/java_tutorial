@@ -19,14 +19,14 @@ public class Main {
 
         // 1st "Student" instance/object
         // Creation of instance/object through "default "constructor
-        Student student = new Student();
+        Student student1 = new Student();
         // Assign values on the attributes after creation of instance/object
-        student.setName("Fotios Tsioumas");
-        student.setStudNumber("Stud21079");
+        student1.setName("Fotios Tsioumas");
+        student1.setStudNumber("Stud21079");
         // student.setStudNumber("Prof21079"); // It will cause an exit with code 124
         // Call methods of instance/object
-        student.announce(); // Overridden Abstract Method
-        student.examResult(professor.getCourse(), 9.8f);
+        student1.announce(); // Overridden Abstract Method
+        student1.examResult(professor.getCourse(), 9.8f);
         Student.semester(1); // Static Method
         // 2nd "Student" instance/object
         Student student2 = new Student();
@@ -35,5 +35,13 @@ public class Main {
         student2.announce(); // Overridden Abstract Method
         student2.examResult(professor.getCourse(), 10f);
         Student.semester(3); // Static Method
+
+
+        /* "Professor" accepts "Students" */
+
+        // -> The "Student" class implements the "IProfessorContract" interface,
+        // -> so the "Student" object can be passed as an argument to the "acceptInCourse" method.
+        professor.acceptInCourse(student1);
+        professor.acceptInCourse(student2);
     }
 }
