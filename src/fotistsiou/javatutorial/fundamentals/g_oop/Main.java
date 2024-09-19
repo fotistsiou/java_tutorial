@@ -22,7 +22,7 @@ public class Main {
         Student student1 = new Student();
         // Assign values on the attributes after creation of instance/object
         student1.setName("Fotios Tsioumas");
-        student1.setStudNumber("Stud21079");
+        student1.setStudNumber("Stud0001");
         // student.setStudNumber("Prof21079"); // It will cause an exit with code 124
         // Call methods of instance/object
         student1.announce(); // Overridden Abstract Method
@@ -31,7 +31,7 @@ public class Main {
         // 2nd "Student" instance/object
         Student student2 = new Student();
         student2.setName("Aspa Sideri");
-        student2.setStudNumber("Stud21080");
+        student2.setStudNumber("Stud0002");
         student2.announce(); // Overridden Abstract Method
         student2.examResult(professor.getCourse(), 10f);
         Student.semester(3); // Static Method

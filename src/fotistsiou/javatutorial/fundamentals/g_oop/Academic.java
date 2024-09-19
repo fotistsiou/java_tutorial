@@ -20,6 +20,7 @@ public abstract class Academic {
 
     /* Constructors */
     // -> They are methods used to initialize instances/objects of classes.
+    // -> When no constructor exists, instances/objects of the class are created by the "default" constructor
 
     // Constructor 1
     // -> It is the default constructor in case there is no constructor in the class.

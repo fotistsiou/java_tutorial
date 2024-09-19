@@ -13,7 +13,17 @@ public class Student extends Academic implements IProfessorContract {
 
 
     /* Constructors */
-    // -> When no constructor exists, instances/objects of the class are created by the "default" constructor
+
+    // Constructor 1
+        public Student(){}
+    // Constructor 2
+    public Student(
+        String name,
+        String studNumber
+    ){
+        super(name);
+        this.studNumber = studNumber;
+    }
 
 
     /* Getters & Setters */
@@ -34,10 +44,10 @@ public class Student extends Academic implements IProfessorContract {
     /* Methods */
 
     public void announce() {
-        System.out.print("The " + Student.type + " " + this.getName() + " of " + Academic.university + ", ");
+        System.out.println("The " + Student.type + " " + this.getName() + " of " + Academic.university + ".");
     }
     final void examResult (String course, float grade) {
-        System.out.print("has Student Number " + this.getStudNumber() + " and has " + grade + " in " + course + ", ");
+        System.out.print("Student Number: " + this.getStudNumber() + ", Course: " + course + ", Grade: " + grade + ", ");
     }
     // Static Method
     // -> Belongs to the class.
@@ -56,7 +66,7 @@ public class Student extends Academic implements IProfessorContract {
             default:
                 semesterAdjective += "th";
         }
-        System.out.println("in the " + semesterAdjective + " semester.");
+        System.out.println("Semester: " + semesterAdjective + ".");
     }
 
     // Overridden Interfaces Method
