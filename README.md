@@ -83,6 +83,7 @@
   * [HashMap](https://www.w3schools.com/java/java_hashmap.asp)
   * [HashSet](https://www.w3schools.com/java/java_hashset.asp)
   * [Iterator](https://www.w3schools.com/java/java_iterator.asp)
+* Serialization
 * Files and APIs
   * [File Handling](https://www.w3schools.com/java/java_files.asp)
   * [APIs Handling](https://www.baeldung.com/java-9-http-client)
@@ -93,7 +94,6 @@
 * Garbage Collection - Memory Management
 * Generics
 * JVM
-* Serialization
 * Streams
 * Threads
   * Simple-Threading
