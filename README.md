@@ -72,7 +72,7 @@
   * [Interface](https://www.w3schools.com/java/java_interface.asp)
   * Anonymization
     * [Anonymous Classes](https://www.baeldung.com/java-anonymous-classes)
-    * Anonymous Objects
+    * [Anonymous Objects](https://www.geeksforgeeks.org/anonymous-object-in-java/)
   * Enums
   * Records
   * Annotations
