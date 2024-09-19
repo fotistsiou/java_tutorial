@@ -71,9 +71,8 @@
   * [Abstraction](https://www.w3schools.com/java/java_abstract.asp)
   * [Interface](https://www.w3schools.com/java/java_interface.asp)
   * Anonymization
-    * Anonymous Classes
+    * [Anonymous Classes](https://www.baeldung.com/java-anonymous-classes)
     * Anonymous Objects
-    * Anonymous Classes Implementing Interfaces
   * Enums
   * Records
   * Annotations
