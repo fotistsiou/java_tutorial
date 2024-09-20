@@ -59,7 +59,7 @@ public class Professor extends Academic {
     // -> A class that inherits from an abstract class must implement/override all of its abstract methods.
     @Override
     public void announce() {
-        System.out.print("The " + Professor.type + " " + this.getName() + " of " + Academic.university + ", ");
+        System.out.print("The " + Professor.type + " " + this.getName() + " of the " + Academic.university + ", ");
     }
     // Final Method
     // -> Cannot be overridden by subclass.

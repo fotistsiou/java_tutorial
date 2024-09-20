@@ -44,7 +44,7 @@ public class Student extends Academic implements IProfessorContract {
     /* Methods */
 
     public void announce() {
-        System.out.println("The " + Student.type + " " + this.getName() + " of " + Academic.university + ".");
+        System.out.println("The " + Student.type + " " + this.getName() + " of the " + Academic.university + ".");
     }
     final void examResult (String course, float grade) {
         System.out.print("Student Number: " + this.getStudNumber() + ", Course: " + course + ", Grade: " + grade + ", ");
