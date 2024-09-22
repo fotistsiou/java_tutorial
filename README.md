@@ -74,7 +74,7 @@
     * [Anonymous Classes](https://www.baeldung.com/java-anonymous-classes)
     * [Anonymous Objects](https://www.geeksforgeeks.org/anonymous-object-in-java/)
   * [Enums](https://www.w3schools.com/java/java_enums.asp)
-  * Records
+  * [Records](https://www.baeldung.com/java-record-keyword)
   * Annotations
 * Collections Framework
   * [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
@@ -89,6 +89,7 @@
 * [Exception Handling](https://www.w3schools.com/java/java_try_catch.asp)
 
 ## Java Advanced Topics
+* Advanced Sorting
 * Design Patterns
 * Garbage Collection - Memory Management
 * Generics
