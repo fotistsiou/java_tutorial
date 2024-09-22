@@ -75,7 +75,7 @@
     * [Anonymous Objects](https://www.geeksforgeeks.org/anonymous-object-in-java/)
   * [Enums](https://www.w3schools.com/java/java_enums.asp)
   * [Records](https://www.baeldung.com/java-record-keyword)
-  * Annotations
+  * [Annotations](https://www.geeksforgeeks.org/annotations-in-java/)
 * Collections Framework
   * [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
   * [LinkedList](https://www.w3schools.com/java/java_linkedlist.asp)
