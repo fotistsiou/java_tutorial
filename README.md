@@ -73,7 +73,7 @@
   * Anonymization
     * [Anonymous Classes](https://www.baeldung.com/java-anonymous-classes)
     * [Anonymous Objects](https://www.geeksforgeeks.org/anonymous-object-in-java/)
-  * Enums
+  * [Enums](https://www.w3schools.com/java/java_enums.asp)
   * Records
   * Annotations
 * Collections Framework
@@ -124,18 +124,28 @@
 * Bazel
 
 ## Testing
+* Unit Testing
+* Integration Testing
+* Behavior Testing
 
 ## Logging
+* SLF4J
+* TinyLog
 
-## Database & Framework
-* Database
-  * SQL
-  * NoSQL
-  * JDBC
-* Framework
-  * Spring
+## Databases
+* SQL
+* NoSQL
+* JDBC
+
+## Frameworks & ORMs
+* Frameworks
+  * Spring 
   * Spring Boot
-* ORM
+  * Quarkus
+* ORMs
+  * Spring Data JPA
+  * Hibernate
+  * EBean
 
 ## Other Programming Concepts
 * Basic GUI Programming
