@@ -24,7 +24,7 @@ public class ArrayListCollection {
         // To find out how many elements an ArrayList have, use the size method
         System.out.println("Cars ArrayList Size: " + cars.size());
 
-        // Add an item at a specified position by referring to the index number
+        // Add an item at a specified position by referring to the index number, moving the existing element one position.
         cars.add(1, "Mazda");
         System.out.println("Cars: " + cars);
 
