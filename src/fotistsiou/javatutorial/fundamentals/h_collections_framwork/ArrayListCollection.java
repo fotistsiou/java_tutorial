@@ -59,5 +59,9 @@ public class ArrayListCollection {
         // Sort an ArrayList
         Collections.sort(cars);
         System.out.println("Cars: " + cars);
+
+        // Reverse the Order
+        Collections.sort(cars, Collections.reverseOrder());
+        System.out.println("Cars: " + cars);
     }
 }
