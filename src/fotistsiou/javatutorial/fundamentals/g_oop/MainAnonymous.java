@@ -1,6 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.g_oop;
 
 public class MainAnonymous {
+
     public static void main(String[] args) {
         /* Anonymous Classes & Objects */
 

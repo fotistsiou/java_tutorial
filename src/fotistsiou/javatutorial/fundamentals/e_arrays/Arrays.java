@@ -1,6 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.e_arrays;
 
 public class Arrays {
+
     public static void main(String[] args) {
         /* Arrays */
 

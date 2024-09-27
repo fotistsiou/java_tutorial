@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListCollection {
+
     public static void main(String[] args) {
         // Create an ArrayList object called cars that will store strings.
         ArrayList<String> cars = new ArrayList<String>();

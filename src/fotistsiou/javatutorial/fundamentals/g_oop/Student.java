@@ -15,7 +15,7 @@ public class Student extends Academic implements IProfessorContract {
     /* Constructors */
 
     // Constructor 1
-        public Student(){}
+    public Student(){}
     // Constructor 2
     public Student(
         String name,
@@ -31,6 +31,7 @@ public class Student extends Academic implements IProfessorContract {
     public String getStudNumber() {
         return studNumber;
     }
+
     public void setStudNumber(String studNumber) {
         if (studNumber.startsWith("Stud")) {
             this.studNumber = studNumber;

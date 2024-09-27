@@ -6,6 +6,7 @@ package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 import java.util.HashMap;
 
 public class HashMapCollection {
+
     public static void main(String[] args) {
         // Create a HashMap object called capitalCities that will store strings keys with string values.
         HashMap<String,String> capitalCities = new HashMap<String, String>();

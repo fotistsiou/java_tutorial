@@ -1,6 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.f_methods;
 
 public class BuiltInMethodsMathClass {
+
     public static void main(String[] args) {
         /* Built-In Methods - Math Class */
         // -> The Java Math class has many methods that allows you to perform mathematical tasks on numbers.

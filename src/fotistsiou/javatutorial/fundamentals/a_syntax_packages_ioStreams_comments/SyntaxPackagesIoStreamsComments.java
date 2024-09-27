@@ -8,6 +8,7 @@ import java.util.Scanner; // Import a single class
 
 
 public class SyntaxPackagesIoStreamsComments {
+
     public static void main(String[] args) {
         /* IO Streams */
 

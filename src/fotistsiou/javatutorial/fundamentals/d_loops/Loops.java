@@ -3,6 +3,7 @@ package fotistsiou.javatutorial.fundamentals.d_loops;
 import java.util.Scanner;
 
 public class Loops {
+
     public static void main(String[] args) {
         /* Loops */
 

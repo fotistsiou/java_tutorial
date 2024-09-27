@@ -35,9 +35,11 @@ public class Professor extends Academic {
     public String getProfNumber() {
         return profNumber;
     }
+
     public String getCourse() {
         return course;
     }
+
     // Setter with validation
     public void setProfNumber(String profNumber) {
         if (profNumber.startsWith("Prof")) {
@@ -47,6 +49,7 @@ public class Professor extends Academic {
             System.exit(123);
         }
     }
+
     // Setter without validation
     public void setCourse(String course) {
         this.course = course;
@@ -61,11 +64,13 @@ public class Professor extends Academic {
     public void announce() {
         System.out.print("The " + Professor.type + " " + this.getName() + " of the " + Academic.university + ", ");
     }
+
     // Final Method
     // -> Cannot be overridden by subclass.
     final void teach() {
         System.out.println("has Professor Number " + this.getProfNumber() + " and teach " + this.getCourse() + ".");
     }
+
     // Method with parameter an Interface instance
     // -> With this way a "Professor" accepts "Students" who implement his contract "IProfessorContract".
     // -> When a professor calls this method passing an object as an argument,

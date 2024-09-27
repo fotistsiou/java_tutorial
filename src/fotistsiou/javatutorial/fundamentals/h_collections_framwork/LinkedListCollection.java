@@ -17,6 +17,7 @@ package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 import java.util.LinkedList;
 
 public class LinkedListCollection {
+    
     public static void main(String[] args) {
         // Create an LinkedList object called cars that will store strings.
         LinkedList<String> cars = new LinkedList<String>();
