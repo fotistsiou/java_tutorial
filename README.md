@@ -6,7 +6,11 @@
 * IDE
 
 ## Java Fundamentals Topics
-* [Syntax](https://www.w3schools.com/java/java_syntax.asp)
+* Syntax & Conventions
+  * [Syntax](https://www.w3schools.com/java/java_syntax.asp)
+  * Conventions
+    * [Oracle Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
+    * [Google Style Guide](https://google.github.io/styleguide/javaguide.html)
 * [Packages & API](https://www.w3schools.com/java/java_packages.asp)
   * User-defined Package
   * Built-in Package (Java API)
