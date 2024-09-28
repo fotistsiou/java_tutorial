@@ -10,37 +10,42 @@ import java.util.Collections;
 public class ArrayListCollection {
 
     public static void main(String[] args) {
-        // Create an ArrayList object called cars that will store strings.
+        // Create an ArrayList object
         ArrayList<String> cars = new ArrayList<String>();
 
-        // Add elements to the list, use the add() method
+        // Add Items
         cars.add("Toyota");
         cars.add("BMW");
-        cars.add("Audi");
-        cars.add("Volvo");
+        cars.addFirst("Audi");
+        cars.addLast("Volvo");
+        cars.add(1, "Mazda"); // Add Item at a specified position (not remove the existing element)
 
         // Print an ArrayList
         System.out.println("Cars: " + cars);
 
-        // To find out how many elements an ArrayList have, use the size method
-        System.out.println("Cars ArrayList Size: " + cars.size());
-
-        // Add an item at a specified position by referring to the index number, moving the existing element one position.
-        cars.add(1, "Mazda");
-        System.out.println("Cars: " + cars);
-
-        // Access an element in the ArrayList, use the get() method and refer to the index number
+        // Access an Item
         System.out.println("2nd Car: " + cars.get(1));
 
-        // Modify an element, use the set() method and refer to the index number
-        cars.set(1, "Hyundai");
-        System.out.println("Cars: " + cars);
+        // ArrayList Size
+        System.out.println("Cars ArrayList Size: " + cars.size());
 
-        // Remove an element, use the remove() method and refer to the index number
+        // Remove an Item
         cars.remove(1);
         System.out.println("Cars: " + cars);
 
-        // Remove all the elements in the ArrayList, use the clear() method
+        // Modify an Item
+        cars.set(1, "Hyundai");
+        System.out.println("Cars: " + cars);
+
+        // Sort an ArrayList
+        Collections.sort(cars);
+        System.out.println("Cars: " + cars);
+
+        // Reverse the Order Items
+        Collections.sort(cars, Collections.reverseOrder());
+        System.out.println("Cars: " + cars);
+
+        // Remove all Items
         // cars.clear();
         // System.out.println("Cars: " + cars);
 
@@ -56,13 +61,5 @@ public class ArrayListCollection {
             }
             index++;
         }
-
-        // Sort an ArrayList
-        Collections.sort(cars);
-        System.out.println("Cars: " + cars);
-
-        // Reverse the Order
-        Collections.sort(cars, Collections.reverseOrder());
-        System.out.println("Cars: " + cars);
     }
 }

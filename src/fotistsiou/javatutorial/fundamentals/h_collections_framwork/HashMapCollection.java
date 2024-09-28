@@ -8,39 +8,41 @@ import java.util.HashMap;
 public class HashMapCollection {
 
     public static void main(String[] args) {
-        // Create a HashMap object called capitalCities that will store strings keys with string values.
-        HashMap<String,String> capitalCities = new HashMap<String, String>();
+        // Create a HashMap object
+        HashMap<String,String> capitalsOfCountries = new HashMap<String, String>();
 
-        // Add Items (keys and values)
-        capitalCities.put("England", "London");
-        capitalCities.put("Germany", "Berlin");
-        capitalCities.put("Norway", "Oslo");
-        capitalCities.put("Greece", "Athens");
-        capitalCities.put("USA", "Washington DC");
-        System.out.println(capitalCities);
+        // Add Items
+        capitalsOfCountries.put("England", "London");
+        capitalsOfCountries.put("Germany", "Berlin");
+        capitalsOfCountries.put("Norway", "Oslo");
+        capitalsOfCountries.put("Greece", "Athens");
+        capitalsOfCountries.put("USA", "Washington DC");
+
+        // Print an HashMap
+        System.out.println("Countries & Capitals: " + capitalsOfCountries);
 
         // Access an Item
-        System.out.println(capitalCities.get("Greece"));
-
-        // Remove an Item
-        capitalCities.remove("USA");
-        System.out.println(capitalCities);
+        System.out.println(capitalsOfCountries.get("Greece"));
 
         // HashMap Size
-        System.out.println(capitalCities.size());
+        System.out.println(capitalsOfCountries.size());
+
+        // Remove an Item
+        capitalsOfCountries.remove("USA");
+        System.out.println(capitalsOfCountries);
 
         // Loop Through a HashMap
         System.out.println("Countries:");
-        for (String country : capitalCities.keySet()) {
+        for (String country : capitalsOfCountries.keySet()) {
             System.out.println(country);
         }
         System.out.println("Cities:");
-        for (String city : capitalCities.values()) {
+        for (String city : capitalsOfCountries.values()) {
             System.out.println(city);
         }
         System.out.println("Countries & Cities:");
-        for (String i : capitalCities.keySet()) {
-            System.out.println("Country: " + i + ", City: " + capitalCities.get(i));
+        for (String i : capitalsOfCountries.keySet()) {
+            System.out.println("Country: " + i + ", City: " + capitalsOfCountries.get(i));
         }
     }
 }

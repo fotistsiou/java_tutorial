@@ -19,21 +19,24 @@ import java.util.LinkedList;
 public class LinkedListCollection {
 
     public static void main(String[] args) {
-        // Create an LinkedList object called cars that will store strings.
+        // Create an LinkedList object
         LinkedList<String> cars = new LinkedList<String>();
 
-        // Adds an item to the beginning/end of the LinkedList, use the addFirst/addLast method.
+        // Add Items
+        cars.add("Audi");
+        cars.add("Volvo");
         cars.addFirst("Toyota");
         cars.addLast("BMW");
-        cars.addLast("Audi");
-        cars.addLast("Volvo");
+
+        // Print an LinkedList
         System.out.println("Cars: " + cars);
 
-        // Get the item at the beginning/end of the list, use the getFirst/getLast method.
+        // Access an Item
+        System.out.println(cars.get(1));
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
 
-        // Remove an item from the beginning of the list, use the removeFirst/removeLast method.
+        // Remove an Item
         System.out.println(cars.removeFirst());
         System.out.println(cars.removeLast());
         System.out.println("Cars: " + cars);
