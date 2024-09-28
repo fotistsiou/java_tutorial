@@ -24,22 +24,5 @@ public class BuiltInMethodsMathClass {
         } else {
             System.out.println("Numbers " + integer1 + " and " + integer2 + " are equal.");
         }
-
-        // Rounding Numbers
-        double double1 = 23;
-        double double2 = 5;
-        double division = double1 / double2;
-        System.out.println("Division without rounds : " + division);
-        // Math.round(x)
-        // -> Returns the value of x rounded to its nearest integer.
-        System.out.println("Division with round: " + Math.round(division));
-        // Math.ceil(x)
-        // -> Returns the value of x rounded up to its nearest number.
-        System.out.println("Division with ceil: " + Math.ceil(division));
-        // Math.floor(x)
-        // -> Returns the value of x rounded down to its nearest number.
-        System.out.println("Division with floor: " + Math.floor(division));
-
-        // TODO: How to round double / float value to 2 decimal places
     }
 }
