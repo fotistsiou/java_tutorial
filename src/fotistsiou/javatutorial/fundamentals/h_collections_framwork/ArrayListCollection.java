@@ -27,29 +27,29 @@ public class ArrayListCollection {
         System.out.println("2nd Car: " + cars.get(1));
 
         // ArrayList Size
-        System.out.println("Cars ArrayList Size: " + cars.size());
+        System.out.println("ArrayList Size: " + cars.size());
 
         // Remove an ArrayList Item
         cars.remove(1);
-        System.out.println("Cars: " + cars);
+        System.out.println("Cars After Remove an ArrayList Item: " + cars);
 
         // Modify an ArrayList Item
         cars.set(1, "Hyundai");
-        System.out.println("Cars: " + cars);
+        System.out.println("Cars After Modify an ArrayList Item: " + cars);
 
         // Sort an ArrayList
         Collections.sort(cars);
-        System.out.println("Cars: " + cars);
+        System.out.println("Cars After Sort the ArrayList: " + cars);
 
         // Reverse the Order of ArrayList Items
         Collections.sort(cars, Collections.reverseOrder());
-        System.out.println("Cars: " + cars);
+        System.out.println("Cars After Reverse the Order of ArrayList Items: " + cars);
 
         // Loop Through an ArrayList
         int index = 0;
         for (String car : cars) {
             if (index == 0) {
-                System.out.print("Cars: " + car + ", ");
+                System.out.print("Cars After Loop Through the ArrayList: " + car + ", ");
             } else if(index == cars.size() - 1) {
                 System.out.println(car + ".");
             } else {
@@ -58,8 +58,8 @@ public class ArrayListCollection {
             index++;
         }
 
-        // Remove all ArrayList Items
+        // Remove All ArrayList Items
         cars.clear();
-        System.out.println("Cars: " + cars);
+        System.out.println("Cars After Remove All ArrayList Items: " + cars);
     }
 }

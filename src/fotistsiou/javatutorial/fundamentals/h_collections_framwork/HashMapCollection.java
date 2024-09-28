@@ -22,25 +22,25 @@ public class HashMapCollection {
         System.out.println("Countries & Capitals: " + capitalsOfCountries);
 
         // Access an Item
-        System.out.println(capitalsOfCountries.get("Greece"));
+        System.out.println("Countries & Capitals: " + capitalsOfCountries.get("Greece"));
 
         // HashMap Size
-        System.out.println(capitalsOfCountries.size());
+        System.out.println("HashMap Size: " + capitalsOfCountries.size());
 
         // Remove an Item
         capitalsOfCountries.remove("USA");
-        System.out.println(capitalsOfCountries);
+        System.out.println("Countries & Capitals After Remove an HashMap Item: " + capitalsOfCountries);
 
         // Loop Through a HashMap
-        System.out.println("Countries:");
+        System.out.println("Countries After Loop Through the HashMap:");
         for (String country : capitalsOfCountries.keySet()) {
             System.out.println(country);
         }
-        System.out.println("Cities:");
+        System.out.println("Capitals After Loop Through the HashMap:");
         for (String city : capitalsOfCountries.values()) {
             System.out.println(city);
         }
-        System.out.println("Countries & Cities:");
+        System.out.println("Countries & Capitals After Loop Through the HashMap:");
         for (String i : capitalsOfCountries.keySet()) {
             System.out.println("Country: " + i + ", City: " + capitalsOfCountries.get(i));
         }
