@@ -13,7 +13,7 @@ public class ArrayListCollection {
         // Create an ArrayList object
         ArrayList<String> cars = new ArrayList<String>();
 
-        // Add Items
+        // Add ArrayList Items
         cars.add("Toyota");
         cars.add("BMW");
         cars.addFirst("Audi");
@@ -23,17 +23,17 @@ public class ArrayListCollection {
         // Print an ArrayList
         System.out.println("Cars: " + cars);
 
-        // Access an Item
+        // Access an ArrayList Item
         System.out.println("2nd Car: " + cars.get(1));
 
         // ArrayList Size
         System.out.println("Cars ArrayList Size: " + cars.size());
 
-        // Remove an Item
+        // Remove an ArrayList Item
         cars.remove(1);
         System.out.println("Cars: " + cars);
 
-        // Modify an Item
+        // Modify an ArrayList Item
         cars.set(1, "Hyundai");
         System.out.println("Cars: " + cars);
 
@@ -41,13 +41,9 @@ public class ArrayListCollection {
         Collections.sort(cars);
         System.out.println("Cars: " + cars);
 
-        // Reverse the Order Items
+        // Reverse the Order of ArrayList Items
         Collections.sort(cars, Collections.reverseOrder());
         System.out.println("Cars: " + cars);
-
-        // Remove all Items
-        // cars.clear();
-        // System.out.println("Cars: " + cars);
 
         // Loop Through an ArrayList
         int index = 0;
@@ -61,5 +57,9 @@ public class ArrayListCollection {
             }
             index++;
         }
+
+        // Remove all ArrayList Items
+        cars.clear();
+        System.out.println("Cars: " + cars);
     }
 }
