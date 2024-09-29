@@ -1,48 +1,59 @@
 package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 
-/* HashMap */
-// -> A HashMap stores items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
-
 import java.util.HashMap;
 
 public class HashMapCollection {
 
     public static void main(String[] args) {
-        // Create a HashMap object
-        HashMap<String,String> capitalsOfCountries = new HashMap<String, String>();
+        /* HashMap */
+        // -> A HashMap stores items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
 
-        // Add Items
-        capitalsOfCountries.put("England", "London");
-        capitalsOfCountries.put("Germany", "Berlin");
-        capitalsOfCountries.put("Norway", "Oslo");
-        capitalsOfCountries.put("Greece", "Athens");
-        capitalsOfCountries.put("USA", "Washington DC");
+        // Create a HashMap
+        HashMap<String,String> cars = new HashMap<String, String>();
 
-        // Print an HashMap
-        System.out.println("Countries & Capitals: " + capitalsOfCountries);
+        // Add items to the HashMap (key, value)
+        cars.put("Toyota", "Yaris");
+        cars.put("BMW", "X5");
+        cars.put("Audi", "A6");
+        cars.put("Volvo", "XC90");
+        cars.put("Mazda", "Mazda3");
 
-        // Access an Item
-        System.out.println("Countries & Capitals: " + capitalsOfCountries.get("Greece"));
+        // Print the HashMap
+        System.out.println("Cars: " + cars);
+
+        // Access an item in the HashMap
+        System.out.println("The 'Toyota' model: " + cars.get("Toyota"));
 
         // HashMap Size
-        System.out.println("HashMap Size: " + capitalsOfCountries.size());
+        System.out.println("Number of cars: " + cars.size());
 
-        // Remove an Item
-        capitalsOfCountries.remove("USA");
-        System.out.println("Countries & Capitals After Remove an HashMap Item: " + capitalsOfCountries);
+        // Remove an item from the HashMap
+        cars.remove("Mazda");
+        System.out.println("Cars after removing the 'Mazda' car: " + cars);
 
-        // Loop Through a HashMap
-        System.out.println("Countries After Loop Through the HashMap:");
-        for (String country : capitalsOfCountries.keySet()) {
-            System.out.println(country);
+        // Modify an item of the HashMap
+        cars.put("BMW", "Z4");
+
+        // Sort the HashMap
+        // TODO: Sort by key and by value
+
+        // Sort the ArrayList in reverse order
+        // TODO: Reverse sort by key and by value
+
+        // Loop through the items of the HashMap
+        int index = 0;
+        for (String car : cars.keySet()) {
+            System.out.println("Car number " + index + ": " + car);
         }
-        System.out.println("Capitals After Loop Through the HashMap:");
-        for (String city : capitalsOfCountries.values()) {
-            System.out.println(city);
+        for (String model : cars.values()) {
+            System.out.println("Model number " + index + ": " + model);
         }
-        System.out.println("Countries & Capitals After Loop Through the HashMap:");
-        for (String i : capitalsOfCountries.keySet()) {
-            System.out.println("Country: " + i + ", City: " + capitalsOfCountries.get(i));
+        for (String i : cars.keySet()) {
+            System.out.println("Car: " + i + ", Model: " + cars.get(i));
         }
+
+        // Remove all items from the HashMap
+        cars.clear();
+        System.out.println("Cars after removing all cars: " + cars);
     }
 }

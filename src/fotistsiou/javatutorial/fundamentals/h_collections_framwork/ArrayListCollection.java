@@ -20,10 +20,10 @@ public class ArrayListCollection {
         cars.addLast("Volvo");
         cars.add(1, "Mazda"); // Add item at a specified position without remove the existing element.
 
-        // Print an ArrayList
+        // Print the ArrayList
         System.out.println("Cars: " + cars);
 
-        // Access an item in an ArrayList
+        // Access an item in the ArrayList
         System.out.println("The 2nd car: " + cars.get(1));
 
         // ArrayList Size
@@ -33,26 +33,26 @@ public class ArrayListCollection {
         cars.remove(1);
         System.out.println("Cars after removing the 2nd car: " + cars);
 
-        // Modify an item of an ArrayList
+        // Modify an item of the ArrayList
         cars.set(1, "Hyundai");
         System.out.println("Cars after modification of the 2nd car: " + cars);
 
-        // Sort an ArrayList
+        // Sort the ArrayList
         Collections.sort(cars);
         System.out.println("Cars after ascending sorting: " + cars);
 
-        // Sort an ArrayList in reverse order
+        // Sort the ArrayList in reverse order
         Collections.sort(cars, Collections.reverseOrder());
         System.out.println("Cars after descending sorting: " + cars);
 
-        // Loop through the items of an ArrayList
+        // Loop through the items of the ArrayList
         int index = 0;
         for (String car : cars) {
             System.out.println("Car number " + index + ": " + car);
             index++;
         }
 
-        // Remove all items from an ArrayList
+        // Remove all items from the ArrayList
         cars.clear();
         System.out.println("Cars after removing all cars: " + cars);
     }
