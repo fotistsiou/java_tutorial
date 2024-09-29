@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.f_methods;
+package fotistsiou.javatutorial.fundamentals.f_methods.builtInMethods;
 
 public class BuiltInMethodsMathClass {
 
