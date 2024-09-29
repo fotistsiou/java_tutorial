@@ -1,44 +1,64 @@
 package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 
-/* LinkedList */
-// -> The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
-// -> The LinkedList class has all the same methods as the ArrayList class (add, get, set, remove, clear etc).
-// -> However, while the ArrayList class and the LinkedList class can be used in the same way, they are built very differently:
-//    - The ArrayList class:
-//      -> Has a regular array inside it.
-//      -> When an element is added, it is placed into the array.
-//      -> If the array is not big enough, a new, larger array is created to replace the old one and the old one is removed.
-//    - The LinkedList class:
-//      -> Stores its items in "containers."
-//      -> The list has a link to the first container and each container has a link to the next container in the list.
-//      -> To add an element to the list, the element is placed into a new container and that container is linked to one of the other containers in the list.
-// -> Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.
-
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class LinkedListCollection {
 
     public static void main(String[] args) {
-        // Create an LinkedList object
+        /* LinkedList */
+        // -> The similarities between the LinkedList class and the ArrayList class:
+        //    - They are collections which can contain many objects of the same type.
+        //    - They have the same methods.
+        //    - They can be used in the same way.
+        // -> The differences between the LinkedList class and the ArrayList class:
+        //    - They are built very differently.
+        //    - ArrayList used for storing and accessing data and LinkedList used to manipulate data.
+
+        // Create an LinkedList
         LinkedList<String> cars = new LinkedList<String>();
 
-        // Add Items
-        cars.add("Audi");
-        cars.add("Volvo");
-        cars.addFirst("Toyota");
-        cars.addLast("BMW");
+        // Add items to the LinkedList
+        cars.add("Toyota");
+        cars.add("BMW");
+        cars.addFirst("Audi");
+        cars.addLast("Volvo");
+        cars.add(1, "Mazda"); // Add item at a specified position without remove the existing element.
 
-        // Print an LinkedList
+        // Print the LinkedList
         System.out.println("Cars: " + cars);
 
-        // Access an Item
-        System.out.println(cars.get(1));
-        System.out.println(cars.getFirst());
-        System.out.println(cars.getLast());
+        // Access an item in the ArrayList
+        System.out.println("The 2nd car: " + cars.get(1));
 
-        // Remove an Item
-        System.out.println(cars.removeFirst());
-        System.out.println(cars.removeLast());
-        System.out.println("Cars: " + cars);
+        // LinkedList Size
+        System.out.println("Number of cars: " + cars.size());
+
+        // Remove an item from the LinkedList
+        cars.remove(1);
+        System.out.println("Cars after removing the 2nd car: " + cars);
+
+        // Modify an item of the LinkedList
+        cars.set(1, "Hyundai");
+        System.out.println("Cars after modification of the 2nd car: " + cars);
+
+        // Sort the LinkedList
+        Collections.sort(cars);
+        System.out.println("Cars after ascending sorting: " + cars);
+
+        // Sort the LinkedList in reverse order
+        Collections.sort(cars, Collections.reverseOrder());
+        System.out.println("Cars after descending sorting: " + cars);
+
+        // Loop through the items of the LinkedList
+        int index = 0;
+        for (String car : cars) {
+            System.out.println("Car number " + index + ": " + car);
+            index++;
+        }
+
+        // Remove all items from the LinkedList
+        cars.clear();
+        System.out.println("Cars after removing all cars: " + cars);
     }
 }

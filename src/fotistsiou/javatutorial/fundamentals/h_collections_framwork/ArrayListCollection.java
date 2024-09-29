@@ -7,8 +7,7 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
         /* ArrayList */
-        // -> The ArrayList class is a resizable array, which can be found in the java.util package.
-        // -> The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified.
+        // -> The ArrayList class is a resizable array.
 
         // Create an ArrayList
         ArrayList<String> cars = new ArrayList<String>();
