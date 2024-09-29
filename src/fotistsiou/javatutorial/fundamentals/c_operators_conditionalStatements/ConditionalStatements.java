@@ -3,25 +3,25 @@ package fotistsiou.javatutorial.fundamentals.c_operators_conditionalStatements;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class OperatorsConditionalStatements {
+public class ConditionalStatements {
 
     public static void main(String[] args) {
-        /* Operators */
+        /* Conditional Statements */
+        // Java has the following conditional statements:
+        // - Use if to specify a block of code to be executed, if a specified condition is true
+        // - Use else to specify a block of code to be executed, if the same condition is false
+        // - Use else if to specify a new condition to test, if the first condition is false
+        // - Use switch to specify many alternative blocks of code to be executed
 
-        // The most common groups of Java operators are the following:
-        // - Arithmetic operators: +, -, *, /, %, ++, --
-        // - Assignment operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, >>=, <<=
-        // - Comparison operators: ==, !=, >, <, >=, <=
-        // - Logical operators: &&, ||, !
+        // Write a travel assistant program that:
+        // - Reads the budget, the tickets fare, the stay charge, the car fee and the number of days.
+        // - Then, calculates the leftover amount.
+        // - Finally, prints a comment about leftover amount and another comment about travel days.
 
         Scanner scanner = new Scanner(System.in);
-        // Configure "Scanner" to use system's default locale format (for double separators).
-        Locale systemLocale = Locale.getDefault();
+        Locale systemLocale = Locale.getDefault(); // Configure "Scanner" to use system's default locale format (for double separators).
         scanner.useLocale(systemLocale);
 
-        System.out.println("---------- Travel Organization! ----------");
-        System.out.println("Enter the number of people of your travel:");
-        int numOfPeople = scanner.nextInt();
         System.out.println(("Enter your budget:"));
         double budget = scanner.nextDouble();
         System.out.println(("Enter the tickets fare:"));
@@ -30,17 +30,14 @@ public class OperatorsConditionalStatements {
         double stayCharge = scanner.nextDouble();
         System.out.println("Enter the car rental fee:");
         double carFee = scanner.nextDouble();
+        System.out.println("Enter the number of days of your travel:");
+        int numOfDays = scanner.nextInt();
 
         double totalOfExpenses = ticketsFare + stayCharge + carFee;
-        double costPerPerson = totalOfExpenses / numOfPeople;
         double leftOver = budget - totalOfExpenses;
 
         System.out.println("Your budget: " + budget);
         System.out.println("The total of expenses: " + totalOfExpenses);
-        System.out.println("The cost per person: " + costPerPerson);
-
-
-        /* Conditional Statements */
 
         // If Statement
         if (leftOver > 0) {
@@ -52,8 +49,6 @@ public class OperatorsConditionalStatements {
         }
 
         // Switch Statement
-        System.out.println("Enter the number of days of your travel:");
-        int numOfDays = scanner.nextInt();
         switch (numOfDays) {
             case 1:
                 System.out.println("Your travel is " + numOfDays + " day, so it is short.");
