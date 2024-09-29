@@ -1,65 +1,59 @@
 package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 
-/* ArrayList */
-// -> The ArrayList class is a resizable array, which can be found in the java.util package.
-// -> The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified.
-
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListCollection {
 
     public static void main(String[] args) {
-        // Create an ArrayList object
+        /* ArrayList */
+        // -> The ArrayList class is a resizable array, which can be found in the java.util package.
+        // -> The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified.
+
+        // Create an ArrayList
         ArrayList<String> cars = new ArrayList<String>();
 
-        // Add ArrayList Items
+        // Add items to the ArrayList
         cars.add("Toyota");
         cars.add("BMW");
         cars.addFirst("Audi");
         cars.addLast("Volvo");
-        cars.add(1, "Mazda"); // Add Item at a specified position (not remove the existing element)
+        cars.add(1, "Mazda"); // Add item at a specified position without remove the existing element.
 
         // Print an ArrayList
         System.out.println("Cars: " + cars);
 
-        // Access an ArrayList Item
-        System.out.println("2nd Car: " + cars.get(1));
+        // Access an item in an ArrayList
+        System.out.println("The 2nd car: " + cars.get(1));
 
         // ArrayList Size
-        System.out.println("ArrayList Size: " + cars.size());
+        System.out.println("Number of cars: " + cars.size());
 
-        // Remove an ArrayList Item
+        // Remove an item from the ArrayList
         cars.remove(1);
-        System.out.println("Cars After Remove an ArrayList Item: " + cars);
+        System.out.println("Cars after removing the 2nd car: " + cars);
 
-        // Modify an ArrayList Item
+        // Modify an item of an ArrayList
         cars.set(1, "Hyundai");
-        System.out.println("Cars After Modify an ArrayList Item: " + cars);
+        System.out.println("Cars after modification of the 2nd car: " + cars);
 
         // Sort an ArrayList
         Collections.sort(cars);
-        System.out.println("Cars After Sort the ArrayList: " + cars);
+        System.out.println("Cars after ascending sorting: " + cars);
 
-        // Reverse the Order of ArrayList Items
+        // Sort an ArrayList in reverse order
         Collections.sort(cars, Collections.reverseOrder());
-        System.out.println("Cars After Reverse the Order of ArrayList Items: " + cars);
+        System.out.println("Cars after descending sorting: " + cars);
 
-        // Loop Through an ArrayList
+        // Loop through the items of an ArrayList
         int index = 0;
         for (String car : cars) {
-            if (index == 0) {
-                System.out.print("Cars After Loop Through the ArrayList: " + car + ", ");
-            } else if(index == cars.size() - 1) {
-                System.out.println(car + ".");
-            } else {
-                System.out.print(car + ", ");
-            }
+            System.out.println("Car number " + index + ": " + car);
             index++;
         }
 
-        // Remove All ArrayList Items
+        // Remove all items from an ArrayList
         cars.clear();
-        System.out.println("Cars After Remove All ArrayList Items: " + cars);
+        System.out.println("Cars after removing all cars: " + cars);
     }
 }
