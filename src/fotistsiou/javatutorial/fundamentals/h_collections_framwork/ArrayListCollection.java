@@ -7,7 +7,9 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
         /* ArrayList */
-        // -> The ArrayList class is a resizable array.
+        // -> An ArrayList implements List interface.
+        // -> An ArrayList is a resizable array.
+        // -> Use ArrayList when you need fast random access and your data doesn't change frequently.
 
         // Create an ArrayList
         ArrayList<String> cars = new ArrayList<String>();

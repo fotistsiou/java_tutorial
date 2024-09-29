@@ -7,13 +7,12 @@ public class LinkedListCollection {
 
     public static void main(String[] args) {
         /* LinkedList */
-        // -> The similarities between the LinkedList class and the ArrayList class:
-        //    - They are collections which can contain many objects of the same type.
-        //    - They have the same methods.
-        //    - They can be used in the same way.
-        // -> The differences between the LinkedList class and the ArrayList class:
-        //    - They are built very differently.
-        //    - ArrayList used for storing and accessing data and LinkedList used to manipulate data.
+        // -> A LinkedList implements List interface, as an ArrayList.
+        // -> A LinkedList is a collection which can contain many objects of the same type.
+        // -> A LinkedList have the same methods as an ArrayList.
+        // -> A LinkedList can be used in the same way as an ArrayList.
+        // -> A LinkedList contains items with a reference to the next and previous item.
+        // -> Use LinkedList when you frequently add or remove items, especially from the beginning or end of the list.
 
         // Create an LinkedList
         LinkedList<String> cars = new LinkedList<String>();
