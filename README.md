@@ -80,6 +80,9 @@
   * [Enums](https://www.w3schools.com/java/java_enums.asp)
   * [Records](https://www.baeldung.com/java-record-keyword)
   * [Annotations](https://www.geeksforgeeks.org/annotations-in-java/)
+  * [Advanced Sorting](https://www.w3schools.com/java/java_advanced_sorting.asp)
+    * Comparator
+    * Comparable
 * Collections Framework
   * [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
   * [LinkedList](https://www.w3schools.com/java/java_linkedlist.asp)
@@ -91,15 +94,17 @@
   * [File Handling](https://www.w3schools.com/java/java_files.asp)
   * [APIs Handling](https://www.baeldung.com/java-9-http-client)
 * [Exception Handling](https://www.w3schools.com/java/java_try_catch.asp)
+* [RegEx](https://www.w3schools.com/java/java_regex.asp)
+* [Threads](https://www.w3schools.com/java/java_threads.asp)
+* [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
 ## Java Advanced Topics
-* Advanced Sorting
 * Design Patterns
 * Garbage Collection - Memory Management
 * Generics
 * JVM
 * Streams
-* Threads
+* Advanced Threads
   * Simple-Threading
   * Multi-Threading
   * Concurrent Programming
@@ -112,14 +117,12 @@
 * Data Structures & Algorithms
 * Initialization Objects Methods
 * Labeled Statements
-* Lambda Expressions
 * Method Chaining
 * Mutable & Immutable Objects
 * Networking & Sockets
 * Object Cloning
 * Passing Arguments
 * Reflection
-* RegEx
 * Servlets & JSP
 
 ## Build Tools
