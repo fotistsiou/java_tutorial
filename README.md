@@ -6,6 +6,7 @@
 * IDE
 
 ## Java Fundamentals Topics
+* [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
 * Syntax & Conventions
   * [Syntax](https://www.w3schools.com/java/java_syntax.asp)
   * Conventions
