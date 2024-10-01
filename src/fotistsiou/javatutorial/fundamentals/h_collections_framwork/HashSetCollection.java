@@ -12,7 +12,8 @@ public class HashSetCollection {
         // -> A HashSet is a collection which can contain many objects of the same type as a LinkedList and an ArrayList.
         // -> A HasSet contains unique elements without duplicates.
         // -> A HasSet implements different interface than a LinkedList and an ArrayList.
-        // -> Use HashSet when you need uniqueness of elements and fast access times for add, remove, and contains operations.
+        // -> Use HashSet when you need uniqueness of elements and fast access times for add, remove,
+        //    and contains operations.
 
         // Create a HashSet
         HashSet<String> cars = new HashSet<String>();
