@@ -1,17 +1,24 @@
 package fotistsiou.javatutorial.fundamentals.h_collections_framwork;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class HashMapCollection {
 
     public static void main(String[] args) {
         /* HashMap */
-        // -> A HashMap stores items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
+        // -> A HashSet implements Map interface.
+        // -> A HashMap stores elements in "key/value" pairs.
+        // -> A HashMap can access to elements by an index of another type (e.g. a String).
+        // -> One object is used as a key (index) to another object (value)
 
         // Create a HashMap
         HashMap<String,String> cars = new HashMap<String, String>();
 
-        // Add items to the HashMap (key, value)
+        // Add elements to the HashMap (key, value)
         cars.put("Toyota", "Yaris");
         cars.put("BMW", "X5");
         cars.put("Audi", "A6");
@@ -21,34 +28,35 @@ public class HashMapCollection {
         // Print the HashMap
         System.out.println("Cars: " + cars);
 
-        // Access an item in the HashMap
+        // Access an element in the HashMap
         System.out.println("The 'Toyota' model: " + cars.get("Toyota"));
 
         // HashMap Size
         System.out.println("Number of cars: " + cars.size());
 
-        // Remove an item from the HashMap
+        // Remove an element from the HashMap
         cars.remove("Mazda");
         System.out.println("Cars after removing the 'Mazda' car: " + cars);
 
-        // Modify an item of the HashMap
+        // Modify an element of the HashMap
         cars.put("BMW", "Z4");
 
         // Sort the HashMap by keys
-        TreeMap<String, String> sortedByKeys = new TreeMap<>(cars);
+        ArrayList<String> sortedByKeys = new ArrayList<String>(cars.keySet());
+        Collections.sort(sortedByKeys);
         System.out.println("Cars after ascending sorting by keys: " + sortedByKeys);
 
         // Sort the HashMap by keys in reverse order
-        TreeMap<String, String> reverseSortedByKeys = new TreeMap<>(Collections.reverseOrder());
-        reverseSortedByKeys.putAll(cars);
+        ArrayList<String> reverseSortedByKeys = new ArrayList<String>(cars.keySet());
+        Collections.sort(reverseSortedByKeys, Collections.reverseOrder());
         System.out.println("Cars after descending sorting by keys: " + reverseSortedByKeys);
 
         // Sort the HashMap by values
-        // -> Create a List from the HashMap's Entries
-        List<Map.Entry<String, String>> entrySortedByValues = new ArrayList<>(cars.entrySet());
+        // -> Create a ArrayList from elements of HashMap
+        ArrayList<Map.Entry<String, String>> entrySortedByValues = new ArrayList<>(cars.entrySet());
         // -> Sort the list using a comparator that compares by values
         entrySortedByValues.sort(Map.Entry.comparingByValue());
-        // -> Create a linked hashmap to maintain the sorted order
+        // -> Create a LinkedHashMap to maintain the sorted order
         LinkedHashMap<String, String> sortedByValue = new LinkedHashMap<>();
         for (Map.Entry<String, String> entry : entrySortedByValues) {
             sortedByValue.put(entry.getKey(), entry.getValue());
@@ -57,30 +65,37 @@ public class HashMapCollection {
         System.out.println("Cars after ascending sorting by values: " + sortedByValue);
 
         // Sort the HashMap by values in reverse order
-        List<Map.Entry<String, String>> entryReverseSortedByValues = new ArrayList<>(cars.entrySet());
+        // -> Create a ArrayList from elements of HashMap
+        ArrayList<Map.Entry<String, String>> entryReverseSortedByValues = new ArrayList<>(cars.entrySet());
+        // -> Sort the list using a comparator that compares reversed by values
         entryReverseSortedByValues.sort(Map.Entry.<String, String>comparingByValue().reversed());
+        // -> Create a LinkedHashMap to maintain the reversed sorted order
         LinkedHashMap<String, String> reverseSortedByValues = new LinkedHashMap<>();
         for (Map.Entry<String, String> entry : entryReverseSortedByValues) {
             reverseSortedByValues.put(entry.getKey(), entry.getValue());
         }
+        // -> Print the reversed sorted map by values
         System.out.println("Cars after descending sorting by values: " + reverseSortedByValues);
 
-        // Loop through the items of the HashMap
-        int index = 0;
+        // Loop through the elements of the HashMap
+        int indexKeys = 0, indexValues = 0, indexKeyValues = 0;
         // -> Print keys
         for (String car : cars.keySet()) {
-            System.out.println("Car number " + index + ": " + car);
+            System.out.println("Car number " + indexKeys + ": " + car);
+            indexKeys++;
         }
         // -> Print values
         for (String model : cars.values()) {
-            System.out.println("Model number " + index + ": " + model);
+            System.out.println("Model number " + indexValues + ": " + model);
+            indexValues++;
         }
         // -> Print keys & values
         for (String i : cars.keySet()) {
-            System.out.println("Car: " + i + ", Model: " + cars.get(i));
+            System.out.println(indexKeyValues + ". Car: " + i + ", Model: " + cars.get(i));
+            indexKeyValues++;
         }
 
-        // Remove all items from the HashMap
+        // Remove all elements from the HashMap
         cars.clear();
         System.out.println("Cars after removing all cars: " + cars);
     }

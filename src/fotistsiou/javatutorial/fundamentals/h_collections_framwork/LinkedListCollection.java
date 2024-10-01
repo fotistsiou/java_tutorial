@@ -11,33 +11,33 @@ public class LinkedListCollection {
         // -> A LinkedList is a collection which can contain many objects of the same type.
         // -> A LinkedList have the same methods as an ArrayList.
         // -> A LinkedList can be used in the same way as an ArrayList.
-        // -> A LinkedList contains items with a reference to the next and previous item.
-        // -> Use LinkedList when you frequently add or remove items, especially from the beginning or end of the list.
+        // -> A LinkedList contains elements with a reference to the next and previous element.
+        // -> Use LinkedList when you frequently add or remove elements, especially from the beginning or end of the list.
 
         // Create an LinkedList
         LinkedList<String> cars = new LinkedList<String>();
 
-        // Add items to the LinkedList
+        // Add elements to the LinkedList
         cars.add("Toyota");
         cars.add("BMW");
         cars.addFirst("Audi");
         cars.addLast("Volvo");
-        cars.add(1, "Mazda"); // Add item at a specified position without remove the existing element.
+        cars.add(1, "Mazda"); // Add element at a specified position without remove the existing element.
 
         // Print the LinkedList
         System.out.println("Cars: " + cars);
 
-        // Access an item in the ArrayList
+        // Access an element in the ArrayList
         System.out.println("The 2nd car: " + cars.get(1));
 
         // LinkedList Size
         System.out.println("Number of cars: " + cars.size());
 
-        // Remove an item from the LinkedList
+        // Remove an element from the LinkedList
         cars.remove(1);
         System.out.println("Cars after removing the 2nd car: " + cars);
 
-        // Modify an item of the LinkedList
+        // Modify an element of the LinkedList
         cars.set(1, "Hyundai");
         System.out.println("Cars after modification of the 2nd car: " + cars);
 
@@ -49,14 +49,14 @@ public class LinkedListCollection {
         Collections.sort(cars, Collections.reverseOrder());
         System.out.println("Cars after descending sorting: " + cars);
 
-        // Loop through the items of the LinkedList
+        // Loop through the elements of the LinkedList
         int index = 0;
         for (String car : cars) {
             System.out.println("Car number " + index + ": " + car);
             index++;
         }
 
-        // Remove all items from the LinkedList
+        // Remove all elements from the LinkedList
         cars.clear();
         System.out.println("Cars after removing all cars: " + cars);
     }
