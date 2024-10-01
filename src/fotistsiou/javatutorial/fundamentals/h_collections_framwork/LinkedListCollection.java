@@ -12,7 +12,7 @@ public class LinkedListCollection {
         // -> A LinkedList have the same methods as an ArrayList.
         // -> A LinkedList can be used in the same way as an ArrayList.
         // -> A LinkedList contains elements with a reference to the next and previous element.
-        // -> Use LinkedList when you frequently add or remove elements, especially from the beginning or end of the list.
+        // -> Use LinkedList when you frequently add or remove elements.
 
         // Create an LinkedList
         LinkedList<String> cars = new LinkedList<String>();

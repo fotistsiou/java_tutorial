@@ -11,9 +11,9 @@ public class HashMapCollection {
     public static void main(String[] args) {
         /* HashMap */
         // -> A HashSet implements Map interface.
-        // -> A HashMap stores elements in "key/value" pairs.
+        // -> A HashMap stores elements in "key/value" pairs, that one object is used as a key (index) to another object (value).
         // -> A HashMap can access to elements by an index of another type (e.g. a String).
-        // -> One object is used as a key (index) to another object (value)
+        // -> Use HashMap when you need to map keys to values and retrieve values based on keys efficiently.
 
         // Create a HashMap
         HashMap<String,String> cars = new HashMap<String, String>();
