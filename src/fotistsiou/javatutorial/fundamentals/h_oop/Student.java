@@ -1,22 +1,21 @@
 package fotistsiou.javatutorial.fundamentals.h_oop;
 
-/* Classes */
+import fotistsiou.javatutorial.fundamentals.h_oop.enums.ELevel;
+import fotistsiou.javatutorial.fundamentals.h_oop.interfaces.IProfessorContract;
 
-// Class Inheritance & Interface Implementation
+/* Class Inheritance & Interface Implementation */
 // -> "Student" class extends "Academic" abstract class
 // -> "Student" implements "IProfessorContract" interface
 public class Student extends Academic implements IProfessorContract {
-    /* Attributes */
-
+    // Class Attributes
+    // "private" access modifier
     private String studNumber;
+    // "default" access modifier & "static" non-access modifier
     static String type = "student";
 
-
-    /* Constructors */
-
-    // Constructor 1
+    // Class Constructor 1
     public Student(){}
-    // Constructor 2
+    // Class Constructor 2
     public Student(
         String name,
         String studNumber
@@ -25,13 +24,10 @@ public class Student extends Academic implements IProfessorContract {
         this.studNumber = studNumber;
     }
 
-
-    /* Getters & Setters */
-
+    // Getters & Setters
     public String getStudNumber() {
         return studNumber;
     }
-
     public void setStudNumber(String studNumber) {
         if (studNumber.startsWith("Stud")) {
             this.studNumber = studNumber;
@@ -41,14 +37,15 @@ public class Student extends Academic implements IProfessorContract {
         }
     }
 
-
-    /* Methods */
-
+    // Class Methods
+    // -> Implement/Override Abstract Method
+    @Override
     public void announce() {
         System.out.println("The " + Student.type + " " + this.getName() + " of the " + Academic.university + ":");
     }
+    // -> Final Method
     final void examResult (String course, float grade) {
-        // Used "Enum" variable
+        // Use "Enum" variable
         ELevel verbalGrading;
         if (grade < 5) {
             verbalGrading = ELevel.INSUFFICIENT;
@@ -65,8 +62,7 @@ public class Student extends Academic implements IProfessorContract {
             "Grade: " + grade + " (" + verbalGrading + "), "
         );
     }
-    // Static Method
-    // -> Belongs to the class.
+    // -> Static Method
     static void semester(int semester) {
         String semesterAdjective = String.valueOf(semester);
         switch (semester) {
@@ -77,16 +73,17 @@ public class Student extends Academic implements IProfessorContract {
         }
         System.out.println("Semester: " + semesterAdjective + ".");
     }
-
-    // Overridden Interfaces Method
+    // -> Overridden Interface Method
     @Override
     public void raiseHand(String raise) {
         System.out.println("I am the student " + this.getName() + " and " + raise);
     }
+    // -> Overridden Interface Method
     @Override
     public void lowerHand(String lower) {
         System.out.println("I am the student " + this.getName() + " and " + lower);
     }
+    // -> Overridden Interface Method
     @Override
     public void speak(String speak) {
         System.out.println("I am the student " + this.getName() + " and " + speak);

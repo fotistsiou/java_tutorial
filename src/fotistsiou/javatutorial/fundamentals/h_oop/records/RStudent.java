@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.records;
 
 /* Records */
 // -> Records are immutable data classes that require only the type and name of fields.

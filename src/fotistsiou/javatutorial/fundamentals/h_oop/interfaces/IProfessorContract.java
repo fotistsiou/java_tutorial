@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.interfaces;
 
 /* Interfaces */
 // -> An interface can extend multiple interfaces.

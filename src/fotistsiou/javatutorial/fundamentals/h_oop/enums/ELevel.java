@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.enums;
 
 /* Enums */
 // -> An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).

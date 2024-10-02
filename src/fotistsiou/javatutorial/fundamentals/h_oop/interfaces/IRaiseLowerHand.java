@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.interfaces;
 
 /* Interfaces */
 // -> An interface looks like an abstract class with the difference that an interface has only abstract methods and fields.

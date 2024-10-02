@@ -1,4 +1,8 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.anonymous;
+
+import fotistsiou.javatutorial.fundamentals.h_oop.Academic;
+import fotistsiou.javatutorial.fundamentals.h_oop.interfaces.ISpeak;
+import fotistsiou.javatutorial.fundamentals.h_oop.Student;
 
 public class MainAnonymous {
 

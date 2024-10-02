@@ -3,17 +3,16 @@ package fotistsiou.javatutorial.fundamentals.h_oop.annotations;
 import java.lang.reflect.Method;
 
 public class Main {
-    public static void main(String[] args) {
-        /* "AGreeting" annotation */
 
+    public static void main(String[] args) {
         // Use the custom annotation
         class Greeding {
-            // Default Values
+            // -> Default Values
             @AGreeting
             public void greet() {
                 System.out.println("This method is annotated with AGreeting annotation with default values.");
             }
-            // Customized Values
+            // -> Customized Values
             @AGreeting(value = "Hello Everyone", priority = 1)
             public void greetAgain() {
                 System.out.println("This method is annotated with AGreeting annotation with customized values.");
