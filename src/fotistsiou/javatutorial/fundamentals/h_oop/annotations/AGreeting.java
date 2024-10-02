@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_oop;
+package fotistsiou.javatutorial.fundamentals.h_oop.annotations;
 
 /* Annotations */
 // An annotation in Java is a form of metadata that can provide information about code but doesn't affect the execution.

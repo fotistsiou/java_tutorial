@@ -1,7 +1,5 @@
 package fotistsiou.javatutorial.fundamentals.h_oop;
 
-import java.lang.reflect.Method;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -67,41 +65,6 @@ public class Main {
            System.out.println("The 'RStudent' record objects are the same.");
         } else {
            System.out.println("The 'RStudent' record objects are different.");
-        }
-
-
-        /* "AGreeting" annotation */
-
-        // Use the custom annotation
-        class Greeding {
-            // Customized Values
-            @AGreeting(value = "Hello Everyone", priority = 1)
-            public void greet() {
-                System.out.println("This method is annotated with AGreeting annotation with customized values.");
-            }
-            // Default Values
-            @AGreeting
-            public void greetAgain() {
-                System.out.println("This method is annotated with AGreeting annotation with default values.");
-            }
-        }
-
-        // You can access the annotations applied to methods using reflection.
-        // -> Create a Greeting object
-        Greeding greeding = new Greeding();
-        // -> Get all methods of the Greeting class
-        Method[] methods = greeding.getClass().getDeclaredMethods();
-        // -> Iterate through all methods to check if they are annotated with AGreeting
-        int index = 0;
-        for (Method method : methods) {
-            if (method.isAnnotationPresent(AGreeting.class)) {
-                AGreeting annotation = method.getAnnotation(AGreeting.class);
-                System.out.println("AGreeting Annotated Method " + index + ":");
-                System.out.println("Method -> " + method.getName());
-                System.out.println("Value -> " + annotation.value());
-                System.out.println("Priority -> " + annotation.priority());
-            }
-            index++;
         }
     }
 }
