@@ -1,6 +1,6 @@
 package fotistsiou.javatutorial.fundamentals.h_oop.advancedSorting;
 
-// Comparators
+/* Comparator */
 // -> An object that implements the Comparator interface is called a comparator.
 // -> The Comparator interface allows you to create a class with a compare() method that compares two objects to decide
 //    which one should go first in a list.
@@ -11,7 +11,7 @@ package fotistsiou.javatutorial.fundamentals.h_oop.advancedSorting;
 
 import java.util.Comparator;
 
-// 1. Create a comparator
+// 1. Create a Comparator
 public class SortByYearWithComparator implements Comparator {
 
     // 2. Override compare() method
