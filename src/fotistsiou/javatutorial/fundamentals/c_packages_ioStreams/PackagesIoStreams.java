@@ -1,11 +1,11 @@
-/* Packages & APIs */
+/* Packages */
 // -> A package in Java is used to group related classes.
 // -> We use packages:
 //    - To avoid name conflicts.
 //    - To write a better maintainable code.
 // -> Packages are divided into two categories:
-//    - Built-in Packages (packages from the Java API)
-//    - User-defined Packages (create your own packages)
+//    - Built-in Packages (packages from the Java API).
+//    - User-defined Packages (create your own packages).
 
 /* IO Streams */
 // -> Java brings various Streams with its I/O package that helps the user to perform all the input-output operations.

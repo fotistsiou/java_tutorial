@@ -7,29 +7,31 @@
 
 ## Java Fundamentals Topics
 * [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
-* Syntax & Conventions
+* Syntax, Conventions & Comments
   * [Syntax](https://www.w3schools.com/java/java_syntax.asp)
   * Conventions
     * [Oracle Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
     * [Google Style Guide](https://google.github.io/styleguide/javaguide.html)
-* [Comments](https://www.w3schools.com/java/java_comments.asp)
-* [Packages & API](https://www.w3schools.com/java/java_packages.asp)
-  * User-defined Package
-  * Built-in Package (Java API)
-* IO Streams
-  * [Output](https://www.w3schools.com/java/java_output.asp)
-  * [Input](https://www.w3schools.com/java/java_user_input.asp)
-* Variables
-  * [Variables](https://www.w3schools.com/java/java_variables.asp)
-  * [Print Variables](https://www.w3schools.com/java/java_variables_print.asp)
-  * [Multiple Variables](https://www.w3schools.com/java/java_variables_multiple.asp)
-  * [Identifiers](https://www.w3schools.com/java/java_variables_identifiers.asp)
-* Data Types
-  * [Primitive Data Types](https://www.w3schools.com/java/java_data_types.asp)
-  * [Reference Data Types](https://www.w3schools.com/java/java_data_types_non-prim.asp)
-  * [Numbers](https://www.w3schools.com/java/java_data_types_numbers.asp)
-  * [Booleans](https://www.w3schools.com/java/java_data_types_boolean.asp)
-  * [Characters](https://www.w3schools.com/java/java_data_types_characters.asp)
+  * [Comments](https://www.w3schools.com/java/java_comments.asp)
+* Packages & IO Streams
+  * [Packages](https://www.w3schools.com/java/java_packages.asp)
+    * Built-in Packages
+    * User-defined Packages
+  * IO Streams
+    * [Output](https://www.w3schools.com/java/java_output.asp)
+    * [Input](https://www.w3schools.com/java/java_user_input.asp)
+* Variables, Data Types & Type Casting
+  * Variables
+    * [Variables](https://www.w3schools.com/java/java_variables.asp)
+    * [Print Variables](https://www.w3schools.com/java/java_variables_print.asp)
+    * [Multiple Variables](https://www.w3schools.com/java/java_variables_multiple.asp)
+    * [Identifiers](https://www.w3schools.com/java/java_variables_identifiers.asp)
+  * Data Types
+    * [Primitive Data Types](https://www.w3schools.com/java/java_data_types.asp)
+    * [Reference Data Types](https://www.w3schools.com/java/java_data_types_non-prim.asp)
+    * [Numbers](https://www.w3schools.com/java/java_data_types_numbers.asp)
+    * [Booleans](https://www.w3schools.com/java/java_data_types_boolean.asp)
+    * [Characters](https://www.w3schools.com/java/java_data_types_characters.asp)
   * [Type Casting](https://www.w3schools.com/java/java_type_casting.asp)
     * Widening Casting
     * Narrowing Casting
@@ -43,15 +45,14 @@
   * [For Loop](https://www.w3schools.com/java/java_for_loop.asp)
   * [Break & Continue](https://www.w3schools.com/java/java_break.asp)
 * [Arrays](https://www.w3schools.com/java/java_arrays.asp)
-  * [Arrays](https://www.w3schools.com/java/java_arrays.asp)
-  * [Arrays Loop](https://www.w3schools.com/java/java_arrays_loop.asp)
+  * [One-Dimensional Arrays](https://www.w3schools.com/java/java_arrays.asp)
   * [Multi-Dimensional Arrays](https://www.w3schools.com/java/java_arrays_multi.asp)
 * Methods
-  * [Methods](https://www.w3schools.com/java/java_methods.asp)
   * Built-In Methods
     * [String Object](https://www.w3schools.com/java/java_strings.asp)
     * [Math Class](https://www.w3schools.com/java/java_math.asp)
     * [Time Package](https://www.w3schools.com/java/java_date.asp)
+  * [Methods](https://www.w3schools.com/java/java_methods.asp)
 * OOP
   * [OOP](https://www.w3schools.com/java/java_oop.asp)
   * [Classes & Objects](https://www.w3schools.com/java/java_classes.asp)
