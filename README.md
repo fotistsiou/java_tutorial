@@ -12,13 +12,13 @@
   * Conventions
     * [Oracle Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
     * [Google Style Guide](https://google.github.io/styleguide/javaguide.html)
+* [Comments](https://www.w3schools.com/java/java_comments.asp)
 * [Packages & API](https://www.w3schools.com/java/java_packages.asp)
   * User-defined Package
   * Built-in Package (Java API)
 * IO Streams
   * [Output](https://www.w3schools.com/java/java_output.asp)
   * [Input](https://www.w3schools.com/java/java_user_input.asp)
-* [Comments](https://www.w3schools.com/java/java_comments.asp)
 * Variables
   * [Variables](https://www.w3schools.com/java/java_variables.asp)
   * [Print Variables](https://www.w3schools.com/java/java_variables_print.asp)

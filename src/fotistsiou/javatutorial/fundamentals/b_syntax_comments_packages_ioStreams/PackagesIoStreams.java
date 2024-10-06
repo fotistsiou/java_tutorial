@@ -14,7 +14,7 @@
 //    - The Standard Output Stream that is used to produce the result of a program on an output device like the computer screen.
 
 // User-defined Package
-package fotistsiou.javatutorial.fundamentals.b_syntax_packages_ioStreams_comments;
+package fotistsiou.javatutorial.fundamentals.b_syntax_comments_packages_ioStreams;
 
 // Built-in Package
 import java.util.Scanner; // Import a single class
