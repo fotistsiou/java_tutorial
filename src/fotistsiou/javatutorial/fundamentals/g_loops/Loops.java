@@ -2,16 +2,24 @@ package fotistsiou.javatutorial.fundamentals.g_loops;
 
 import java.util.Scanner;
 
+/* Loops */
+// -> Looping in programming languages is a feature which facilitates the execution of a set of instructions/functions
+//    repeatedly while some condition evaluates to true.
+// -> Java provides 3 types of loop statements:
+//    - While loop: Checking if the condition is true, before execute the code block.
+//    - Do While loop: Will execute the code block once, before checking if the condition is true.
+//    - For loop: Used when you know exactly how many times you want to loop through a block of code.
+// -> There are 2 more statements, used inside the loops:
+//    - Break Statement: Can be used to jump out of a loop.
+//    - Continue Statement: Can be used to break one iteration in the loop.
+
 public class Loops {
 
     public static void main(String[] args) {
-        /* Loops */
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("----- Calculate Multiples of Number -----");
 
         // While Loop
-        // Checking if the condition is true, before execute the code block.
         boolean input = false; // I need to assign a value to 'input' variable outside the code block.
         while (!input) {
             System.out.println("Enter an integer from 2 to 20: ");
@@ -30,7 +38,6 @@ public class Loops {
         }
 
         // Do While Loop
-        // Will execute the code block once, before checking if the condition is true.
         boolean input2; // I can assign a value to 'input2' variable inside the code block.
         do {
             System.out.println("Enter an integer from 1 to 10: ");
@@ -66,15 +73,15 @@ public class Loops {
             }
         }
 
-        // Break / Continue
-        // The break statement can be used to jump out of a loop.
+        // Break Statement
         for (int i = 0; i < 10; i++) {
             if (i == 4) {
                 break;
             }
             System.out.println(i);
         }
-        // The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+        // Continue Statement
         for (int i = 0; i < 10; i++) {
             if (i == 4) {
                 continue;
@@ -85,4 +92,3 @@ public class Loops {
         scanner.close();
     }
 }
-
