@@ -52,7 +52,7 @@
     * [String Object](https://www.w3schools.com/java/java_strings.asp)
     * [Math Class](https://www.w3schools.com/java/java_math.asp)
     * [Time Package](https://www.w3schools.com/java/java_date.asp)
-  * [Methods](https://www.w3schools.com/java/java_methods.asp)
+  * [User-Defined Methods](https://www.w3schools.com/java/java_methods.asp)
 * OOP
   * [OOP](https://www.w3schools.com/java/java_oop.asp)
   * [Classes & Objects](https://www.w3schools.com/java/java_classes.asp)

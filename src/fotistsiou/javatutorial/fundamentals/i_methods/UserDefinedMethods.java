@@ -2,7 +2,7 @@ package fotistsiou.javatutorial.fundamentals.i_methods;
 
 import java.util.Scanner;
 
-public class Methods {
+public class UserDefinedMethods {
     /* Methods */
 
     // Calculation of Fibonacci Number
