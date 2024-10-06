@@ -57,16 +57,15 @@ public class Loops {
         } while (!input2);
 
         // For Loop
-        boolean input3 = false;
+        boolean input3 = false; // I need to assign a value to 'input' variable outside the code block.
         while (!input3) {
-            System.out.println("Enter an integer from 1 to 10: ");
-            int num = scanner.nextInt();
-            int i, factorial = 1;
-            if (num >= 1 && num <= 10) {
-                for (i = 1; i <= num; i++) {
-                    factorial *= i;
+            System.out.println("Enter an integer from 2 to 20: ");
+            int n = scanner.nextInt();
+            if (n >= 2 && n <= 20) {
+                for (int i = 1; i <= 10; i++) {
+                    int multiple = i * n;
+                    System.out.println(n + " x " + i + " = " + multiple);
                 }
-                System.out.println("Factorial of " + num + " is: " + factorial);
                 input3 = true;
             } else {
                 System.out.println("Wrong Input! Try again!");
