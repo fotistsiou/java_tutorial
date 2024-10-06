@@ -8,6 +8,18 @@ package fotistsiou.javatutorial.fundamentals.b_syntax_conventions_comments;
 // -> Every line of code that runs in Java must be inside a class.
 // -> The main() method is the heart of our program, where the execution begins.
 
+/* Conventions */
+// -> A list of recommendations on how to write code for some particular language is usually
+//    called a coding style guide or style conventions.
+// -> There are two generally accepted Java conventions that are used all over the world:
+//    - Oracle Code Conventions.
+//    - Google Style Guide.
+// -> Some of the most basic Java conventions:
+//    - The number of spaces.
+//    - The location of curly braces.
+//    - Avoid extra spaces.
+//    - The length of a line.
+
 /* Comments */
 // -> Comments can be used:
 //    - To explain Java code.
