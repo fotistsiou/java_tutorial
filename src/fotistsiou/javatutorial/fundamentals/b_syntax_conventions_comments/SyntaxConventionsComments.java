@@ -31,7 +31,7 @@ package fotistsiou.javatutorial.fundamentals.b_syntax_conventions_comments;
 //    - Java Multi-line Comments (start with /* and ends with */).
 //    - Java documentation comments (start with /** and ends with */)
 
-public class SyntaxComments {
+public class SyntaxConventionsComments {
 
     /**
      * The main method accepts an array of string arguments
