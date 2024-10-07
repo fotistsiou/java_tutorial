@@ -1,5 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
+/* Built-In Methods - Rounding Numbers */
+
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.math.RoundingMode;
@@ -7,8 +9,6 @@ import java.math.RoundingMode;
 public class BuiltInMethodsRoundingNumbers {
 
     public static void main(String[] args) {
-        /* Built-In Methods - Rounding Numbers */
-
         double double1 = 12.34;
         double double2 = 5.67;
         double division = double1 / double2;

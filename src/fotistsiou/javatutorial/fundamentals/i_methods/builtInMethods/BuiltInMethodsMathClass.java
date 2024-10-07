@@ -1,11 +1,11 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
+/* Built-In Methods - Math Class */
+// -> The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
+
 public class BuiltInMethodsMathClass {
 
     public static void main(String[] args) {
-        /* Built-In Methods - Math Class */
-        // -> The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
-
         // Math.random()
         // -> It is a method of the Math class that generates a random double between 0.0 (inclusive) and 1.0 (exclusive).
         // -> Multiplying it by 11, gives a range between 0.0 and 10.999...

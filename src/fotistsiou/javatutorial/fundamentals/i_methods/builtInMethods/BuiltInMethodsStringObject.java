@@ -1,11 +1,11 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
+/* Built-In Methods - String Object */
+// -> A String in Java is actually an object, which contain methods that can perform certain operations on strings.
+
 public class BuiltInMethodsStringObject {
 
     public static void main(String[] args) {
-        /* Built-In Methods - String Object */
-        // -> A String in Java is actually an object, which contain methods that can perform certain operations on strings.
-
         String string1 = "Hello World";
         // .toUpperCase() method
         String string2 = string1.toUpperCase();
