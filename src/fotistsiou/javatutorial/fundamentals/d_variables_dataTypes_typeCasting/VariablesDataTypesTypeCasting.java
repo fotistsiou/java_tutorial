@@ -43,8 +43,7 @@ public class VariablesDataTypesTypeCasting {
         // Data Types
         // -> Primitive Data Types: hoursInADay, favNum, myGrade, pi, isTheSkyBlue, myLetter
         // -> Reference Data Types: favNum, languageName, version
-
-
+        
         // Type Casting
         // -> Automatic casting
         int myInt1 = 9;
