@@ -15,8 +15,8 @@
   * [Comments](https://www.w3schools.com/java/java_comments.asp)
 * Packages & IO Streams
   * [Packages](https://www.w3schools.com/java/java_packages.asp)
-    * Built-in Packages
-    * User-defined Packages
+    * Built-In Packages
+    * User-Defined Packages
   * IO Streams
     * [Output](https://www.w3schools.com/java/java_output.asp)
     * [Input](https://www.w3schools.com/java/java_user_input.asp)
