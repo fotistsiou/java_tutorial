@@ -1,8 +1,15 @@
 package fotistsiou.javatutorial.fundamentals.h_arrays;
 
+/* Multi-Dimensional Arrays */
+// -> A multidimensional array is an array of arrays.
+// -> Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
+
 public class MultiDimensionalArrays {
 
     public static void main(String[] args) {
+        // Create a Multi-Dimensional Array
+        int[][] myNumbers = { {1, 2, 3}, {4, 5} };
+
         // Create a Multi-Dimensional Array from One-Dimensional Arrays
         String[] carBrands = {"Toyota", "Hyundai", "Opel"};
         String[] carModels = {"Yaris", "i20", "Corsa"};
