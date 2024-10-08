@@ -92,7 +92,7 @@
   * [HashSet](https://www.w3schools.com/java/java_hashset.asp)
   * [Iterator](https://www.w3schools.com/java/java_iterator.asp)
 * [Serialization](https://www.baeldung.com/java-serialization)
-* Files and APIs
+* Files & APIs
   * [Files Handling](https://www.w3schools.com/java/java_files.asp)
   * [APIs Handling](https://www.baeldung.com/java-9-http-client)
 * [Exception Handling](https://www.w3schools.com/java/java_try_catch.asp)
