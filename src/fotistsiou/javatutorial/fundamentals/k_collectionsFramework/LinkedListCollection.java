@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.k_collections_framwork;
+package fotistsiou.javatutorial.fundamentals.k_collectionsFramework;
 
 import java.util.Collections;
 import java.util.LinkedList;
