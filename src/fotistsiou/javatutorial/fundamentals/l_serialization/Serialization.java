@@ -14,8 +14,8 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
 public class Serialization {
-    // Define the file to store the serializable object.
-    static String path = "./src/fotistsiou/javatutorial/fundamentals/l_serialization/files/";
+    // Define the path to store the serializable object file.
+    final static String path = "./src/fotistsiou/javatutorial/fundamentals/l_serialization/files/";
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // Create a serializable object.
