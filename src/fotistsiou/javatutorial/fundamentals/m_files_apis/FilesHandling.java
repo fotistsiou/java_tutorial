@@ -9,6 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FilesHandling {
+    // Define the path to store your files.
     final static String path = "./src/fotistsiou/javatutorial/fundamentals/m_files_apis/files/";
 
     public static void main(String[] args) throws IOException {
@@ -22,7 +23,7 @@ public class FilesHandling {
 
         // Write To a File
         FileWriter writeFile = new FileWriter(path + "write_to_a_file.txt");
-        writeFile.write("Files in Java might be tricky, but it is fun enough!");
+        writeFile.write("First Write To a File!\n");
         writeFile.close();
         System.out.println("Successfully create a file.");
     }
