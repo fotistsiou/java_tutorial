@@ -14,7 +14,7 @@ public class FilesHandling {
 
     public static void main(String[] args) throws IOException {
         // Create a File
-        File createFile = new File(path + "create_a_file.txt");
+        File createFile = new File(FilesHandling.path + "create_a_file.txt");
         if (createFile.createNewFile()) {
             System.out.println("Successfully create a file: " + createFile.getName());
         } else {
@@ -22,7 +22,7 @@ public class FilesHandling {
         }
 
         // Write To a File
-        FileWriter writeFile = new FileWriter(path + "write_to_a_file.txt");
+        FileWriter writeFile = new FileWriter(FilesHandling.path + "write_to_a_file.txt");
         writeFile.write("First Write To a File!\n");
         writeFile.close();
         System.out.println("Successfully create a file.");
