@@ -9,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FilesHandling {
-    static String path = "./src/fotistsiou/javatutorial/fundamentals/m_files_apis/files/";
+    final static String path = "./src/fotistsiou/javatutorial/fundamentals/m_files_apis/files/";
 
     public static void main(String[] args) throws IOException {
         // Create a File
