@@ -15,7 +15,7 @@ import java.io.ObjectInputStream;
 
 public class Serialization {
     // Define the file to store the serializable object.
-    static String file = "./src/fotistsiou/javatutorial/fundamentals/l_serialization/serializableObject.txt";
+    static String path = "./src/fotistsiou/javatutorial/fundamentals/l_serialization/files/";
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // Create a serializable object.
@@ -23,7 +23,7 @@ public class Serialization {
         // Save it to a file using the serialize method.
         serialize(serializableObject1);
         // Create a serializable object using the deserialize method.
-        SerializableObject serializableObject2 = deserialize(Serialization.file);
+        SerializableObject serializableObject2 = deserialize(Serialization.path + "serializable_object.txt");
         // Print the serializable object
         System.out.println(serializableObject2.toString());
     }
@@ -31,7 +31,7 @@ public class Serialization {
     // Serialization Process
     static void serialize(SerializableObject serializableObject) throws IOException {
         // 1. Creates a stream (fileOutputStream) that writes bytes to a file.
-        FileOutputStream fileOutputStream = new FileOutputStream(Serialization.file);
+        FileOutputStream fileOutputStream = new FileOutputStream(Serialization.path + "serializable_object.txt");
         // 2. Wraps around the stream (fileOutputStream) and provides functionality/methods
         //    to serialize a Java object (serializableObject) into bytes and write them to the file.
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
