@@ -7,6 +7,7 @@ package fotistsiou.javatutorial.fundamentals.m_files_apis;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class FilesHandling {
     // Define the path to store your files.
@@ -26,5 +27,15 @@ public class FilesHandling {
         writeFile.write("First Write To a File!\n");
         writeFile.close();
         System.out.println("Successfully create a file.");
+
+        // Read a File
+        File file = new File(path + "write_to_a_file.txt");
+        Scanner readFile = new Scanner(file);
+        System.out.println("Content of write_to_a_file.txt: ");
+        while (readFile.hasNextLine()) {
+            String data = readFile.nextLine();
+            System.out.println(data);
+        }
+        readFile.close();
     }
 }
