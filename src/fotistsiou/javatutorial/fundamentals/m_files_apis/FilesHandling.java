@@ -31,10 +31,19 @@ public class FilesHandling {
         // Read a File
         File file = new File(path + "write_to_a_file.txt");
         Scanner readFile = new Scanner(file);
-        System.out.println("Content of write_to_a_file.txt: ");
+        if (file.exists()) {
+            System.out.println("1. File name: " + file.getName());
+            System.out.println("2. Absolute path: " + file.getAbsolutePath());
+            System.out.println("3. Writeable: " + file.canWrite());
+            System.out.println("4. Readable: " + file.canRead());
+            System.out.println("5. File size in bytes: " + file.length());
+        } else {
+            System.out.println("The file does not exist.");
+        }
+        System.out.println("6. Content of file: ");
         while (readFile.hasNextLine()) {
             String data = readFile.nextLine();
-            System.out.println(data);
+            System.out.println("- \"" + data + "\"");
         }
         readFile.close();
     }
