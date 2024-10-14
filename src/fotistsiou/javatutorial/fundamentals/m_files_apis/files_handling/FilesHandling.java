@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.m_files_apis;
+package fotistsiou.javatutorial.fundamentals.m_files_apis.files_handling;
 
 /* File Handling */
 // -> Java has several methods for creating, reading, updating, and deleting files.
@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class FilesHandling {
     // Define the path to store your files.
-    final static String path = "./src/fotistsiou/javatutorial/fundamentals/m_files_apis/files/";
+    final static String path = "./src/fotistsiou/javatutorial/fundamentals/m_files_apis/files_handling/files/";
 
     public static void main(String[] args) throws IOException {
         // Create a File
