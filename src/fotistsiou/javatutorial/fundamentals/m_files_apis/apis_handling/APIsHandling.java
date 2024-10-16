@@ -8,16 +8,17 @@ package fotistsiou.javatutorial.fundamentals.m_files_apis.apis_handling;
 //    - HttpClient behaves as a container for configuration information common to multiple requests.
 //    - HttpResponse represents the result of an HttpRequest call.
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Optional;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 
 public class APIsHandling {
 
@@ -28,23 +29,23 @@ public class APIsHandling {
 
         // Use the "fetchJsonValue" method
         String joke = APIsHandling.fetchJsonValue(
-            "https://api.chucknorris.io/jokes/random",
-            "value"
+                "https://api.chucknorris.io/jokes/random",
+                "value"
         );
         System.out.println("The joke of the day is: " + joke);
 
         // Use the "fetchAndDisplayJsonValueAtIndex" method
         // -> Call the method to fetch the meal name from the API
         Optional<String> value = fetchJsonValueAtIndex(
-            "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
-            "meals",
-            0,
-            "strMeal"
+                "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
+                "meals",
+                0,
+                "strMeal"
         );
         // -> Handle the retrieved value
         value.ifPresentOrElse(
-            meal -> System.out.println("Meal: " + meal), // If present, print the meal
-            () -> System.out.println("Failed to retrieve the meal.") // If absent, notify failure
+                meal -> System.out.println("Meal: " + meal), // If present, print the meal
+                () -> System.out.println("Failed to retrieve the meal.") // If absent, notify failure
         );
     }
 
