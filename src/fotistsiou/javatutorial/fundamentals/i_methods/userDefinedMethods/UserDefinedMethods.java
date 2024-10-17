@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.i_methods;
+package fotistsiou.javatutorial.fundamentals.i_methods.userDefinedMethods;
 
 /* User-Defined Methods */
 // -> A method is a block of code which only runs when it is called.
