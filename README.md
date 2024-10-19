@@ -98,7 +98,7 @@
 * [Exception Handling](https://www.w3schools.com/java/java_try_catch.asp)
   * Try - Catch - Finally
   * Throw
-* [RegEx](https://www.w3schools.com/java/java_regex.asp)
+* [Regular Expressions](https://www.w3schools.com/java/java_regex.asp)
 * [Threads](https://www.w3schools.com/java/java_threads.asp)
 * [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
