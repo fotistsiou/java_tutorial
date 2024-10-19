@@ -18,7 +18,7 @@ public class ExceptionHandling {
             int[] myNumbers = {1, 2, 3};
             System.out.println(myNumbers[10]);
         } catch (Exception e) {
-            System.out.println("Something went wrong.");
+            System.out.println("Something went wrong: " + e.getMessage() + ".");
         } finally {
             System.out.println("The 'try catch' is finished.");
         }
