@@ -10,25 +10,35 @@ import java.time.format.DateTimeFormatter;
 
 public class BuiltInMethodsTimePackage {
 
+    /**
+     * The main method executes time-related operations, displays the current
+     * time and formatted date-time, and measures the execution duration.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
-        // System.nanoTime() - Start Time
+        // Record the start time using System.nanoTime()
         long startTime = System.nanoTime();
 
-        // LocalTime class
+        // Get the current time using LocalTime class
         LocalTime time = LocalTime.now();
-        // LocalDateTime class
+
+        // Get the current date and time using LocalDateTime class
         LocalDateTime dateTime= LocalDateTime.now();
-        // DateTimeFormatter class
+
+        // Format the date and time using DateTimeFormatter
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDateTime = dateTime.format(dateTimeFormatter);
 
+        // Print the current time, date-time, formatted date-time
         System.out.println("Display Current Time: " + time);
         System.out.println("Display Current Date and Time: " + dateTime);
         System.out.println("Formatting Date and Time: " + formattedDateTime);
 
-        // System.nanoTime() - End Time
+        // Record the end time using System.nanoTime()
         long endTime = System.nanoTime();
-        // System.nanoTime() - Duration to Seconds
+
+        // Calculate and display the duration of the process in seconds
         System.out.println("Duration of Process: " + (endTime - startTime)/1000000000.0 + " seconds");
     }
 }

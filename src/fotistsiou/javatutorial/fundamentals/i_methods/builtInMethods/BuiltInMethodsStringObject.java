@@ -5,6 +5,11 @@ package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
 public class BuiltInMethodsStringObject {
 
+    /**
+     * The main method executes the string manipulation operations.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         String string1 = "Hello World";
         // .toUpperCase() method
@@ -13,8 +18,14 @@ public class BuiltInMethodsStringObject {
         stringEndsWith(string2);
     }
 
+    /**
+     * Checks if the given string ends with "World" and prints the result.
+     * If it does not, splits the string at spaces and prints the second word.
+     *
+     * @param string The string to check.
+     */
     public static void stringEndsWith(String string) {
-        // .endsWith() method
+        // Check if the string ends with "World" using .endsWith() method
         if (string.endsWith("World")) {
             System.out.println(
                 "The string '" +
@@ -22,7 +33,7 @@ public class BuiltInMethodsStringObject {
                 "' ends with the text 'World'."
             );
         } else {
-            // .split() method
+            // Splits the string by space and prints the last part using .split() method
             String[] array = string.split(" ");
             System.out.println(
                 "The string '" +

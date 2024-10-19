@@ -5,6 +5,13 @@ package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
 public class BuiltInMethodsMathClass {
 
+    /**
+     * The main method generates two random integers, compares them, and prints the
+     * maximum and minimum values. If both integers are equal, it prints a message
+     * indicating that.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         // Math.random()
         // -> It is a method of the Math class that generates a random double between 0.0 (inclusive) and 1.0 (exclusive).
