@@ -32,17 +32,18 @@ public class LambdaExpressions {
         // Calling the interface's method will run the lambda expression
         StringFunction exclaim = (s) -> s + "!";
         StringFunction ask = (s) -> s + "?";
-        printFormatted("Hello", exclaim);
-        printFormatted("Hello", ask);
-
+        String formatResult1 = printFormatted("Hello", exclaim);
+        String formatResult2 = printFormatted("Hello", ask);
+        System.out.println(formatResult1);
+        System.out.println(formatResult2);
     }
 
     interface StringFunction {
         String run(String str);
     }
 
-    public static void printFormatted(String str, StringFunction format) {
+    public static String printFormatted(String str, StringFunction format) {
         String result = format.run(str);
-        System.out.println(result);
+        return result;
     }
 }
