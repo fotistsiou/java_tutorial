@@ -62,9 +62,9 @@ public class Professor extends Academic {
     }
     // -> Method with parameter an Interface instance:
     //    - With this way a "Professor" accepts "Students" who implement his contract "IProfessorContract".
-    //    -  When a professor calls this method passing an object as an argument,
-    //       the object's class must implement the "IProfessorContract",
-    //       so the object to be accepted.
+    //    - When a professor calls this method passing an object as an argument,
+    //      the object's class must implement the "IProfessorContract",
+    //      so the object to be accepted.
     void acceptInCourse(IProfessorContract accepted){
         accepted.speak("I can speak!");
         accepted.raiseHand("I can raise my hand!");
