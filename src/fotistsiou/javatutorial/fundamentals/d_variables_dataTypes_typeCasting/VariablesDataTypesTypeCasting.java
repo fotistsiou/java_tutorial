@@ -12,6 +12,15 @@ import java.util.Scanner;
 // -> The Java Data Types are divided into two groups:
 //    - Primitive Data Types (byte, short, int, long, float, double, boolean & char)
 //    - Reference Data Types (Arrays, Strings, Wrapper Classes, Classes, Interface etc.)
+// -> Wrapper Classes provide a way to use primitive data types as objects.
+//    - byte    -> Byte
+//    - short   -> Short
+//    - int     -> Integer
+//    - long    -> Long
+//    - float   -> Float
+//    - double  -> Double
+//    - boolean -> Boolean
+//    - char    -> Character
 
 /* Type Casting */
 // -> In Java, there are 2 types of casting:
