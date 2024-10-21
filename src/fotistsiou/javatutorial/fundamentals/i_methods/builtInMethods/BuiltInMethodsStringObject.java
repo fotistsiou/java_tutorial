@@ -12,7 +12,7 @@ public class BuiltInMethodsStringObject {
      */
     public static void main(String[] args) {
         String string1 = "Hello World";
-        // .toUpperCase() method
+        // Convert string to upper case using .toUpperCase() method
         String string2 = string1.toUpperCase();
         stringEndsWith(string1);
         stringEndsWith(string2);
