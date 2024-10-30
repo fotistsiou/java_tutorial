@@ -36,6 +36,14 @@ public class PackagesIoStreams {
         String name = scanner.nextLine();
         // 4. Print user input
         System.out.println("Your name is " + name);
+        // Check if input is integer
+        System.out.println("How old are you?");
+        if (scanner.hasNextInt()) {
+            int age = scanner.nextInt();
+            System.out.println("Your age is " + age);
+        } else {
+            System.out.println("Non-Integer Input");
+        }
         // 5. Close the scanner
         scanner.close();
     }
