@@ -3,15 +3,16 @@ package fotistsiou.javatutorial.fundamentals.h_arrays;
 /* One-Dimensional Arrays */
 // -> They are used to store multiple values of the same type in a single variable.
 // -> They are useful for managing collections of data efficiently.
-// -> The size of an One-Dimensional Array cannot be modified.
-// -> The size of an One-Dimensional Array cannot be greater than Integer.MAX_VALUE.
+// -> The size of a One-Dimensional Array cannot be modified.
+// -> The size of a One-Dimensional Array cannot be greater than Integer.MAX_VALUE.
+// -> The operator used to allocate memory for an array is "new".
 
 import java.util.Arrays;
 
 public class OneDimensionalArrays {
 
     public static void main(String[] args) {
-        // Create an One-Dimensional Arrays
+        // Create a One-Dimensional Arrays
         // -> To declare an array, define the variable type with square brackets.
         // -> To insert values to it, you can place the values in a comma-separated list, inside curly braces.
         String[] cars = {"Toyota", "Hyundai", "Opel"};
