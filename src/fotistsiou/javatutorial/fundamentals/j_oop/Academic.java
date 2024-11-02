@@ -3,19 +3,19 @@ package fotistsiou.javatutorial.fundamentals.j_oop;
 /* Access Modifiers */
 // -> Controls the access level
 // -> There are 4 types of Access Modifiers:
+//    - private
+//      -> The code is only accessible within the declared class.
+//      -> Code = attribute, constructor, method.
 //    - default
 //      -> The code is only accessible in the same package.
 //      -> Code = class, attribute, constructor, method.
 //      -> This is used when you don't specify a modifier.
-//    - public
-//      -> The code is accessible for all classes.
-//      -> Code = class, attribute, constructor, method.
-//    - private
-//      -> The code is only accessible within the declared class.
-//      -> Code = attribute, constructor, method.
 //    - protected
 //      -> The code is accessible in the same package and subclasses.
 //      -> Code = attribute, constructor, method.
+//    - public
+//      -> The code is accessible for all classes.
+//      -> Code = class, attribute, constructor, method.
 
 /* Non-Access Modifiers */
 // -> Do not control access level, but provides other functionality.
