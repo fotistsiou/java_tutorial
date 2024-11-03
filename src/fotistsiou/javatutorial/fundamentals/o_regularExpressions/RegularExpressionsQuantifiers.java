@@ -1,16 +1,18 @@
 package fotistsiou.javatutorial.fundamentals.o_regularExpressions;
 
-/* Regular Expressions Quantifiers */
-// -> Quantifiers define quantities:
-//    - "n+": Matches any string that contains at least one n
-//    - "n*": Matches any string that contains zero or more occurrences of n
-//    - "n?": Matches any string that contains zero or one occurrences of n
-//    - "n{x}": Matches any string that contains a sequence of X n's
-//    - "n{x,y}": Matches any string that contains a sequence of X to Y n's
-//    - "n{x,}": Matches any string that contains a sequence of at least X n's
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * Regular Expressions Quantifiers
+ * -> Quantifiers define quantities:
+ *    - "n+": Matches any string that contains at least one n
+ *    - "n*": Matches any string that contains zero or more occurrences of n
+ *    - "n?": Matches any string that contains zero or one occurrences of n
+ *    - "n{x}": Matches any string that contains a sequence of X n's
+ *    - "n{x,y}": Matches any string that contains a sequence of X to Y n's
+ *    - "n{x,}": Matches any string that contains a sequence of at least X n's
+ */
 
 public class RegularExpressionsQuantifiers {
 

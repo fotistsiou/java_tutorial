@@ -1,16 +1,18 @@
 package fotistsiou.javatutorial.fundamentals.o_regularExpressions;
 
-/* Regular Expressions */
-// -> A regular expression is a sequence of characters that forms a search pattern.
-// -> A regular expression can be a single character, or a more complicated pattern.
-// -> Regular expressions can be used to perform all types of text search and text replace operations.
-// -> To work with regular expressions we can import the java.util.regex package. The package includes the classes:
-//    - "Pattern" Class - Defines a pattern (to be used in a search)
-//    - "Matcher" Class - Used to search for the pattern
-//    - "PatternSyntaxException" Class - Indicates syntax error in a regular expression pattern
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * Regular Expressions
+ * -> A regular expression is a sequence of characters that forms a search pattern.
+ * -> A regular expression can be a single character, or a more complicated pattern.
+ * -> Regular expressions can be used to perform all types of text search and text replace operations.
+ * -> To work with regular expressions we can import the java.util.regex package. The package includes the classes:
+ *    - "Pattern" Class - Defines a pattern (to be used in a search)
+ *    - "Matcher" Class - Used to search for the pattern
+ *    - "PatternSyntaxException" Class - Indicates syntax error in a regular expression pattern
+ */
 
 public class RegularExpressions {
 

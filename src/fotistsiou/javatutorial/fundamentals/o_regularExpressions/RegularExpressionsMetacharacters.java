@@ -1,18 +1,20 @@
 package fotistsiou.javatutorial.fundamentals.o_regularExpressions;
 
-/* Regular Expressions Metacharacters */
-// -> Metacharacters are characters with a special meaning:
-//    - "|": Find a match for any one of the patterns separated by | as in: cat|dog|fish
-//    - ".": Find just one instance of any character
-//    - "^": Finds a match as the beginning of a string as in: ^Hello
-//    - "$": Finds a match at the end of the string as in: World$
-//    - "\\d": Find a digit
-//    - "\\s": Find a whitespace character
-//    - "\\b": Find a match at the beginning of a word like this: \bWORD, or at the end of a word like this: WORD\b
-//    - "\\uxxxx": Find the Unicode character specified by the hexadecimal number xxxx
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * Regular Expressions Metacharacters
+ * -> Metacharacters are characters with a special meaning:
+ *    - "|": Find a match for any one of the patterns separated by | as in: cat|dog|fish
+ *    - ".": Find just one instance of any character
+ *    - "^": Finds a match as the beginning of a string as in: ^Hello
+ *    - "$": Finds a match at the end of the string as in: World$
+ *    - "\d": Find a digit
+ *    - "\s": Find a whitespace character
+ *    - "\b": Find a match at the beginning of a word like this: \bWORD, or at the end of a word like this: WORD\b
+ *    - "\\uxxxx": Find the Unicode character specified by the hexadecimal number xxxx
+ */
 
 public class RegularExpressionsMetacharacters {
 
