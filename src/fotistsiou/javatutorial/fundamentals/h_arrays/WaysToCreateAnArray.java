@@ -1,15 +1,18 @@
 package fotistsiou.javatutorial.fundamentals.h_arrays;
 
-/* Ways To Create An Array */
-// To create an array filled with elements we should:
-// - Declare a variable of an array type (declaration).
-// - Create an instance of the array object (instantiation).
-// - Initialize the array by some values (initialization).
-// Java provides several ways to create an array with specified elements.
-// - 1. Creating an array with specified elements.
-// - 2. Creating an array using the "new" keyword.
-
 import java.util.Arrays;
+
+/**
+ * Ways To Create An Array
+ * -----------------------
+ * To create an array filled with elements we should:
+ * - Declare a variable of an array type (declaration).
+ * - Create an instance of the array object (instantiation).
+ * - Initialize the array by some values (initialization).
+ * Java provides several ways to create an array with specified elements.
+ * - 1. Creating an array with specified elements.
+ * - 2. Creating an array using the "new" keyword.
+ */
 
 public class WaysToCreateAnArray {
 

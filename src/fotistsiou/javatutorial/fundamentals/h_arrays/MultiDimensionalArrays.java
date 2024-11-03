@@ -1,8 +1,11 @@
 package fotistsiou.javatutorial.fundamentals.h_arrays;
 
-/* Multi-Dimensional Arrays */
-// -> A multidimensional array is an array of arrays.
-// -> Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
+/**
+ * Multi-Dimensional Arrays
+ * ------------------------
+ * -> A multidimensional array is an array of arrays.
+ * -> Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
+ */
 
 public class MultiDimensionalArrays {
 

@@ -1,13 +1,16 @@
 package fotistsiou.javatutorial.fundamentals.h_arrays;
 
-/* One-Dimensional Arrays */
-// -> They are used to store multiple values of the same type in a single variable.
-// -> They are useful for managing collections of data efficiently.
-// -> The size of a One-Dimensional Array cannot be modified.
-// -> The size of a One-Dimensional Array cannot be greater than Integer.MAX_VALUE.
-// -> The operator used to allocate memory for an array is "new".
-
 import java.util.Arrays;
+
+/**
+ * One-Dimensional Arrays
+ * ----------------------
+ * -> They are used to store multiple values of the same type in a single variable.
+ * -> They are useful for managing collections of data efficiently.
+ * -> The size of a One-Dimensional Array cannot be modified.
+ * -> The size of a One-Dimensional Array cannot be greater than Integer.MAX_VALUE.
+ * -> The operator used to allocate memory for an array is "new".
+ */
 
 public class OneDimensionalArrays {
 
