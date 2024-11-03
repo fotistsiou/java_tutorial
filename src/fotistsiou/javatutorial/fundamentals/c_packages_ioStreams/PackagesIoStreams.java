@@ -1,23 +1,25 @@
-/* Packages */
-// -> A package in Java is used to group related classes.
-// -> We use packages:
-//    - To avoid name conflicts.
-//    - To write a better maintainable code.
-// -> Packages are divided into two categories:
-//    - Built-in Packages (packages from the Java API).
-//    - User-defined Packages (create your own packages).
+/**
+ * Packages
+ * -> A package in Java is used to group related classes.
+ * -> We use packages:
+ *    - To avoid name conflicts.
+ *    - To write a better maintainable code.
+ * -> Packages are divided into two categories:
+ *    - Built-in Packages (packages from the Java API).
+ *    - User-defined Packages (create your own packages).
+ * ------------------------------------------------------
+ * IO Streams
+ * -> Java brings various Streams with its I/O package that helps the user to perform all the input-output operations.
+ * -> Java has to provide 2 standard streams which are most common in use:
+ *    - The Standard Input Stream that is used to read characters from the keyboard or any other standard input device.
+ *    - The Standard Output Stream that is used to produce the result of a program on an output device like the computer screen.
+ */
 
-/* IO Streams */
-// -> Java brings various Streams with its I/O package that helps the user to perform all the input-output operations.
-// -> Java has to provide 2 standard streams which are most common in use:
-//    - The Standard Input Stream that is used to read characters from the keyboard or any other standard input device.
-//    - The Standard Output Stream that is used to produce the result of a program on an output device like the computer screen.
-
-// User-defined Package
+// User-Defined Package
 package fotistsiou.javatutorial.fundamentals.c_packages_ioStreams;
 
-// Built-in Package
-import java.util.Scanner; // Import a single class
+// Built-In Package
+import java.util.Scanner;
 
 public class PackagesIoStreams {
 
@@ -36,14 +38,6 @@ public class PackagesIoStreams {
         String name = scanner.nextLine();
         // 4. Print user input
         System.out.println("Your name is " + name);
-        // Check if input is integer
-        System.out.println("How old are you?");
-        if (scanner.hasNextInt()) {
-            int age = scanner.nextInt();
-            System.out.println("Your age is " + age);
-        } else {
-            System.out.println("Non-Integer Input");
-        }
         // 5. Close the scanner
         scanner.close();
     }
