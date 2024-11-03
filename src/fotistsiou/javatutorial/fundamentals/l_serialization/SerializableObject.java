@@ -1,10 +1,12 @@
 package fotistsiou.javatutorial.fundamentals.l_serialization;
 
-/* Serializable Object */
-// -> A serializable object must implements Serializable interface
-// -> You can override the toString method to use it to print a deserialized object.
-
 import java.io.Serializable;
+
+/**
+ * Serializable Object
+ * -> A serializable object must implements Serializable interface
+ * -> You can override the toString method to use it to print a deserialized object.
+ */
 
 public class SerializableObject implements Serializable {
     private int id;

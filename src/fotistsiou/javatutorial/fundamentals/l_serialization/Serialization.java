@@ -1,17 +1,19 @@
 package fotistsiou.javatutorial.fundamentals.l_serialization;
 
-/* Serialization and Deserialization */
-// -> Serialization is the conversion of the state of an object into a byte stream.
-// -> Deserialization does the opposite.
-// -> The serialization process is instance-independent.
-//    For example, we can serialize objects on one platform and deserialize them on another.
-// -> Classes that are eligible for serialization need to implement a special marker interface, Serializable.
-
 import java.io.IOException;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+
+/**
+ * Serialization and Deserialization
+ * -> Serialization is the conversion of the state of an object into a byte stream.
+ * -> Deserialization does the opposite.
+ * -> The serialization process is instance-independent.
+ *    For example, we can serialize objects on one platform and deserialize them on another.
+ * -> Classes that are eligible for serialization need to implement a special marker interface, Serializable.
+ */
 
 public class Serialization {
     // Define the path to store the serializable object file.
