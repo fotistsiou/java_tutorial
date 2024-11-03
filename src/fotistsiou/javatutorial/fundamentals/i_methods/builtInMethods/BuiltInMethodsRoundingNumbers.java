@@ -1,20 +1,23 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
-/* Built-In Methods - Rounding Numbers */
-
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.math.RoundingMode;
 
+/**
+ * Built-In Methods - Rounding Numbers
+ * -----------------------------------
+ * There are several ways to round numbers:
+ * 1. String.format()
+ * 2. System.out.format()
+ * 3. System.out.printf()
+ * 4. Math Class
+ * 5. DecimalFormat Class
+ * 6. BigDecimal Class
+ */
+
 public class BuiltInMethodsRoundingNumbers {
 
-    /**
-     * The main method performs a division of two double values and demonstrates
-     * different rounding techniques, showing results for both rounding to integer
-     * values and rounding to two decimal places.
-     *
-     * @param args Command-line arguments (not used).
-     */
     public static void main(String[] args) {
         double double1 = 12.34;
         double double2 = 5.67;
@@ -23,16 +26,16 @@ public class BuiltInMethodsRoundingNumbers {
         // Display the division result without rounding
         System.out.println("Division without round: " + division);
 
-        // 1st way - String.format() for rounding to 2 decimal places
+        // 1. String.format()
         System.out.println("Division with String.format() - Rounding to 2 decimal places: " + String.format("%.2f", division));
 
-        // 2nd way - System.out.format() for rounding to 2 decimal places
+        // 2. System.out.format()
         System.out.format("Division with System.out.format() - Rounding to 2 decimal places: %.2f\n", division);
 
-        // 3rd way - System.out.printf() for rounding to 2 decimal places
+        // 3. System.out.printf()
         System.out.printf("Division with System.out.printf() - Rounding to 2 decimal places: %.2f\n", division);
 
-        // 4th way - Math Class
+        // 4. Math Class
         // -> Math.round() for rounding to integer
         System.out.println("Division with Math Class - Math.round() - Rounding to integer: " + Math.round(division));
         // -> Math.round() for rounding to 2 decimal places
@@ -42,7 +45,7 @@ public class BuiltInMethodsRoundingNumbers {
         // -> Math.floor() for rounding to integer
         System.out.println("Division with Math Class - Math.floor() - Rounding to integer: " + Math.floor(division));
 
-        // 5th way - DecimalFormat Class
+        // 5. DecimalFormat Class
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         // -> decimalFormat.format() & RoundingMode.HALF_EVEN (Default) for rounding to 2 decimal places
         System.out.println("Division with DecimalFormat Class - decimalFormat.format() - RoundingMode.HALF_EVEN (Default) - Rounding to 2 decimal places: " + decimalFormat.format(division));
@@ -53,7 +56,7 @@ public class BuiltInMethodsRoundingNumbers {
         decimalFormat.setRoundingMode(RoundingMode.UP);
         System.out.println("Division with DecimalFormat Class - decimalFormat.format() - RoundingMode.UP - Rounding to 2 decimal places: " + decimalFormat.format(division));
 
-        // 6th way - BigDecimal Class
+        // 6. BigDecimal Class
         BigDecimal bigDecimal = new BigDecimal(division);
         // -> bigDecimal.setScale() & RoundingMode.HALF_UP for rounding to 2 decimal places
         BigDecimal bigDecimalUp = bigDecimal.setScale(2, RoundingMode.HALF_UP);

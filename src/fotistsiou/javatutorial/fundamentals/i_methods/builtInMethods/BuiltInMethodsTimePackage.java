@@ -1,21 +1,21 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
-/* Built-In Methods - Time Package */
-// -> Java does not have a built-in Date class, but we can import the java.time package to work with the date and time API.
-// -> The package includes many date and time classes.
-
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Built-In Methods - Time Package
+ * -------------------------------
+ * Java does not have a built-in Date class, but we can import the java.time package to work with the date and time API.
+ * The package includes many date and time classes.
+ */
+
+
+
+
 public class BuiltInMethodsTimePackage {
 
-    /**
-     * The main method executes time-related operations, displays the current
-     * time and formatted date-time, and measures the execution duration.
-     *
-     * @param args Command-line arguments (not used).
-     */
     public static void main(String[] args) {
         // Record the start time using System.nanoTime()
         long startTime = System.nanoTime();

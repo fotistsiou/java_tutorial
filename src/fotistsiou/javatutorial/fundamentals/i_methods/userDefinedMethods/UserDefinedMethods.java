@@ -1,92 +1,27 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.userDefinedMethods;
 
-/* User-Defined Methods */
-// -> A method is a block of code which only runs when it is called.
-// -> When you create a method, you can add variables into the parentheses of the method, known as 'parameters'.
-// -> When you call a method and a parameter is passed to the method, it is called 'argument'.
-// -> The combination of the name of the method and the list of its parameters is known as a method signature (e.g. countSeeds(int, int)).
-// -> Methods are used to perform certain actions, and they are also known as functions.
-// -> Use methods to reuse code. Define the code once, and use it many times.
-
-import java.util.Scanner;
+/**
+ * User-Defined Methods
+ * --------------------
+ * A method is a block of code which only runs when it is called.
+ * When you create a method, you can add variables into the parentheses of the method, known as 'parameters'.
+ * When you call a method and a parameter is passed to the method, it is called 'argument'.
+ * The combination of the name of the method and the list of its parameters is known as a method signature (e.g. countSeeds(int, int)).
+ * Methods are used to perform certain actions, and they are also known as functions.
+ * Use methods to reuse code. Define the code once, and use it many times.
+ */
 
 public class UserDefinedMethods {
-    // Calculation of Fibonacci Number
-    // 1st way - Fibonacci Number Using Recursion (Slow)
-    // 2nd way - Fibonacci Number Using Memoization (Quick)
-
-    // 2nd way - 1st step
-    public static long[] fibonacciCache;
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number that you want to know its Fibonacci number:");
-        int n = scanner.nextInt();
-
-        // 2nd way - 2nd step
-        fibonacciCache = new long[n + 1];
-
-        // 1st way - Print Fibonacci Number
-        System.out.println("----- Fibonacci Number Using Recursion -----");
-        long startTimeRecursion = System.nanoTime();
-        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacciRecursion(n));
-        long endTimeRecursion = System.nanoTime();
-        double durationRecursion = (endTimeRecursion - startTimeRecursion) / 1_000_000_000.0;
-        System.out.println("The calculation of Fibonacci Number took: " + String.format("%.7f", durationRecursion) + " seconds.");
-        // 1st way - Print Fibonacci Sequence
-        System.out.print("Fibonacci sequence up to F(" + n + "): ");
-        for (int i = 0; i <= n; i++) {
-            if (i == n) {
-                System.out.println(fibonacciRecursion(i) + ".");
-            } else {
-                System.out.print(fibonacciRecursion(i) + " ");
-            }
-
-        }
-
-        // 2nd way - Print Fibonacci Number
-        System.out.println("----- Fibonacci Number Using Memoization -----");
-        long startTimeMemoization = System.nanoTime();
-        System.out.println("The Fibonacci Number of the number " + n + " is: " + fibonacciMemoization(n));
-        long endTimeMemoization = System.nanoTime();
-        double durationMemoization = (endTimeMemoization - startTimeMemoization) / 1_000_000_000.0;
-        System.out.println("The calculation of Fibonacci Number took: " + String.format("%.7f", durationMemoization) + " seconds.");
-        // 2nd way - Print Fibonacci Sequence
-        System.out.print("Fibonacci sequence up to F(" + n + "): ");
-        for (int i = 0; i <= n; i++) {
-            if (i == n) {
-                System.out.println(fibonacciMemoization(i) + ".");
-            } else {
-                System.out.print(fibonacciMemoization(i) + " ");
-            }
-        }
-
-        scanner.close();
+        // Call a method
+        myMethod("Liam", "Refsnes");
+        myMethod("Jenny", "Lalus");
+        myMethod("Anja", "Pereturs");
     }
 
-    // 1st way - 1st step
-    public static long fibonacciRecursion(int n) {
-        if (n <= 1) {
-            return n; // Base case: F(0) = 0, F(1) = 1
-        }
-        // Recursive call without memoization
-        return (fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2));
-    }
-
-    // 2nd way - 3rd step
-    public static long fibonacciMemoization(int n) {
-        if (n <= 1) {
-            return n; // Base case: F(0) = 0, F(1) = 1
-        }
-
-        if (fibonacciCache[n] != 0) {
-            return fibonacciCache[n]; // Return cached value if it exists
-        }
-
-        // Recursive call with memoization
-        long nthFibonacciNumber = fibonacciMemoization(n - 1) + fibonacciMemoization(n - 2);
-        fibonacciCache[n] = nthFibonacciNumber; // Cache the result
-
-        return nthFibonacciNumber;
+    // User-Defined Method
+    static void myMethod(String name, String surname) {
+        System.out.println(name + " " + surname);
     }
 }

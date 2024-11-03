@@ -1,15 +1,13 @@
 package fotistsiou.javatutorial.fundamentals.i_methods.builtInMethods;
 
-/* Built-In Methods - String Object */
-// -> A String in Java is actually an object, which contain methods that can perform certain operations on strings.
+/**
+ * Built-In Methods - String Object
+ * --------------------------------
+ * A String in Java is actually an object, which contain methods that can perform certain operations on strings.
+ */
 
 public class BuiltInMethodsStringObject {
 
-    /**
-     * The main method executes the string manipulation operations.
-     *
-     * @param args Command-line arguments (not used).
-     */
     public static void main(String[] args) {
         String string1 = "Hello World";
         // Convert string to upper case using .toUpperCase() method
@@ -18,12 +16,6 @@ public class BuiltInMethodsStringObject {
         stringEndsWith(string2);
     }
 
-    /**
-     * Checks if the given string ends with "World" and prints the result.
-     * If it does not, splits the string at spaces and prints the second word.
-     *
-     * @param string The string to check.
-     */
     public static void stringEndsWith(String string) {
         // Check if the string ends with "World" using .endsWith() method
         if (string.endsWith("World")) {
