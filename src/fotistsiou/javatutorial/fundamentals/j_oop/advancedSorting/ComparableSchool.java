@@ -1,13 +1,15 @@
 package fotistsiou.javatutorial.fundamentals.j_oop.advancedSorting;
 
-/* Comparable */
-// -> The Comparable interface allows an object to specify its own sorting rule with a compareTo() method.
-// -> The Comparable interface method takes an object as an argument and compares the comparable with the argument
-//    to decide which one should go first in a list.
-// -> The compare() method should return a number which is:
-//    - Negative if the comparable should go first in a list.
-//    - Positive if the other object should go first in a list.
-//    - Zero if the order does not matter.
+/**
+ * Comparable
+ * -> The Comparable interface allows an object to specify its own sorting rule with a compareTo() method.
+ * -> The Comparable interface method takes an object as an argument and compares the comparable with the argument
+ *    to decide which one should go first in a list.
+ * -> The compare() method should return a number which is:
+ *    - Negative if the comparable should go first in a list.
+ *    - Positive if the other object should go first in a list.
+ *    - Zero if the order does not matter.
+ */
 
 // 1. Create a Class that implements the Comparable Interface
 public class ComparableSchool implements Comparable{

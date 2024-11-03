@@ -4,28 +4,29 @@ import fotistsiou.javatutorial.fundamentals.j_oop.Academic;
 import fotistsiou.javatutorial.fundamentals.j_oop.interfaces.ISpeak;
 import fotistsiou.javatutorial.fundamentals.j_oop.Student;
 
+/**
+ * Anonymous Class
+ * -> It is an inner classes with no name.
+ * -> Since it has no name, we cannot directly create new instances of them later.
+ * -> We have to declare and instantiate anonymous classes in a single expression at the point of use.
+ * -> In order to create an anonymous class we have to:
+ * -> 1. Extend an existing class.
+ * ->    - When we instantiate an anonymous class from an existent one, we use the syntax "new Class(...){...}".
+ * ->    - In the parentheses, we specify the parameters that are required by the constructor of the class
+ *         that we are extending.
+ * ->    - Anonymous classes cannot have any static members except for those that are constant.
+ * -> 2. Implement an interface.
+ * ->    - When we instantiate an anonymous class from an interface, we use the syntax "new Interface(){...}".
+ * ->    - Java’s interfaces have no constructors, so the parentheses always remain empty.
+ * --------------------------------------------------------------------------------------------------------------
+ * Anonymous Object
+ * -> It is an instance of a class that is created without assigning it to a named reference variable.
+ * -> This object can be an instance of either a named class or an anonymous class.
+ */
+
 public class MainAnonymous {
 
     public static void main(String[] args) {
-        /* Anonymous Classes & Objects */
-
-        // Anonymous Class
-        // -> It is an inner classes with no name.
-        // -> Since it has no name, we cannot directly create new instances of them later.
-        // -> We have to declare and instantiate anonymous classes in a single expression at the point of use.
-        // -> In order to create an anonymous class we have to:
-        // -> 1. Extend an existing class.
-        // ->    - When we instantiate an anonymous class from an existent one, we use the syntax "new Class(...){...}".
-        // ->    - In the parentheses, we specify the parameters that are required by the constructor of the class that we are extending.
-        // ->    - Anonymous classes cannot have any static members except for those that are constant.
-        // -> 2. Implement an interface.
-        // ->    - When we instantiate an anonymous class from an interface, we use the syntax "new Interface(){...}".
-        // ->    - Java’s interfaces have no constructors, so the parentheses always remain empty.
-
-        // Anonymous object
-        // -> It is an instance of a class that is created without assigning it to a named reference variable.
-        // -> This object can be an instance of either a named class or an anonymous class.
-
         // 1. Extend an existing class.
         // -> We define an anonymous class that extends the "Student" class.
         // -> This anonymous class has no name and is created inline where you need it.

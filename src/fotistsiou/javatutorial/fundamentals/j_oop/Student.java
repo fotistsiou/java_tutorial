@@ -3,9 +3,12 @@ package fotistsiou.javatutorial.fundamentals.j_oop;
 import fotistsiou.javatutorial.fundamentals.j_oop.enums.ELevel;
 import fotistsiou.javatutorial.fundamentals.j_oop.interfaces.IProfessorContract;
 
-/* Class Inheritance & Interface Implementation */
-// -> "Student" class extends "Academic" abstract class
-// -> "Student" implements "IProfessorContract" interface
+/**
+ * Class Inheritance & Interface Implementation
+ * -> "Student" class extends "Academic" abstract class
+ * -> "Student" implements "IProfessorContract" interface
+ */
+
 public class Student extends Academic implements IProfessorContract {
     // Class Attributes
     // "private" access modifier
