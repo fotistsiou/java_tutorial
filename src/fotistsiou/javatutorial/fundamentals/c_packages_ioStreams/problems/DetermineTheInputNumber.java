@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Determine the type of the input number
- * ---------------------------------
+ * --------------------------------------
  * You are given a number as the input.
  * Your task is to determine whether it is a positive integer, negative integer, zero or a non-integer.
  * 1. If the integer is positive, print 'positive'.

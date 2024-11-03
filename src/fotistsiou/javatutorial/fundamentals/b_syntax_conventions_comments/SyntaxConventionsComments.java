@@ -8,7 +8,7 @@ package fotistsiou.javatutorial.fundamentals.b_syntax_conventions_comments;
  * -> The main() method is the starting/entry point for every Java application.
  * -> Curly braces {...} mark the beginning and end of a block of code.
  * -> Each code statement must end with a semicolon.
- * -----------------------------------------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------
  * Conventions
  * -> A list of recommendations on how to write code for some particular language is usually
  *    called a coding style guide or style conventions.
@@ -20,7 +20,7 @@ package fotistsiou.javatutorial.fundamentals.b_syntax_conventions_comments;
  *    - The location of curly braces.
  *    - Avoid extra spaces.
  *    - The length of a line.
- * -----------------------------------------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------
  * Comments
  * -> Comments can be used:
  *    - To explain Java code.

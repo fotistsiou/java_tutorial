@@ -7,12 +7,12 @@
  * -> Packages are divided into two categories:
  *    - Built-in Packages (packages from the Java API).
  *    - User-defined Packages (create your own packages).
- * ------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------
  * IO Streams
  * -> Java brings various Streams with its I/O package that helps the user to perform all the input-output operations.
  * -> Java has to provide 2 standard streams which are most common in use:
- *    - The Standard Input Stream that is used to read characters from the keyboard or any other standard input device.
- *    - The Standard Output Stream that is used to produce the result of a program on an output device like the computer screen.
+ *    - Standard Input Stream: Reads characters from the keyboard or other input devices.
+ *    - Standard Output Stream: Displays program results on an output device, like the screen.
  */
 
 // User-Defined Package
