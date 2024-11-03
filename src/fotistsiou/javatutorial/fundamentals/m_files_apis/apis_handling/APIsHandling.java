@@ -1,24 +1,25 @@
 package fotistsiou.javatutorial.fundamentals.m_files_apis.apis_handling;
 
-/* HTTP Client API */
-// -> The Apache HTTP Client is a very robust library, suitable for both simple and advanced use cases when testing HTTP endpoints.
-// -> HTTP Client provides synchronous and asynchronous request mechanisms.
-// -> The API consists of three core classes:
-//    - HttpRequest represents the request to be sent via the HttpClient.
-//    - HttpClient behaves as a container for configuration information common to multiple requests.
-//    - HttpResponse represents the result of an HttpRequest call.
-
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Optional;
+
+/**
+ * HTTP Client API
+ * -> The Apache HTTP Client is a very robust library, suitable for both simple and advanced use cases when testing HTTP endpoints.
+ * -> HTTP Client provides synchronous and asynchronous request mechanisms.
+ * -> The API consists of three core classes:
+ *    - HttpRequest represents the request to be sent via the HttpClient.
+ *    - HttpClient behaves as a container for configuration information common to multiple requests.
+ *    - HttpResponse represents the result of an HttpRequest call.
+ */
 
 public class APIsHandling {
 

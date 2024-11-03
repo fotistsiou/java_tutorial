@@ -1,19 +1,20 @@
 package fotistsiou.javatutorial.fundamentals.m_files_apis.files_handling;
 
-/* File Handling */
-// -> Java has several methods for creating, reading, updating, and deleting files.
-// -> The File class from the java.io package, allows us to work with files.
-// -> To create a file in Java, you can use the java.io.File class.
-// -> To write to a File in Java, we use the java.io.FileWriter class.
-// -> There are many available classes in the Java API that can be used to read and write files in Java:
-//    FileReader, BufferedReader, Files, Scanner, FileInputStream, FileWriter, BufferedWriter, FileOutputStream, etc.
-// -> To delete a file in Java, you can use the java.io.File class.
-
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+
+/**
+ * File Handling
+ * -> Java has several methods for creating, reading, updating, and deleting files.
+ * -> The File class from the java.io package, allows us to work with files.
+ * -> To create a file in Java, you can use the java.io.File class.
+ * -> To write to a File in Java, we use the java.io.FileWriter class.
+ * -> There are many available classes in the Java API that can be used to read and write files in Java:
+ *    FileReader, BufferedReader, Files, Scanner, FileInputStream, FileWriter, BufferedWriter, FileOutputStream, etc.
+ * -> To delete a file in Java, you can use the java.io.File class.
+ */
 
 public class FilesHandling {
     // Define the path to store your files.
