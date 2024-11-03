@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Objects;
 
+/**
+ * Iterator
+ * -> An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
+ */
+
 public class IteratorCollection {
     public static void main(String[] args) {
-        /* Iterator */
-        // -> An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
-
         // Make a collection
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Toyota");

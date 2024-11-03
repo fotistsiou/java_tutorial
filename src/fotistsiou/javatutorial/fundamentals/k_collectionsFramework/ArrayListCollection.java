@@ -3,14 +3,16 @@ package fotistsiou.javatutorial.fundamentals.k_collectionsFramework;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * ArrayList
+ * -> An ArrayList implements List interface.
+ * -> An ArrayList is a resizable array.
+ * -> Use ArrayList when you need fast access by index.
+ */
+
 public class ArrayListCollection {
 
     public static void main(String[] args) {
-        /* ArrayList */
-        // -> An ArrayList implements List interface.
-        // -> An ArrayList is a resizable array.
-        // -> Use ArrayList when you need fast access by index.
-
         // Create an ArrayList
         ArrayList<String> cars = new ArrayList<String>();
 

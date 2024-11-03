@@ -4,17 +4,19 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
+/**
+ * HashSet
+ * -> A HashSet implements Set interface.
+ * -> A HashSet is a collection which can contain many objects of the same type as a LinkedList and an ArrayList.
+ * -> A HasSet contains unique elements without duplicates.
+ * -> A HasSet implements different interface than a LinkedList and an ArrayList.
+ * -> Use HashSet when you need uniqueness of elements and fast access times for add, remove,
+ *    and contains operations.
+ */
+
 public class HashSetCollection {
 
     public static void main(String[] args) {
-        /* HashSet */
-        // -> A HashSet implements Set interface.
-        // -> A HashSet is a collection which can contain many objects of the same type as a LinkedList and an ArrayList.
-        // -> A HasSet contains unique elements without duplicates.
-        // -> A HasSet implements different interface than a LinkedList and an ArrayList.
-        // -> Use HashSet when you need uniqueness of elements and fast access times for add, remove,
-        //    and contains operations.
-
         // Create a HashSet
         HashSet<String> cars = new HashSet<String>();
 
