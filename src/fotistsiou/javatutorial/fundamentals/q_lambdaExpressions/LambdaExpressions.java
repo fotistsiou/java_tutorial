@@ -29,7 +29,7 @@ public class LambdaExpressions {
         // -> Java has many of these kinds of interfaces built in, such as the Consumer interface used by lists.
         Consumer<Integer> method = (n) -> { System.out.println(n); };
         numbers.forEach( method );
-        
+
         /* Using Lambda Expressions 3 */
         // -> To use a lambda expression in a method, the method should have a parameter with a single-method interface as its type.
         // -> Calling the interface's method will run the lambda expression
