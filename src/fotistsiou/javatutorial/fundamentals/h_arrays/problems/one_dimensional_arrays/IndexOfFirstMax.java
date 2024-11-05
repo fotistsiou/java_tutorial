@@ -1,6 +1,5 @@
-package fotistsiou.javatutorial.fundamentals.h_arrays.problems;
+package fotistsiou.javatutorial.fundamentals.h_arrays.problems.one_dimensional_arrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

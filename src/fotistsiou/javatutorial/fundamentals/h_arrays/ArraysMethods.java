@@ -1,6 +1,7 @@
 package fotistsiou.javatutorial.fundamentals.h_arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Arrays.fill()
@@ -25,6 +26,19 @@ import java.util.Arrays;
  *    - dest_arr : Required. Array to be copied in.
  *    - dest_pos   : Required. Starting position in destination array, where to copy in.
  *    - len        : Required. Total number of components to be copied.
+ * ---------------------------------------------------------------------------------------
+ * Arrays.stream()
+ * -> The Arrays.stream() method returns a sequential stream of the specified array, allowing the use of Java Stream API operations
+ *    on the array's elements, such as filtering, mapping, and reduction.
+ * -> Syntax:
+ *    - Arrays.stream(array)
+ *    - Arrays.stream(array, start, end)
+ * -> Parameter Values:
+ *    - array : Required. The array from which a stream will be created.
+ *    - start : Optional. The starting index (inclusive) from where the stream should start.
+ *    - end   : Optional. The ending index (exclusive) up to where the stream should include elements.
+ * -> Return Value:
+ *    - Returns a stream of the specified type (e.g., IntStream for int arrays, DoubleStream for double arrays, etc.).
  */
 
 public class ArraysMethods {
@@ -43,5 +57,11 @@ public class ArraysMethods {
         int[] dest_arr = new int[len];
         System.arraycopy(source_arr, 0, dest_arr, 0, len);
         System.out.println(Arrays.toString(dest_arr));
+
+        // Arrays.stream()
+        int[] int_arr = {1, 2, 3, 4, 5};
+        Arrays.stream(int_arr).forEach(i -> System.out.print(i + " "));
+        int sum = Arrays.stream(int_arr).sum();
+        System.out.println(" -> sum = " + sum);
     }
 }
