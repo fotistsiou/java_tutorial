@@ -19,25 +19,33 @@ public class CheckArraySorted {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Read the size of the array
         int size = scanner.nextInt();
-        scanner.nextLine(); // Consume the leftover newline character
+        scanner.nextLine(); // Consume the leftover newline character after reading the integer
 
+        // Read the next line of input, which contains the array elements separated by spaces
         String line = scanner.nextLine();
         scanner.close();
 
+        // Initialize the array with the specified size
         int[] array = new int[size];
+
+        // Split the line of elements into individual strings and parse them as integers
         String[] elements = line.split(" ");
         for (int i = 0; i < size; i++) {
             array[i] = Integer.parseInt(elements[i]);
         }
 
+        // Check if the array is sorted in non-decreasing order
         for (int i = 1; i < size; i++) {
+            // If any element is less than the previous one, the array is not sorted
             if (array[i] < array[i - 1]) {
                 System.out.println(false);
-                return;
+                return; // Exit the program early since the array is unsorted
             }
         }
 
+        // If the loop completes without finding any decreasing pair, the array is sorted
         System.out.println(true);
     }
 }

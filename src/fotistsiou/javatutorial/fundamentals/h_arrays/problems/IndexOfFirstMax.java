@@ -8,30 +8,37 @@ import java.util.Scanner;
  * --------------------------------------
  * Write a program that reads an array of ints and finds the index of the first maximum in that array.
  * --------------------------------------
- * Input data format: line that contains the number of elements in the array.
- * Output data format: Only a single integer value: the index of the first maximum.
+ * Input data format:
+ * 1. The first line contains the number of elements in the array.
+ * 2. The second line contains the array elements separated by spaces.
+ * Output data format:
+ * 1. Only a single integer value: the index of the first maximum.
  */
 
 public class IndexOfFirstMax {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int[] array = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
+        // Read the size of the array and initialize the array with that size
+        int[] arr = new int[sc.nextInt()];
 
-        scanner.close();
+        // Initialize indexOfMax to track the index of the maximum element
+        int indexOfMax = 0;
 
-        int max = 0;
-        int index = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
-                index = i;
+        // Loop through the array to populate it with user inputs and find the max index
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt(); // Read each integer input and store in the array
+
+            // Update indexOfMax if the current element is greater than the current max
+            if (arr[i] > arr[indexOfMax]) {
+                indexOfMax = i;
             }
         }
 
-        System.out.println(index);
+        // Output the index of the maximum element in the array
+        System.out.println(indexOfMax);
+
+        sc.close();
     }
 }

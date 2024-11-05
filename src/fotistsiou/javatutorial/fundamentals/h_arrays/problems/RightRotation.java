@@ -11,6 +11,12 @@ import java.util.Scanner;
  * If we rotate it by 2, the new array will be {4,5,1,2,3}.
  * It goes like this: {1,2,3,4,5} -> {5,1,2,3,4} -> {4,5,1,2,3}.
  * Implement rotate method that performs a right rotation on an array by a given number.
+ * --------------
+ * Input data format:
+ * 1. The first line contains the array elements separated by spaces.
+ * 2. The second line contains the steps number of rotation.
+ * Output data format:
+ * 1. The rotated array elements, separated by spaces.
  */
 
 public class RightRotation {
@@ -38,16 +44,24 @@ public class RightRotation {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        // Read the array items from the input line, split by spaces,
+        // convert each item to an integer, and store in an integer array
         int[] arr = Arrays.stream(scanner.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
 
+        // Read the number of steps to rotate the array
         int steps = Integer.parseInt(scanner.nextLine());
 
+        // Call the rotate function to perform the array rotation
         rotate(arr, steps);
 
+        // Print the rotated array elements, separated by spaces
         for (int i : arr) {
             System.out.print(i + " ");
         }
+
+        scanner.close();
     }
 }

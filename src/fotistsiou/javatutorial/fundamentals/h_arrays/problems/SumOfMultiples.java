@@ -36,7 +36,6 @@ public class SumOfMultiples {
         // 4. Print the sum of these numbers as output.
         System.out.println(sum);
 
-
         scanner.close();
     }
 }
