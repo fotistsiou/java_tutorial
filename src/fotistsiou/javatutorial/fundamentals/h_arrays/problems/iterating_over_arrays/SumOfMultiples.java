@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_arrays.problems.one_dimensional_arrays;
+package fotistsiou.javatutorial.fundamentals.h_arrays.problems.iterating_over_arrays;
 
 import java.util.Scanner;
 
