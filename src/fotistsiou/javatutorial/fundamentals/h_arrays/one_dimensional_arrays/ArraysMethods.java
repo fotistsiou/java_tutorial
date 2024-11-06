@@ -1,7 +1,6 @@
-package fotistsiou.javatutorial.fundamentals.h_arrays;
+package fotistsiou.javatutorial.fundamentals.h_arrays.one_dimensional_arrays;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * Arrays.fill()

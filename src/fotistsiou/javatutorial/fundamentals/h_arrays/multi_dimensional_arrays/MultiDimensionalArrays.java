@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.h_arrays;
+package fotistsiou.javatutorial.fundamentals.h_arrays.multi_dimensional_arrays;
 
 /**
  * Multi-Dimensional Arrays
