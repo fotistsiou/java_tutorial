@@ -99,6 +99,10 @@
   * Try - Catch - Finally
   * Throw
 * [Regular Expressions](https://www.w3schools.com/java/java_regex.asp)
+  * Regular Expression
+  * Metacharacters
+  * Patterns
+  * Quantifiers
 * [Threads](https://www.w3schools.com/java/java_threads.asp)
 * [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
