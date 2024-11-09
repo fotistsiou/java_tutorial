@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 
 public class ReverseElements {
-    
+
     public static void main(String[] args) {
         int[][] twoDimArray = {
             {0, 1, 2, 3},
@@ -19,9 +19,7 @@ public class ReverseElements {
             {8, 9, 10, 11}
         };
         reverseElements(twoDimArray);
-        for (int[] arr : twoDimArray) {
-            System.out.println(Arrays.toString(arr));
-        }
+        System.out.println(Arrays.deepToString(twoDimArray));
     }
 
     static void reverseElements(int[][] twoDimArray) {
