@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.i_methods.userDefinedMethods.problems;
+package fotistsiou.javatutorial.fundamentals.i_methods.problems;
 
 import java.util.Scanner;
 

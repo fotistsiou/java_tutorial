@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.fundamentals.i_methods.userDefinedMethods;
+package fotistsiou.javatutorial.fundamentals.i_methods.methodsUserDefined;
 
 /**
  * User-Defined Methods
