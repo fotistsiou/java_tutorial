@@ -22,7 +22,7 @@ import java.util.Arrays;
  * -> Parameter Values:
  *    - source_arr : Required. Array to be copied from.
  *    - source_pos : Required. Starting position in source array from where to copy.
- *    - dest_arr : Required. Array to be copied in.
+ *    - dest_arr   : Required. Array to be copied in.
  *    - dest_pos   : Required. Starting position in destination array, where to copy in.
  *    - len        : Required. Total number of components to be copied.
  * ---------------------------------------------------------------------------------------
