@@ -41,11 +41,11 @@ public class RotateRectangle {
         }
 
         // Step 2: Flip the transposed matrix vertically
-        for (int i = 0; i < cols; i++) {
-            for (int j = 0; j < rows / 2; j++) {
-                int temp = newMatrix[i][j];
-                newMatrix[i][j] = newMatrix[i][rows - 1 - j];
-                newMatrix[i][rows - 1 - j] = temp;
+        for (int j = 0; j < cols; j++) {
+            for (int i = 0; i < rows / 2; i++) {
+                int temp = newMatrix[j][i];
+                newMatrix[j][i] = newMatrix[j][rows - 1 - i];
+                newMatrix[j][rows - 1 - i] = temp;
             }
         }
 
