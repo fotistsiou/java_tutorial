@@ -20,7 +20,7 @@ public class RotateRectangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Reading size of 2D matrix and initialize it
+        // Reading the size of the matrix and initialize it
         int rows = scanner.nextInt();
         int cols = scanner.nextInt();
         int[][] matrix = new int[rows][cols];
