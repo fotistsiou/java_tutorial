@@ -3,9 +3,8 @@
 ## Developer Tools
 * Linux
 * Git
-* IDE
-  * IntelliJ IDEA
-    * [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
+* IDE - IntelliJ IDEA
+  * [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
 
 ## Java Fundamentals Topics
 * Syntax, Conventions & Comments
