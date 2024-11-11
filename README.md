@@ -7,6 +7,7 @@
   * [Editions](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce)
   * [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
   * [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
+  * [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
 * Linux
 
 ## Java Fundamentals Topics
