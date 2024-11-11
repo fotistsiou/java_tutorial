@@ -10,3 +10,5 @@
 8. Disable the 'Add sample code' option.
 9. Create a new package in the src folder (e.g. fotistsiou.javatutorial.fundamentals)
 10. Write your code.
+
+![CreateJavaProject.png](CreateJavaProject.png)
