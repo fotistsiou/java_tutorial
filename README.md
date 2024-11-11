@@ -4,9 +4,10 @@
 * Linux
 * Git
 * IDE
+  * IntelliJ IDEA
+    * [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
 
 ## Java Fundamentals Topics
-* [Create a Java Project with IntelliJ IDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html)
 * Syntax, Conventions & Comments
   * [Syntax](https://www.w3schools.com/java/java_syntax.asp)
   * Conventions
