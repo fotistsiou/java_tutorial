@@ -13,7 +13,7 @@ Upon creation, IntelliJ IDEA automatically generates some initial content for th
 
 ## Step 2: Write the `main` Method
 
-Now let's add a `main` method to the `Demo` class and call the `println()` method.
+Now let's add a `main` method to the `Demo` class and call the `println()` method with [Live Templates](https://www.jetbrains.com/help/idea/using-live-templates.html#write-code) – code snippets that you can insert into your code.
 
 1. Place the caret inside the class declaration, just after the opening bracket `{`, and press **Enter** to start a new line.
 2. Type `main` and select the template that inserts the `main()` method declaration.
