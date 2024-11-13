@@ -8,6 +8,8 @@
   * [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
   * [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
   * [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
+* JVM
+  * [Basics](https://hyperskill.org/learn/step/3739)
 * Linux
 
 ## Java Fundamentals Topics
@@ -114,7 +116,6 @@
 * Design Patterns
 * Garbage Collection - Memory Management
 * Generics
-* JVM
 * Streams
 * Advanced Threads
   * Simple-Threading
