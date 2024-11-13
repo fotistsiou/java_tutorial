@@ -1,4 +1,4 @@
-# Errors in programs
+# Errors In Programs
 
 We will divide all possible errors into two groups: compile-time errors and run-time errors.
 
