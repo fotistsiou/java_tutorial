@@ -33,5 +33,7 @@ public class SumOfIntegers {
             sum2 += i;
         }
         System.out.println("Sum with for loop: " + sum2);
+
+        scanner.close();
     }
 }

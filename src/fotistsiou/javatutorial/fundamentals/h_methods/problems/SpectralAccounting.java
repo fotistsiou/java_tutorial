@@ -22,6 +22,8 @@ public class SpectralAccounting {
         HauntedHouse house = new HauntedHouse(initialGhosts);
         house.addGhosts(newGhosts);
         System.out.println(house.getGhostCount());
+
+        scanner.close();
     }
 }
 

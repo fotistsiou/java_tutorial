@@ -16,10 +16,10 @@ import java.util.Scanner;
 public class DetermineTheInputNumber {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        if (sc.hasNextInt()) {
-            int n = sc.nextInt();
+        if (scanner.hasNextInt()) {
+            int n = scanner.nextInt();
             if (n > 0) {
                 System.out.println("positive");
             } else if (n < 0) {
@@ -31,6 +31,6 @@ public class DetermineTheInputNumber {
             System.out.println("non-integer");
         }
 
-        sc.close();
+        scanner.close();
     }
 }

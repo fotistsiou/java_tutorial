@@ -73,5 +73,7 @@ public class ConditionalStatements {
             default:
                 System.out.println("Invalid day");
         }
+
+        scanner.close();
     }
 }

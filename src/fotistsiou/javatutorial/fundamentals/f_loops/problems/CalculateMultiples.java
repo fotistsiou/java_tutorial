@@ -68,5 +68,7 @@ public class CalculateMultiples {
                 System.out.println("Wrong Input! Try again!");
             }
         }
+
+        scanner.close();
     }
 }
