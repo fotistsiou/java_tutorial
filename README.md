@@ -171,7 +171,7 @@
   * Hibernate
   * EBean
 
-## Other Programming Concepts
+## Programming Concepts
 * Basic GUI Programming
 * Event Driven Programming
 * Functional Programming
