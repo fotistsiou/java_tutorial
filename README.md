@@ -10,12 +10,6 @@
   * [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
 * Linux
 
-## Java Basic Terms
-* JVM
-  * [Basics](https://hyperskill.org/learn/step/3739)
-* JRE
-* JDK
-
 ## Java Fundamentals Topics
 * Syntax, Conventions & Comments
   * [Syntax](https://www.w3schools.com/java/java_syntax.asp)
@@ -116,6 +110,17 @@
 * [Threads](https://www.w3schools.com/java/java_threads.asp)
 * [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
+## Java Ecosystem
+* Build Tools
+  * Maven
+  * Gradle
+  * Ant
+  * Bazel
+* Runtime & Development
+  * JVM, JRE & JDK
+  * [Write, compile, and run](https://hyperskill.org/learn/step/3739)
+  * Running Programs Local
+
 ## Java Advanced Topics
 * Design Patterns
 * Garbage Collection - Memory Management
@@ -141,12 +146,6 @@
 * Passing Arguments
 * Reflection
 * Servlets & JSP
-
-## Build Tools
-* Maven
-* Gradle
-* Ant
-* Bazel
 
 ## Testing
 * Unit Testing
