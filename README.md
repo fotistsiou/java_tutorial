@@ -118,7 +118,7 @@
   * Bazel
 * Runtime & Development
   * JVM, JRE & JDK
-  * [Write, compile, and run](https://hyperskill.org/learn/step/3739)
+  * [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
   * Running Programs Local
 
 ## Java Advanced Topics
