@@ -121,6 +121,30 @@
   * [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
   * Running Programs Local
 
+## Logging
+* SLF4J
+* TinyLog
+
+## Testing
+* Unit Testing
+* Integration Testing
+* Behavior Testing
+
+## Databases
+* SQL
+* NoSQL
+* JDBC
+
+## Frameworks & ORMs
+* Frameworks
+  * Spring 
+  * Spring Boot
+  * Quarkus
+* ORMs
+  * Spring Data JPA
+  * Hibernate
+  * EBean
+
 ## Java Advanced Topics
 * Design Patterns
 * Garbage Collection - Memory Management
@@ -146,30 +170,6 @@
 * Passing Arguments
 * Reflection
 * Servlets & JSP
-
-## Testing
-* Unit Testing
-* Integration Testing
-* Behavior Testing
-
-## Logging
-* SLF4J
-* TinyLog
-
-## Databases
-* SQL
-* NoSQL
-* JDBC
-
-## Frameworks & ORMs
-* Frameworks
-  * Spring 
-  * Spring Boot
-  * Quarkus
-* ORMs
-  * Spring Data JPA
-  * Hibernate
-  * EBean
 
 ## Programming Concepts
 * Basic GUI Programming
