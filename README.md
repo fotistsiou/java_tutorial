@@ -8,9 +8,13 @@
   * [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
   * [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
   * [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
+* Linux
+
+## Java Basic Terms
 * JVM
   * [Basics](https://hyperskill.org/learn/step/3739)
-* Linux
+* JRE
+* JDK
 
 ## Java Fundamentals Topics
 * Syntax, Conventions & Comments
