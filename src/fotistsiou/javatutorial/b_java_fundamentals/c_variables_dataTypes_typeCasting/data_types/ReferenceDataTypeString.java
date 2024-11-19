@@ -25,7 +25,16 @@ package fotistsiou.javatutorial.b_java_fundamentals.c_variables_dataTypes_typeCa
 public class ReferenceDataTypeString {
 
     public static void main(String[] args) {
-        // Java Text Block
+        // Without Java Text Block
+        String example = "\"But raging still, amidst his navy sat\n" +
+                "The stern Achilles, stedfast in his hate;\n" +
+                "Nor mix’d in combat, nor in council join’d;\n" +
+                "But wasting cares lay heavy on his mind:\n" +
+                "In his black thoughts revenge and slaughter roll,\n" +
+                "And scenes of blood rise dreadful in his soul.\"";
+        System.out.println(example);
+
+        // With Java Text Block
         String example1 = """ 
                 "But raging still, amidst his navy sat
                 The stern Achilles, stedfast in his hate;
