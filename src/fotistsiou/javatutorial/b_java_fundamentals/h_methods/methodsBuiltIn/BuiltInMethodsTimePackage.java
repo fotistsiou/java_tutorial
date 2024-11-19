@@ -11,9 +11,6 @@ import java.time.format.DateTimeFormatter;
  * The package includes many date and time classes.
  */
 
-
-
-
 public class BuiltInMethodsTimePackage {
 
     public static void main(String[] args) {
