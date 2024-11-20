@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.wrapper_classes;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.wrapper_classes;
 
 import java.util.Scanner;
 

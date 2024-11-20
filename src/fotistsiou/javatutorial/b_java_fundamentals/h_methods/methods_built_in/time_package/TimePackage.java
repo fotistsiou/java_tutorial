@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.time_package;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.time_package;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;

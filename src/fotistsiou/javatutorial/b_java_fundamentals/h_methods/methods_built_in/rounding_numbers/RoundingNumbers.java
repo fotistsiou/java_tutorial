@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.rounding_numbers;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.rounding_numbers;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

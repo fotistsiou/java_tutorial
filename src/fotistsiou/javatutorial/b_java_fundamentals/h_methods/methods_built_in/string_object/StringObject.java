@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.string_object;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.string_object;
 
 /**
  * Built-In Methods - String Object
