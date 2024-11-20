@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop.advancedSorting;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.advanced_sorting;
 
 import java.util.Comparator;
 
