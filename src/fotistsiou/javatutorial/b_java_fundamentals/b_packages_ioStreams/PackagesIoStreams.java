@@ -1,3 +1,9 @@
+// User-Defined Package
+package fotistsiou.javatutorial.b_java_fundamentals.b_packages_ioStreams;
+
+// Built-In Package
+import java.util.Scanner;
+
 /**
  * Packages
  * -> A package in Java is used to group related classes.
@@ -14,12 +20,6 @@
  *    - Standard Input Stream: Reads characters from the keyboard or other input devices.
  *    - Standard Output Stream: Displays program results on an output device, like the screen.
  */
-
-// User-Defined Package
-package fotistsiou.javatutorial.b_java_fundamentals.b_packages_ioStreams;
-
-// Built-In Package
-import java.util.Scanner;
 
 public class PackagesIoStreams {
 
