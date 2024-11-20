@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.math_class;
 
 /**
  * Built-In Methods - Math Class
@@ -6,7 +6,7 @@ package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
  * The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
  */
 
-public class BuiltInMethodsMathClass {
+public class MathClass {
 
     public static void main(String[] args) {
         // Math.random()

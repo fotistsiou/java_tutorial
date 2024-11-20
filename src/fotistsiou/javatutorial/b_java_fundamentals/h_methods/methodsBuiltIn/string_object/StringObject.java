@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.string_object;
 
 /**
  * Built-In Methods - String Object
@@ -6,7 +6,7 @@ package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
  * A String in Java is actually an object, which contain methods that can perform certain operations on strings.
  */
 
-public class BuiltInMethodsStringObject {
+public class StringObject {
 
     public static void main(String[] args) {
         String string1 = "Hello World";

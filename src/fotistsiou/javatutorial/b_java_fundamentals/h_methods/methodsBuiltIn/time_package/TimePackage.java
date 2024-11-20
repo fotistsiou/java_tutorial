@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.time_package;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
  * The package includes many date and time classes.
  */
 
-public class BuiltInMethodsTimePackage {
+public class TimePackage {
 
     public static void main(String[] args) {
         // Record the start time using System.nanoTime()

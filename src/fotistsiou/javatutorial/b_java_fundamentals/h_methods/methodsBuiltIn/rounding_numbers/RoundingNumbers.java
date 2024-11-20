@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.rounding_numbers;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -16,7 +16,7 @@ import java.math.RoundingMode;
  * 6. BigDecimal Class
  */
 
-public class BuiltInMethodsRoundingNumbers {
+public class RoundingNumbers {
 
     public static void main(String[] args) {
         double double1 = 12.34;

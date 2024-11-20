@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.c_variables_dataTypes_typeCasting.data_types;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.string_object;
 
 /**
  * The Java Text Block
@@ -22,7 +22,7 @@ package fotistsiou.javatutorial.b_java_fundamentals.c_variables_dataTypes_typeCa
  *    - The 'formatted' method
  */
 
-public class ReferenceDataTypeString {
+public class JavaTextBlock {
 
     public static void main(String[] args) {
         // Without Java Text Block

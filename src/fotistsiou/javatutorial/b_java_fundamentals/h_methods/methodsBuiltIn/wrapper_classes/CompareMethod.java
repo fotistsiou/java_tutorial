@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn;
+package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methodsBuiltIn.wrapper_classes;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *    - Return value is 1,  when int1 >  int2.
  */
 
-public class BuiltInMethodsWrapperClasses {
+public class CompareMethod {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
