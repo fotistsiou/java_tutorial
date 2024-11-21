@@ -47,16 +47,15 @@ public class JavaTextBlock {
 
         // Indentation & Whitespace: 'stripIndent' method
         String example2 = """
-                \t    Hello, World!
-                \t    This is a text block example.
-                \t    Indentation will be stripped.
+                Hello, World!
+                    This is a text block example.
+                        Indentation will be stripped.
                 """;
         String stripped = example2.stripIndent();
         System.out.println("Before stripIndent:\n" + example2);
         System.out.println("After stripIndent:\n" + stripped);
 
-        // Indentation & Whitespace: 'stripIndent' method
-        // TODO: Fix example
+        // Indentation & Whitespace: 'translateEscapes' method
         String example3 = """
                 Hello, World!\\nThis is a new line.\\tAnd a tab.
                 Escaped backslash: \\\\.
