@@ -53,9 +53,11 @@
   * [Multi-Dimensional Arrays](https://www.w3schools.com/java/java_arrays_multi.asp)
 * Methods
   * Built-In Methods
-    * [String Object](https://www.w3schools.com/java/java_strings.asp)
     * [Math Class](https://www.w3schools.com/java/java_math.asp)
+    * [Rounding Number](https://www.baeldung.com/java-round-decimal-number)
+    * [String Object](https://www.w3schools.com/java/java_strings.asp)
     * [Time Package](https://www.w3schools.com/java/java_date.asp)
+    * [Wrapper Classes](https://www.w3schools.com/java/java_wrapper_classes.asp)
   * [User-Defined Methods](https://www.w3schools.com/java/java_methods.asp)
 * OOP
   * [OOP](https://www.w3schools.com/java/java_oop.asp)
