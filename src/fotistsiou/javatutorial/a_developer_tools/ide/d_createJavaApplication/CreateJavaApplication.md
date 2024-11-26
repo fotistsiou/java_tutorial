@@ -17,7 +17,6 @@ Now let's add a `main` method to the `Demo` class and call the `println()` metho
 
 1. Place the caret inside the class declaration, just after the opening bracket `{`, and press **Enter** to start a new line.
 2. Type `main` and select the template that inserts the `main()` method declaration.
-
     - This feature is part of **Live Templates** in IntelliJ IDEA, which allows you to quickly add common code snippets.
 
 ### Code Completion
