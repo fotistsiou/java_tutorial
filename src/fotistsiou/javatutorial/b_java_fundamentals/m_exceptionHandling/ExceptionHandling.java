@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ExceptionHandling {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         // Try - Catch - Finally
         try {
             int[] myNumbers = {1, 2, 3};
@@ -15,15 +17,24 @@ public class ExceptionHandling {
         }
 
         // Throw
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
-        scanner.close();
         if (age < 18) {
             throw new ArithmeticException("Access denied - You must be at least 18 years old.");
         }
         else {
             System.out.println("Access granted - You are old enough!");
         }
+
+        // Control Statement
+        String input = scanner.nextLine();
+        if (input.matches("\\d+")) {
+            int number = Integer.parseInt(input);
+            System.out.println(number + 1);
+        } else {
+            System.out.println("Incorrect number: " + input);
+        }
+
+        scanner.close();
     }
 }

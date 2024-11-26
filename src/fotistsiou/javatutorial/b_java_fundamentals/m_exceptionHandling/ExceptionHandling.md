@@ -1,9 +1,7 @@
 # Errors In Programs
-
 We will divide all possible errors into two groups: compile-time errors and run-time errors.
 
 ## Compile-time errors
-
 Compile-time errors are errors that prevent a Java program from being compiled:
 * a syntax error: an incorrect keyword, a forgotten ; symbol at the end of a statement
 * a bad source code file name 
@@ -15,8 +13,8 @@ This tool allows programmers to identify compile-time errors before the compilat
 In addition, it is able to highlight warnings about more complex errors and weak places in your code, 
 as well as tips on how to improve the code.
 
-## Run-time errors
 
+## Run-time errors
 Run-time errors (also known as "bugs") are errors that occur when the program is running. 
 Run-time errors will cause your program to behave unexpectedly or may even stop the execution.
 There are two subtypes of run-time errors:
@@ -31,8 +29,18 @@ There are different strategies to find such errors:
 * to use the practice of code review as part of the development process. 
   In general, this practice stands for a case, where one or more developers visually inspect the source code of a program.
 
-## Exception Handling
 
+## Exceptions
+* Some errors in your code do not prevent the program from running and, in this case, the program will only crash while 
+trying to execute a "broken" line: a line with an error called an exception.
+* Exceptions are the errors detected during the program execution (at runtime).
+* Some Types of Exceptions
+  * ArithmeticException (e.g. division by zero)
+  * NumberFormatException (e.g. convert a string into an integer number)
+
+
+
+## Exception Handling
 Two techniques are used to handle exceptional events (exceptions):
 * Try - Catch - Finally
   * The 'try' statement allows you to define a block of code to be tested for errors while it is being executed.
@@ -41,3 +49,7 @@ Two techniques are used to handle exceptional events (exceptions):
 * Throw
   * The throw statement allows you to create a custom error.
   * The throw statement is used together with an exception type.
+* Control Statement
+  * If - Else
+    * Simple Condition (e.g. b == 0)
+    * RegEx (e.g. input.matches("\\d+"))
