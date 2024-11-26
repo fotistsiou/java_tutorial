@@ -1,55 +1,58 @@
-# Errors In Programs
-We will divide all possible errors into two groups: compile-time errors and run-time errors.
+# **Errors in Programs**
+Errors in programs can be categorized into two broad groups: **compile-time errors** and **run-time errors**. 
+Proper understanding and handling of these errors are essential to ensure the reliability and efficiency of your code.
 
-## Compile-time errors
-Compile-time errors are errors that prevent a Java program from being compiled:
-* a syntax error: an incorrect keyword, a forgotten ; symbol at the end of a statement
-* a bad source code file name 
-* invoking a non-existing method
-* and many others
+## **1. Compile-time Errors**
+Compile-time errors are issues that prevent a program from being successfully compiled. These errors must be fixed 
+before the program can run.
+### **Examples of Compile-time Errors**
+- **Syntax errors:** Missing semicolons (`;`), incorrect keywords, or mismatched brackets.
+- **File name mismatches:** Source code file names that do not match the class name in the code.
+- **Invalid method calls:** Invoking methods that do not exist or have incorrect signatures.
+- **Other issues:** Incorrect data types, undeclared variables, and access modifier conflicts.
+### **How to Prevent Compile-time Errors**
+- Use a modern **IDE (Integrated Development Environment)** with a **static code analyzer**.  
+  Features of an IDE include:
+  - Highlighting syntax errors.
+  - Providing warnings for potential issues.
+  - Suggesting improvements for better code quality.
 
-To avoid such errors, programmers use a modern IDE (Integrated Development Environment) with a static code analyzer. 
-This tool allows programmers to identify compile-time errors before the compilation. 
-In addition, it is able to highlight warnings about more complex errors and weak places in your code, 
-as well as tips on how to improve the code.
-
-
-## Run-time errors
-Run-time errors (also known as "bugs") are errors that occur when the program is running. 
-Run-time errors will cause your program to behave unexpectedly or may even stop the execution.
-There are two subtypes of run-time errors:
-* **logic errors** – when a program produces a wrong result because the code is not correct (for example, instead of "Hello!", your program outputs "Hi!")
-* **unhandled exceptional events** like division by zero, not found files, and other unexpected cases
-
-Avoiding such run-time errors is a more difficult task than avoiding compile-time errors. 
-If your program compiles successfully, there are no guarantees that it does not have bugs. 
-There are different strategies to find such errors:
-* to debug your program
-* to write automated tests for your program
-* to use the practice of code review as part of the development process. 
-  In general, this practice stands for a case, where one or more developers visually inspect the source code of a program.
-
-
-## Exceptions
-* Some errors in your code do not prevent the program from running and, in this case, the program will only crash while 
-trying to execute a "broken" line: a line with an error called an exception.
-* Exceptions are the errors detected during the program execution (at runtime).
-* Some Types of Exceptions
-  * ArithmeticException (e.g. division by zero)
-  * NumberFormatException (e.g. convert a string into an integer number)
+## **2. Run-time Errors**
+Run-time errors, or **bugs**, occur when the program executes. These errors can lead to unexpected behavior or 
+program crashes.
+### **Examples of Run-time Errors**
+1. **Logic Errors**
+  - Errors in program logic that produce incorrect results.  
+    Example: A program prints `"Hi!"` instead of `"Hello!"`.
+2. **Unhandled Exceptional Events**
+  - Errors caused by unexpected conditions like:
+    - Division by zero.
+    - File not found.
+    - Null references.
+### **How to Prevent Run-time Errors**
+- **Debugging**: Manually test and identify errors by stepping through the program's execution.
+- **Automated Testing**: Write test cases to ensure all components work as expected.
+- **Code Reviews**: Have peers or senior developers inspect your code for potential issues.
 
 
+## **3. Exceptions**
+Exceptions are specific types of errors that occur during program execution. These errors, if unhandled, can crash 
+the program.
+### **Common Types of Exceptions**
+- **ArithmeticException**: Errors like division by zero.
+- **NumberFormatException**: Attempting to convert an invalid string to a numeric type.
 
-## Exception Handling
-Two techniques are used to handle exceptional events (exceptions):
-* Try - Catch - Finally
-  * The 'try' statement allows you to define a block of code to be tested for errors while it is being executed.
-  * The 'catch' statement allows you to define a block of code to be executed, if an error occurs in the try block.
-  * The 'finally' statement lets you execute code, after try...catch, regardless of the result
-* Throw
-  * The throw statement allows you to create a custom error.
-  * The throw statement is used together with an exception type.
-* Control Statement
-  * If - Else
-    * Simple Condition (e.g. b == 0)
-    * RegEx (e.g. input.matches("\\d+"))
+
+## **4. Exception Handling**
+To handle exceptions gracefully and ensure the program continues to operate, two main techniques are used:
+### **4.1 Try-Catch-Finally Block**
+- **`try`**: Defines a block of code to test for exceptions.
+- **`catch`**: Defines a block of code to handle the exception if it occurs in the `try` block.
+- **`finally`**: Executes code regardless of whether an exception was thrown or caught (e.g., releasing resources).
+### **4.2 Throw Statement**
+- Used to explicitly create and throw exceptions during runtime.
+- Must specify an exception type to throw.
+### **4.3 Using Control Statements**
+- **`if-else` statements**: Handle exceptions based on conditions.
+  - Simple Condition (e.g. `if (b == 0)`)
+  - RegEx (e.g. `if (input.matches("\\d+")`)
