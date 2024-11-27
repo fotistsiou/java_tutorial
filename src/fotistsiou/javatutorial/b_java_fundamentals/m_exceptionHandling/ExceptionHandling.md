@@ -39,13 +39,14 @@ program crashes.
 Exceptions are specific types of errors that occur during program execution. These errors, if unhandled, can crash 
 the program.
 ### **Common Types of Exceptions**
-- **ArithmeticException**: Errors like division by zero.
-- **NumberFormatException**: Attempting to convert an invalid string to a numeric type.
+- **ArithmeticException**: Occur when a program attempts to divide by zero.
+- **NumberFormatException**: Occur when a program attempts to convert an invalid string to a numeric type.
 - **NullPointerException (NPE)**: Occur when a program attempts to use a variable with the null value.
   - How to avoid an NPE in your programs:
     - For reference types, use a conditional statement to check whether the given variable is null before using it.
     - Try to avoid assigning null to variables whenever possible
     - Use NPE-safe features from the standard library (e.g. `Objects.equals(s1, s2)` instead of `s1.equals(s2)`)
+- **NegativeArraySizeException**: Occur when a program attempts to create an array with a negative size.
 
 
 ## **4. Exception Handling**
