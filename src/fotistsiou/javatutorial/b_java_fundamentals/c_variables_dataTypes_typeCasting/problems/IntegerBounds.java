@@ -9,9 +9,7 @@ import java.util.Scanner;
  * 2. Write the formula for calculating the lower (min) possible value of an int variable.
  */
 
-import java.util.Scanner;
-
-public class IntBounds {
+public class IntegerBounds {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
