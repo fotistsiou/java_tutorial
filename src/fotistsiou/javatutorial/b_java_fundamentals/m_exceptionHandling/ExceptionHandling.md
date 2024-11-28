@@ -46,7 +46,9 @@ the program.
     - For reference types, use a conditional statement to check whether the given variable is null before using it.
     - Try to avoid assigning null to variables whenever possible
     - Use NPE-safe features from the standard library (e.g. `Objects.equals(s1, s2)` instead of `s1.equals(s2)`)
-- **NegativeArraySizeException**: Occur when a program attempts to create an array with a negative size. 
+- **NegativeArraySizeException**: Occur when a program attempts to create an array with a negative size.
+- **ArrayIndexOutOfBoundsException**: Occur when a program attempts to access a non-existent element of the array.
+- **StringIndexOutOfBoundsException**: Occur when a program attempts to access a non-existing element of a string.
 
 
 ## **4. Exception Handling**
