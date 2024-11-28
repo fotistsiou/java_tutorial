@@ -3,8 +3,8 @@ package fotistsiou.javatutorial.b_java_fundamentals.c_variables_dataTypes_typeCa
 import java.util.Scanner;
 
 /**
- * Calculating Min & Max Int
- * -------------------------
+ * Calculating Min & Max Integer
+ * -----------------------------
  * 1. Write the formula for calculating the upper (max) possible value of an int variable.
  * 2. Write the formula for calculating the lower (min) possible value of an int variable.
  */
