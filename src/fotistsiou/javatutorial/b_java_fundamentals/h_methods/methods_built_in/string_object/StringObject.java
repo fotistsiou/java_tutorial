@@ -1,5 +1,7 @@
 package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.string_object;
 
+import java.util.Arrays;
+
 /**
  * Built-In Methods - String Object
  * --------------------------------
@@ -9,31 +11,23 @@ package fotistsiou.javatutorial.b_java_fundamentals.h_methods.methods_built_in.s
 public class StringObject {
 
     public static void main(String[] args) {
-        String string1 = "Hello World";
-        // Convert string to upper case using .toUpperCase() method
-        String string2 = string1.toUpperCase();
-        stringEndsWith(string1);
-        stringEndsWith(string2);
-    }
+        String string = "Hello World";
+        System.out.println("The initial string: " + string);
 
-    public static void stringEndsWith(String string) {
-        // Check if the string ends with "World" using .endsWith() method
-        if (string.endsWith("World")) {
-            System.out.println(
-                "The string '" +
-                string +
-                "' ends with the text 'World'."
-            );
-        } else {
-            // Splits the string by space and prints the last part using .split() method
-            String[] array = string.split(" ");
-            System.out.println(
-                "The string '" +
-                string +
-                "' don't end with the text 'World', but it ends with the text '" +
-                array[1] +
-                "'."
-            );
-        }
+        // length method
+        int stringLength = string.length();
+        System.out.println("Length of string: " + stringLength);
+
+        // toUpperCase & toLowerCase method
+        System.out.println("After toUpperCase: " + string.toUpperCase());
+        System.out.println("After toLowerCase: " + string.toLowerCase());
+
+        // split, toCharArray & valueOf methods
+        String[] stringToArray = string.split(" ");
+        System.out.println("After split: " + Arrays.toString(stringToArray));
+        char[] stringToCharArray = string.toCharArray();
+        System.out.println("After toCharArray: " + Arrays.toString(stringToCharArray));
+        String charArrayToString = String.valueOf(stringToCharArray);
+        System.out.println("After valueOf: " + charArrayToString);
     }
 }
