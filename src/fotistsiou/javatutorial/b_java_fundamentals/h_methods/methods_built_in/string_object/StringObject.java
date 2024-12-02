@@ -29,5 +29,9 @@ public class StringObject {
         System.out.println("After toCharArray: " + Arrays.toString(stringToCharArray));
         String charArrayToString = String.valueOf(stringToCharArray);
         System.out.println("After valueOf: " + charArrayToString);
+
+        // indexOf method
+        int index = string.indexOf("World");
+        System.out.println("World starts from index: " + index);
     }
 }

@@ -46,6 +46,8 @@ public class GeneratingPasswords {
         }
 
         System.out.println(password);
+
+        scanner.close();
     }
 
     static void addRandomChars(StringBuilder password, char[] pool, int count, Random random) {
