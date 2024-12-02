@@ -54,6 +54,7 @@
 - Methods
   - Built-In Methods
     - [Math Class](https://www.w3schools.com/java/java_math.asp)
+    - [Random Class](https://www.digitalocean.com/community/tutorials/java-random)
     - [Rounding Number](https://www.baeldung.com/java-round-decimal-number)
     - [String Object](https://www.w3schools.com/java/java_strings.asp)
     - [Time Package](https://www.w3schools.com/java/java_date.asp)
