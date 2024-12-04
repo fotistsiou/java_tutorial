@@ -10,13 +10,18 @@
   - It is guaranteed that the same seed produces the same sequence if the same Java runtime version is used because the 
     algorithm is the same.
 
-## Creating a pseudorandom generator
-- Java provides the java.util.Random class to generate pseudorandom values of different types, such as `int`, `long`, 
-  `double`, and even `boolean`. 
-- We have two constructors to create an object of this class:
-  - `Random()` creates a new random generator and sets the seed of the generator to a value that is very likely to be 
-    distinct from any other invocation of this constructor.
-  - `Random(long seed)` creates a new random generator with the specified initial value of its internal state.
+## Random Class
+- Random class is part of java.util package.
+- An instance of java Random class is used to generate random numbers.
+- This class provides several methods to generate random numbers of type `integer`, `double`, `long`, `float`, and even `boolean`.
+- If two Random instances have same seed value, then they will generate same sequence of random numbers.
+- Java Random class is thread-safe, however in multithreaded environment it’s advised to use
+  java.util.concurrent.ThreadLocalRandom class.
+
+## The constructors
+We have two constructors to create an object of this class:
+  - `Random()` creates a new random generator and seed value is created from system nano time.
+  - `Random(long seed)` creates a new random generator with the specified seed value.
 
 ## The basic methods
 After we've created a generator, we can invoke one of the following methods of it:
