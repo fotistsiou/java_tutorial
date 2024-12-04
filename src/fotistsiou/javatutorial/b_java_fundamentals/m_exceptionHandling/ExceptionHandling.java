@@ -19,6 +19,7 @@ public class ExceptionHandling {
         // Throw
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
+        scanner.nextLine();
         if (age < 18) {
             throw new ArithmeticException("Access denied - You must be at least 18 years old.");
         }
