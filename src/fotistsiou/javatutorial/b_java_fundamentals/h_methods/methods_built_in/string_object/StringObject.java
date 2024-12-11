@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class StringObject {
 
     public static void main(String[] args) {
-        String string = "Hello World";
+        String string = "Hello World!";
         System.out.println("The initial string: " + string);
 
         // length method
@@ -33,5 +33,9 @@ public class StringObject {
         // indexOf method
         int index = string.indexOf("World");
         System.out.println("World starts from index: " + index);
+
+        // join method
+        String[] stringArr = string.split("");
+        System.out.println("After join: " + String.join(" ", stringArr));
     }
 }
