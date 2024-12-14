@@ -37,5 +37,9 @@ public class StringObject {
         // join method
         String[] stringArr = string.split("");
         System.out.println("After join: " + String.join(" ", stringArr));
+
+        // repeat method
+        int counter = 3;
+        System.out.println("After repeat: " + "z".repeat(counter));
     }
 }
