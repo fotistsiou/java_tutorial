@@ -21,10 +21,33 @@ public class IntegerBounds {
             int inputInt = Integer.parseInt(input);
 
             // Typically, integers are stored as 4 bytes (32 bits).
+            // This means an integer uses 32 binary digits (bits) in memory.
             int integerBits = 32;
-            // Maximum signed int value: 2^(31) - 1 = +2147483647
-            int maxInt = (int) (Math.pow(2, (integerBits - 1)) - 1); // Removed Math.round (it's redundant here)
-            // Minimum signed int value: -(2^31) = -2147483648
+
+            // Maximum value of a signed integer is calculated using the formula:
+            // 2^(n - 1) - 1
+            // Explanation of the formula:
+            // -> 2: Binary base (since each bit can have two states, 0 or 1).
+            // -> n: Total number of bits (here, 32).
+            // -> n - 1: This accounts for the fact that one bit is reserved for the sign (+ or -).
+            //           Only 31 bits remain for the magnitude of the number.
+            // -> -1: Subtract 1 because all zeros in binary represent 0,
+            //        and all ones represent the largest number in that range.
+            // Example for 32 bits:
+            // -> 2^(32 - 1) - 1 = 2^31 - 1 = 2,147,483,647 (maximum positive value).
+            int maxInt = (int) (Math.pow(2, (integerBits - 1)) - 1);
+
+            // Minimum value of a signed integer is calculated using the formula:
+            // -2^(n - 1)
+            // Explanation of the formula:
+            // -> 2: Binary base (since each bit can have two states, 0 or 1).
+            // -> n: Total number of bits (here, 32).
+            // -> n - 1: This accounts for the fact that one bit is reserved for the sign (+ or -).
+            //           Only 31 bits remain for the magnitude of the number.
+            // -> -: The negative sign is because the smallest value in a signed integer is negative,
+            //       and its absolute value is larger than the positive maximum by 1.
+            // Example for 32 bits:
+            // -> -2^(32 - 1) = -2^31 = -2,147,483,648 (minimum negative value).
             int minInt = (int) -Math.pow(2, (integerBits - 1));
 
             // Check the input against bounds
