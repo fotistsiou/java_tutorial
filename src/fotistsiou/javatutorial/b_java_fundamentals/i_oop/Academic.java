@@ -7,7 +7,7 @@ package fotistsiou.javatutorial.b_java_fundamentals.i_oop;
  *    - private
  *      -> The code is only accessible within the declared class.
  *      -> Code = attribute, constructor, method.
- *    - default
+ *    - default (package-private, no explicit modifier)
  *      -> The code is only accessible in the same package.
  *      -> Code = class, attribute, constructor, method.
  *      -> This is used when you don't specify a modifier.
