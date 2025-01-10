@@ -1,14 +1,8 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop.advanced_sorting;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.advanced_sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
-/**
- * Advanced Sorting
- * -> To sort objects you need to specify a rule that decides how objects should be sorted.
- * -> The Comparator and Comparable interfaces allow you to specify what rule is used to sort objects.
- */
 
 public class Main {
     public static void main(String[] args) {

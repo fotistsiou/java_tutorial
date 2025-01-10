@@ -1,14 +1,9 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples;
 
-import fotistsiou.javatutorial.b_java_fundamentals.i_oop.enums.ELevel;
-import fotistsiou.javatutorial.b_java_fundamentals.i_oop.interfaces.IProfessorContract;
+import fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.enums.ELevel;
+import fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.interfaces.IProfessorContract;
 
-/**
- * Class Inheritance & Interface Implementation
- * -> "Student" class extends "Academic" abstract class
- * -> "Student" implements "IProfessorContract" interface
- */
-
+// Public Subclass "Professor" extends Abstract Superclass "Academic" and implement Interface IProfessorContract
 public class Student extends Academic implements IProfessorContract {
     // Class Attributes
     // "private" access modifier

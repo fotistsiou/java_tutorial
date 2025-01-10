@@ -1,17 +1,6 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop.advanced_sorting;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.advanced_sorting;
 
 import java.util.Comparator;
-
-/**
- * Comparator
- * -> An object that implements the Comparator interface is called a comparator.
- * -> The Comparator interface allows you to create a class with a compare() method that compares two objects to decide
- *    which one should go first in a list.
- * -> The compare() method should return a number which is:
- *    - Negative if the first object should go first in a list.
- *    - Positive if the second object should go first in a list.
- *    - Zero if the order does not matter.
- */
 
 // 1. Create a Comparator
 public class SortByYearWithComparator implements Comparator {

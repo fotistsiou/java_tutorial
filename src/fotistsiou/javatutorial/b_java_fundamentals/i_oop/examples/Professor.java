@@ -1,17 +1,8 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples;
 
-import fotistsiou.javatutorial.b_java_fundamentals.i_oop.interfaces.IProfessorContract;
+import fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.interfaces.IProfessorContract;
 
-/**
- * Class Inheritance
- * -> In Java, it is possible to inherit attributes and methods from one class to another.
- * -> We group the "inheritance concept" into two categories:
- *    - subclass (child) - the class that inherits from another class.
- *    - superclass (parent) - the class being inherited from.
- * -> "Professor" subclass extends "Academic" superclass.
- * -> When a class extends an abstract class must implement/override all of its abstract methods.
- */
-
+// Public Subclass "Professor" extends Abstract Superclass "Academic"
 public class Professor extends Academic {
     // Class Attributes
     // "default" access modifier & "static" non-access modifier

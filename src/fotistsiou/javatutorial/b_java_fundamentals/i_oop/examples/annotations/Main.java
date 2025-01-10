@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop.annotations;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.annotations;
 
 import java.lang.reflect.Method;
 

@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.i_oop.records;
+package fotistsiou.javatutorial.b_java_fundamentals.i_oop.examples.records;
 
 public class Main {
 
