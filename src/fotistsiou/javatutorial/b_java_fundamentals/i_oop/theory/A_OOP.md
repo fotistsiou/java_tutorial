@@ -59,7 +59,6 @@ development.
      - When a class extends an abstract class must implement/override all of its abstract methods.
      - If a class is declared with the keyword final, it cannot have subclasses at all.
 
-
 3. **Polymorphism** 
    Enabling objects to be treated as instances of their parent class while invoking the appropriate method implementation, 
    whether at compile time (method overloading) or runtime (method overriding).  
