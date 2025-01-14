@@ -18,9 +18,17 @@
 2. Implement an interface.
    - When we instantiate an anonymous class from an interface, we use the syntax "new Interface(){...}".
    - Java’s interfaces have no constructors, so the parentheses always remain empty.
+   
 ### Anonymous Object
 - It is an instance of a class that is created without assigning it to a named reference variable.
 - This object can be an instance of either a named class or an anonymous class.
+
+### Keyword "super"
+- Java provides a special keyword super to access members or constructors of its superclass.
+- This keyword can be used in several cases:
+  - To access instance fields of the parent class.
+  - To invoke methods of the parent class.
+  - To invoke constructors of the parent class (no-arg or parameterized).
 
 
 ## Fields
@@ -29,6 +37,7 @@
 - **Key Points**:
   - Fields can have different access modifiers (`private`, `protected`, `public`).
   - Fields can be of any data type (primitive or reference).
+  
 
 ## Methods
 - Methods define the behavior of a class. They contain a block of code that performs a specific task when called. 
@@ -37,6 +46,7 @@
   - Use methods to implement logic or manipulate fields.
   - A method signature includes its name, parameters, and return type.
   - Special types of methods include static methods and instance methods.
+  
 
 ## Constructors
 - A constructor is a special method used to initialize objects of a class. It has the same name as the class and does not 
