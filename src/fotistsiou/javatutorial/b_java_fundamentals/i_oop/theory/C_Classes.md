@@ -5,7 +5,7 @@
   related fields and methods. Classes are declared using the `class` keyword.
 - **Example**: A `Car` class may define properties like color and model and behaviors like driving or honking.
 
-### Anonymous Class
+#### Anonymous Class
 - It is an inner classes with no name.
 - Since it has no name, we cannot directly create new instances of them later.
 - We have to declare and instantiate anonymous classes in a single expression at the point of use.
@@ -19,16 +19,9 @@
    - When we instantiate an anonymous class from an interface, we use the syntax "new Interface(){...}".
    - Java’s interfaces have no constructors, so the parentheses always remain empty.
    
-### Anonymous Object
+#### Anonymous Object
 - It is an instance of a class that is created without assigning it to a named reference variable.
 - This object can be an instance of either a named class or an anonymous class.
-
-### Keyword "super"
-- Java provides a special keyword super to access members or constructors of its superclass.
-- This keyword can be used in several cases:
-  - To access instance fields of the parent class.
-  - To invoke methods of the parent class.
-  - To invoke constructors of the parent class (no-arg or parameterized).
 
 
 ## Fields
@@ -59,6 +52,23 @@
     constructor and another part by another constructor. 
     - Calling a constructor inside another one is done using this.
     - You should place the statement this(...) in the first statement in the body of the second constructor.
+    
+
+## Keyword "super"
+- Java provides a special keyword "super" to access members or constructors of its superclass.
+- This keyword can be used in several cases:
+    - To access instance fields of the parent class.
+    - To invoke methods of the parent class.
+    - To invoke constructors of the parent class (no-arg or parameterized).
+  
+
+## Keyword "this"
+- Java provides a special keyword "this" to refer to the current instance of the class.
+- This keyword can be used in several cases:
+    - To access instance fields of the same class, especially when there is ambiguity between instance variables and
+      parameters with the same name.
+    - To invoke methods of the same class.
+    - To invoke a constructor from another constructor in the same class.
 
 ## Summary
 - **Class**: The blueprint or template for objects.
