@@ -61,6 +61,16 @@ All exceptions are considered objects of special classes organized into a class 
       - `NullPointerException`
   - `IOException`
 
+## Checked and Unchecked Exceptions
+- Checked exceptions are represented by the Exception class, excluding the RuntimeException subclass. 
+  - The compiler checks whether the programmer expects the occurrence of such exceptions in a program or not. If a method 
+    throws a checked exception, this must be marked in the declaration using the special throws keyword. Otherwise, the 
+    program will not compile.
+  - Example: `FileNotFoundException` 
+- Unchecked exceptions are represented by the RuntimeException class and all its subclasses.
+  - The compiler does not check whether the programmer expects the occurrence of such exceptions in a program.
+  - Example: `NumberFormatException`
+
 ## Common Types of Exceptions
 - **ArithmeticException**: Occur when a program attempts to divide by zero.
 - **NumberFormatException**: Occur when a program attempts to convert an invalid string to a numeric type.
