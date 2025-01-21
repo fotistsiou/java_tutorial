@@ -120,7 +120,7 @@
   - Ant
   - Bazel
 - Runtime & Development
-  - JVM, JRE & JDK
+  - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
   - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
   - Running Programs Local
 
