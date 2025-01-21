@@ -45,3 +45,8 @@ executes the resulting bytecode.
 
 The following image illustrates the relationship between JVM, JRE, and JDK:
 ![JVM-JRE-JDK.svg](images/JVM-JRE-JDK.svg)
+
+## Summary
+- Java Virtual Machine executes compiled bytecode.
+- Java Runtime Environment includes JVM and standard libraries and runs compiled programs.
+- Java Development Kit, which includes JRE and development tools, is used by developers to write programs.
