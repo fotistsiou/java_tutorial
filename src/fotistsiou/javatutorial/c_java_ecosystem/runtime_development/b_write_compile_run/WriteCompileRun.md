@@ -20,12 +20,12 @@ One of the core principles of the Java Platform is "write once, run anywhere." T
 
 > **Important to Remember:** The code input into the JVM is platform-independent, while the output code is platform-dependent.
 
-![JVM_Basics_1.svg](images/JVM_Basics_1.svg)
+![Platform-Independent-Program.svg](images/Platform-Independent-Program.svg)
 *A Platform-Independent Program in the World of Java*
 
 If the JVM is installed on a computer, you can run a compiled JVM program using the `java` tool. This tool opens a file with the `.class` extension to launch the program, making it compatible across various platforms, as the JVM handles translation into the specific commands required by the device. This approach enables developers to "write once, run anywhere," a core benefit of JVM languages.
 
-![JVM_Basics_2.svg](images/JVM_Basics_2.svg)
+![JVM-Program.svg](images/JVM-Program.svg)
 *The picture briefly summarizes the work cycle of a JVM program.*
 
 ## JVM languages
@@ -34,5 +34,5 @@ The Java Platform allows using more than one programming language to create prog
 
 > Nowadays, you can find tools to generate Java bytecode for almost any programming language, which means that there's hardly any language that is not a JVM language.
 
-![JVM_Basics_3.svg](images/JVM_Basics_3.svg)
+![Different-Programming-Languages.svg](images/Different-Programming-Languages.svg)
 *Different programming languages can be used to write programs in the world of Java*
