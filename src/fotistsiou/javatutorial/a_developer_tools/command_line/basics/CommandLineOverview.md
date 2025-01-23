@@ -75,4 +75,5 @@ Isn't there a command to escape? Yes, there's one. Just type exit and you'll be 
 because this command lets you `exit` it. Good news, you've just learned some useful commands and completed the quest, 
 Shanika! Now you can be free.
 
-On the SS64 website, you can find a complete list of commands for Windows, as well as for Linux and macOS
+On the [SS64 website](https://ss64.com/), you can find a complete list of commands for [Windows](https://ss64.com/nt/), 
+as well as for [Linux](https://ss64.com/bash/) and [macOS](https://ss64.com/mac/).
