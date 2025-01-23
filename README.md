@@ -2,9 +2,8 @@
 
 ## Developer Tools
 - Command Line
-  - Basics
-    - [Command Line Overview](https://hyperskill.org/learn/step/8977)
-    - [Parameters & Options](https://hyperskill.org/learn/step/9746)
+  - [Command Line Overview](https://hyperskill.org/learn/step/8977)
+  - [Parameters & Options](https://hyperskill.org/learn/step/9746)
 - Git
 - IDE
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
@@ -124,10 +123,9 @@
   - Ant
   - Bazel
 - JVM
-  - Basics
-    - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
-    - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
-    - Running Programs Local
+  - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
+  - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
+  - Running Programs Local
 
 ## Logging
 - SLF4J
