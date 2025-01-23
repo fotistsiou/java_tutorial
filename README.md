@@ -125,7 +125,7 @@
 - JVM
   - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
   - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
-  - Running Programs Local
+  - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
 
 ## Logging
 - SLF4J
