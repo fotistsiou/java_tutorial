@@ -6,6 +6,7 @@
   - [Parameters & Options](https://hyperskill.org/learn/step/9746)
 - Git
 - IDE
+  - [IDE](https://hyperskill.org/learn/step/10996)
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
   - [Editions](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce)
   - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
