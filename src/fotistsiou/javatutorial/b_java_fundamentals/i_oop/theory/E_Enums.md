@@ -23,10 +23,20 @@ To define an enum:
 ## Methods for processing Enums
 - Initialize a variable of the Enum type:
   - ELevel verbalGrading = ELevel.INSUFFICIENT;
-- Accessed by using the method name():
+- Accessed by using the method `name()`:
   - System.out.println(verbalGrading.name());
-- Access an enumeration instance by its name:
+- Access an enumeration instance by its name by using the `valueOf()` method:
   - ELevel verbalGrading = ELevel.valueOf("INSUFFICIENT");
+- We can assign all constants of an Enum in an array by using the `values()` method:
+  - ELevel[] levels = ELevel.values();
+- Another method called `ordinal()` returns the ordinal position of an instance of an Enum:
+  - System.out.println(ELevel.INSUFFICIENT.ordinal());
+- Although an enum is a reference type, two variables can be correctly compared by using both the `equals` method and 
+  the operator `==`:
+
+## Other Uses
+- An enum can be used in the `switch` statement.
+- An enum can be used in a `for` or a `for-each` loop. 
 
 ## Advantages of Enums
 - Enums provide type safety, ensuring only valid values are used.
