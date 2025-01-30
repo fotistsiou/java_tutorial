@@ -11,14 +11,22 @@ Enums are used when a variable can only take one of a limited set of values, pro
 3. **No Object Creation**: Enums cannot be used to create objects directly; they are predefined constants.
 4. **Cannot Extend Classes**: Enums cannot extend other classes but implicitly extend `java.lang.Enum`.
 
-## Creating an Enum
-To create an enum:
+## Defining an Enum
+To define an enum:
 - Use the `enum` keyword.
 - Separate the constants with a comma.
 
 ## Enum Constants
 - Enum constants should be written in **uppercase letters** to follow Java naming conventions.
 - They are **public**, **static**, and **final** (i.e., unchangeable and cannot be overridden).
+
+## Methods for processing Enums
+- Initialize a variable of the Enum type:
+  - ELevel verbalGrading = ELevel.INSUFFICIENT;
+- Accessed by using the method name():
+  - System.out.println(verbalGrading.name());
+- Access an enumeration instance by its name:
+  - ELevel verbalGrading = ELevel.valueOf("INSUFFICIENT");
 
 ## Advantages of Enums
 - Enums provide type safety, ensuring only valid values are used.

@@ -57,7 +57,7 @@ public class Student extends Academic implements IProfessorContract {
         System.out.print(
             "Student Number: " + this.getStudNumber() + ", " +
             "Course: " + course + ", " +
-            "Grade: " + grade + " (" + verbalGrading + "), "
+            "Grade: " + grade + " (" + verbalGrading.name() + "), "
         );
     }
     // -> Static Method
