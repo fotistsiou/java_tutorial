@@ -1,8 +1,8 @@
-package fotistsiou.javatutorial.b_java_fundamentals.m_exceptionHandling;
+package fotistsiou.javatutorial.b_java_fundamentals.m_exceptions_bugs.theory;
 
 import java.util.Scanner;
 
-public class ExceptionHandling {
+public class Exceptions {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
