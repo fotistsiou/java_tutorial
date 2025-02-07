@@ -1,6 +1,6 @@
 # Java Developer Roadmap
 
-## Developer Tools
+## 1. Developer Tools
 - Command Line
   - [Command Line Overview](https://hyperskill.org/learn/step/8977)
   - [Parameters & Options](https://hyperskill.org/learn/step/9746)
@@ -14,7 +14,7 @@
   - [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
 - Linux
 
-## Java Fundamentals Topics
+## 2. Java Fundamentals Topics
 - Syntax, Conventions & Comments
   - [Syntax](https://www.w3schools.com/java/java_syntax.asp)
   - Conventions
@@ -119,7 +119,7 @@
 - [Threads](https://www.w3schools.com/java/java_threads.asp)
 - [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
-## Java Ecosystem
+## 3. Java Ecosystem
 - Build Tools
   - Maven
   - Gradle
@@ -130,21 +130,21 @@
   - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
   - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
 
-## Logging
+## 4. Logging
 - SLF4J
 - TinyLog
 
-## Testing
+## 5. Testing
 - Unit Testing
 - Integration Testing
 - Behavior Testing
 
-## Databases
+## 6. Databases
 - SQL
 - NoSQL
 - JDBC
 
-## Frameworks & ORMs
+## 7. Frameworks & ORMs
 - Frameworks
   - Spring 
   - Spring Boot
@@ -154,7 +154,7 @@
   - Hibernate
   - EBean
 
-## Java Advanced Topics
+## 8. Java Advanced Topics
 - Design Patterns
 - Garbage Collection - Memory Management
 - Generics
@@ -165,7 +165,7 @@
   - Concurrent Programming
   - Threading – Synchronization
 
-## Java Other Topics
+## 9. Java Other Topics
 - Benchmarking
 - Built-In Functional Interfaces
 - Class Diagrams
@@ -180,7 +180,7 @@
 - Reflection
 - Servlets & JSP
 
-## Programming Concepts
+## 10. Programming Concepts
 - Basic GUI Programming
 - Event Driven Programming
 - Functional Programming
