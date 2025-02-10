@@ -7,11 +7,11 @@
 - Git
 - IDE
   - [IDE](https://hyperskill.org/learn/step/10996)
-  - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-  - [Editions](https://www.jetbrains.com/products/compare/?product=idea&product=idea-ce)
-  - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
-  - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-  - [Overview](https://www.jetbrains.com/help/idea/discover-intellij-idea.html)
+  - IntelliJ IDEA
+    - [IntelliJ IDEA](https://hyperskill.org/learn/step/37202)
+    - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
+    - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
+    - [IntelliJ IDEA Basics](https://hyperskill.org/learn/step/5819)
 - Linux
 
 ## 2. Java Fundamentals Topics

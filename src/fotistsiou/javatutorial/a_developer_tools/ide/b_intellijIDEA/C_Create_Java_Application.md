@@ -1,6 +1,8 @@
 # Creating a Simple Java Application in IntelliJ IDEA
 
-In this tutorial, we'll create a simple Java application in a project named **Demo**. We'll walk through creating a package and a class, writing the `main` method, and using IntelliJ IDEA’s helpful features like **code completion** and **live templates**.
+In this tutorial, we'll create a simple Java application in a project named **Demo**. We'll walk through creating a
+package and a class, writing the `main` method, and using IntelliJ IDEA’s helpful features like **code completion** and
+**live templates**.
 
 ## Step 1: Create a Package and Class
 
@@ -9,21 +11,27 @@ In this tutorial, we'll create a simple Java application in a project named **De
     - This action creates a **package** (`com.example.demo`) and a **class** (`Demo`) inside it.
     - Packages help group classes with similar functionality, making your code organized and easy to navigate.
 
-Upon creation, IntelliJ IDEA automatically generates some initial content for the class, including the package statement and the class declaration.
+Upon creation, IntelliJ IDEA automatically generates some initial content for the class, including the package statement
+and the class declaration.
 
 ## Step 2: Write the `main` Method
 
-Now let's add a `main` method to the `Demo` class and call the `println()` method with [Live Templates](https://www.jetbrains.com/help/idea/using-live-templates.html#write-code) – code snippets that you can insert into your code.
+Now let's add a `main` method to the `Demo` class and call the `println()` method
+with [Live Templates](https://www.jetbrains.com/help/idea/using-live-templates.html#write-code) – code snippets that you
+can insert into your code.
 
-1. Place the caret inside the class declaration, just after the opening bracket `{`, and press **Enter** to start a new line.
+1. Place the caret inside the class declaration, just after the opening bracket `{`, and press **Enter** to start a new
+   line.
 2. Type `main` and select the template that inserts the `main()` method declaration.
     - This feature is part of **Live Templates** in IntelliJ IDEA, which allows you to quickly add common code snippets.
 
 ### Code Completion
 
-As you type, IntelliJ IDEA provides **code completion** suggestions based on the context, helping you write code faster by presenting possible options at each caret position.
+As you type, IntelliJ IDEA provides **code completion** suggestions based on the context, helping you write code faster
+by presenting possible options at each caret position.
 
 To view all live templates, use:
+
 - **⌘J** on macOS
 - **Ctrl+J** on Windows/Linux
 
