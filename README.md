@@ -9,9 +9,11 @@
   - [IDE](https://hyperskill.org/learn/step/10996)
   - IntelliJ IDEA
     - [IntelliJ IDEA](https://hyperskill.org/learn/step/37202)
+    - [IntelliJ IDEA Basics](https://hyperskill.org/learn/step/5819)
+    - [Run and debug with IntelliJ IDEA](https://hyperskill.org/learn/step/37206)
     - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
     - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-    - [IntelliJ IDEA Basics](https://hyperskill.org/learn/step/5819)
+    
 - Linux
 
 ## 2. Java Fundamentals Topics
