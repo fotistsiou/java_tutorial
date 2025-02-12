@@ -15,7 +15,11 @@ that: it offers a single program in which developers can deal with all these com
 
 Most modern IDEs are graphical, though the first ones were used back in the era when no one dreamed of graphics. They 
 were built on a text-based interface and could only be operated using function keys and hotkeys to invoke various 
-functions.
+functions. 
+
+This was, for example, Turbo Pascal, created by Borland:
+
+![ide_1.png](images/ide_1.png)
 
 The first IDEs were designed to be operated via a console or terminal, which were new in themselves. Indeed, before 
 that, programs were generally created on paper and entered into the machine using pre-prepared paper media such as 
@@ -45,6 +49,10 @@ multiple or can be extended with plugins. For instance, IDEs that support multip
 NetBeans, Android Studio, and Visual Studio Code. IDEs for one specific programming language are Delphi, Dev-C++, IDLE 
 for Python, and PyCharm.
 
+As an example, this is what the IntelliJ IDEA IDE looks like:
+
+![ide_2.png](images/ide_2.png)
+
 All of these environments can be run on Windows, macOS, or GNU/Linux.
 
 ## IDE components
@@ -59,6 +67,8 @@ highlighting.
 and does this either immediately before starting the program (compilation) or line by line (interpretation).
 3. Build automation tools, which get the code ready and put everything together.
 4. A Debugger, which looks for errors in the code and immediately reports them.
+
+![ide_3.svg](images/ide_3.svg)
 
 By and large, using an IDE makes you a more productive developer because an IDE provides tight-knit components with a 
 similar user interface. It also automates some routine tasks and even gives you advice and feedback. That's all because 
