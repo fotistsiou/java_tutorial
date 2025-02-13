@@ -27,6 +27,6 @@ public class RandomClass {
         int lower = 2;
         int upper = 5;
         int intervalLength = upper - lower + 1;
-        System.out.println("Int Random Value (2-5): " + random.nextInt(intervalLength) + lower); // it may print 2, 3, 4, 5
+        System.out.println("Int Random Value (2-5): " + (random.nextInt(intervalLength) + lower)); // it may print 2, 3, 4, 5
     }
 }
