@@ -18,7 +18,7 @@ once again to show the hidden Project View.
 
 ## Task Description
 
-![plugin_1.png](images/plugin_1.png)
+![plugin_1.png](../images/plugin_1.png)
 
 The Task Description window gives you all the information you need to complete a programming problem or project stage.
 
@@ -39,15 +39,15 @@ move it to the second monitor or just place it near the main IDE window.
 
 You can do so with the help of a special tool window settings icon.
 
-![plugin_2.png](images/plugin_2.png)
+![plugin_2.png](../images/plugin_2.png)
 
 Or if you prefer you can move the panel to the left, or to the bottom:
 
-![plugin_3.png](images/plugin_3.png)
+![plugin_3.png](../images/plugin_3.png)
 
 ## Editor
 
-![plugin_4.png](images/plugin_4.png)
+![plugin_4.png](../images/plugin_4.png)
 
 The Editor is your playground where you will mainly be programming. You can experiment here for the theory tasks and
 quizzes without being checked. For programming assignments in the Editor, you will find the code you need to fix, or you
