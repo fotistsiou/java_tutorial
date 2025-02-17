@@ -135,8 +135,7 @@
   - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
 
 ## 4. Logging
-- SLF4J
-- TinyLog
+- [Introduction to logging](https://hyperskill.org/learn/step/5538)
 
 ## 5. Testing
 - Unit Testing
