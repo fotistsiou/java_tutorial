@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals.m_exceptions_bugs.theory;
+package fotistsiou.javatutorial.b_java_fundamentals.m_exceptions_bugs.examples;
 
 import java.util.Scanner;
 
