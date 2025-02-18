@@ -28,13 +28,20 @@ public class Exceptions {
         }
 
         // Control Statement
+        System.out.println("Enter a number: ");
         String input = scanner.nextLine();
         if (input.matches("\\d+")) {
             int number = Integer.parseInt(input);
-            System.out.println(number + 1);
+            System.out.println("Your number is" + number);
         } else {
-            System.out.println("Incorrect number: " + input);
+            System.out.println("Invalid number: " + input);
         }
+
+        // Assertions
+        System.out.println("Enter a number greater than 0: ");
+        int positiveNumber = scanner.nextInt();
+        assert (positiveNumber > 0) : "Invalid number";
+        System.out.println("Your number is" + positiveNumber);
 
         scanner.close();
     }
