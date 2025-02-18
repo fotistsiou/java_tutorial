@@ -2,7 +2,7 @@ package fotistsiou.javatutorial.b_java_fundamentals.m_exceptions_bugs.examples;
 
 import java.util.Scanner;
 
-public class Exceptions {
+public class ErrorsHandlingDebuggingTechniques {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
