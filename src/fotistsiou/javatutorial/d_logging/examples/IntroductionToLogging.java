@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.d_logging;
+package fotistsiou.javatutorial.d_logging.examples;
 
 import java.util.logging.Logger;
 
