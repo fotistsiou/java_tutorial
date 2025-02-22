@@ -34,12 +34,12 @@ public class StringBuilderClass {
         sb5.deleteCharAt(2);
         System.out.println(sb5);
 
-        // StringBuilder append(String str) ->  concatenates the given string to the end of the invoking object
+        // StringBuilder append(String str) -> concatenates the given string to the end of the invoking object
         StringBuilder sb6 = new StringBuilder("abc");
         sb6.append("123");
         System.out.println(sb6);
 
-        // StringBuilder insert(int offset, String str) ->  inserts the given string into the existing object at the
+        // StringBuilder insert(int offset, String str) -> inserts the given string into the existing object at the
         // given position indicated by the offset
         StringBuilder sb7 = new StringBuilder("I'm a programmer.");
         sb7.insert(6, "Java ");
