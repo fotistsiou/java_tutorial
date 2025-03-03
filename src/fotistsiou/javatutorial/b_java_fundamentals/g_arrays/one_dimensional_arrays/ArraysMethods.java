@@ -27,8 +27,8 @@ import java.util.Arrays;
  *    - len        : Required. Total number of components to be copied.
  * ---------------------------------------------------------------------------------------
  * Arrays.stream()
- * -> The Arrays.stream() method returns a sequential stream of the specified array, allowing the use of Java Stream API operations
- *    on the array's elements, such as filtering, mapping, and reduction.
+ * -> The Arrays.stream() method returns a sequential stream of the specified array, allowing the use of Java Stream API
+ *    operations on the array's elements, such as filtering, mapping, and reduction.
  * -> Syntax:
  *    - Arrays.stream(array)
  *    - Arrays.stream(array, start, end)
