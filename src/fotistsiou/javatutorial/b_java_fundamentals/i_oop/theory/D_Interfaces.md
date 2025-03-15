@@ -21,11 +21,6 @@ Interfaces define a contract that classes can implement, specifying what methods
     - **Non-public abstract methods**
     - **Non-constants field** (other than `public static final`)
 
-## Interface Methods
-
-- Interface methods do not have a body. The body is provided by the class that implements the interface.
-- Interface methods are **abstract** and **public** by default.
-
 ## Interface Inheritance
 
 1. **Extending Multiple Interfaces**: An interface can extend multiple interfaces, allowing a more flexible inheritance
