@@ -55,10 +55,9 @@ public class Professor extends Academic {
         System.out.println("has Professor Number " + this.getProfNumber() + " and teach " + this.getCourse() + ".");
     }
     // -> Method with parameter an Interface instance:
-    //    - With this way a "Professor" accepts "Students" who implement his contract "IProfessorContract".
-    //    - When a professor calls this method passing an object as an argument,
-    //      the object's class must implement the "IProfessorContract",
-    //      so the object to be accepted.
+    //    - With this way a "Professor" accepts objects who implement his contract ("IProfessorContract").
+    //    - When a professor object calls this method passing an object as an argument, the class of this object must
+    //      implement the "IProfessorContract", so the object to be accepted.
     void acceptInCourse(IProfessorContract accepted){
         accepted.speak("I can speak!");
         accepted.raiseHand("I can raise my hand!");

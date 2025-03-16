@@ -147,6 +147,7 @@ Interfaces define a contract that ensures a class implements specific behavior, 
 ```java
 public interface Repository {
     void save(String data);
+
     String findById(int id);
 }
 
@@ -178,10 +179,16 @@ public interface Gadget {
 
 ## Advantages of Interfaces
 
-- **Code Reusability** – Classes can implement multiple interfaces, promoting modularity.
-- **Loose Coupling** – Reduces dependencies between components.
-- **Multiple Inheritance of Type** – A class can inherit multiple behaviors through interfaces.
-- **Flexible Design** – Interfaces make code extensible and maintainable.
+- **Code Reusability** – Interfaces promote modularity by allowing multiple classes to share common behavior without
+  redundant code.
+- **Loose Coupling** – They decouple implementation details from usage, making systems more flexible and easier to
+  maintain.
+- **Multiple Inheritance of Type** – A class can implement multiple interfaces, effectively inheriting multiple
+  behaviors while avoiding the pitfalls of multiple class inheritance.
+- **Flexible and Scalable Design** – Interfaces support scalable architecture by defining standardized interactions
+  between components.
+- **API Standardization** – They enforce a consistent contract across multiple classes, ensuring interoperability and
+  maintainability in large codebases.
 
 ### **Conclusion**
 

@@ -36,9 +36,9 @@ public class Main {
         Student.semester(3); // Static Method
 
 
-        // "Professor" accepts "Students"
-        // -> The "Student" class implements the "IProfessorContract" interface,
-        // -> so the "Student" object can be passed as an argument to the "acceptInCourse" method.
+        // -> "Professor" accepts objects that implements "IProfessorContract" interface.
+        // -> The "Student" class implements the "IProfessorContract" interface, so the "Student" object can be passed
+        //    as an argument to the "acceptInCourse" method.
         professor.acceptInCourse(student1);
         professor.acceptInCourse(student2);
     }
