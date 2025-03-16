@@ -2,40 +2,190 @@
 
 ## What are Interfaces?
 
-An interface in Java is similar to an abstract class, but with the key difference that it can only contain abstract
-methods and fields (constants).
-Interfaces define a contract that classes can implement, specifying what methods the implementing class must provide.
+An **interface** in Java is a reference type that defines a contract that classes can implement. Unlike abstract
+classes, an interface can only contain abstract methods (until Java 8, which introduced default and static methods).
+Interfaces are used to achieve abstraction and multiple inheritance in Java.
 
-## Declaring interfaces
+### **Key Characteristics**
 
-- An interface can be considered a special kind of class that can't be instantiated.
-- To declare an interface, you should write the keyword interface instead of class before the name of the interface.
-- An interface can contain:
-    - **Constant fields** → Fields `public static final` (implicitly)
-    - **Abstract methods** → Methods without a body/implementation (implicitly `public abstract`)
-    - **Default methods** → Methods with a body using the `default` keyword (the keyword `default` is required)
-    - **Static methods** → Methods with a body using the `static` keyword (the keyword `static` is required)
-    - **Private methods** → Methods with implementation
-- An interface cannot contain:
-    - **Constructors**
-    - **Non-public abstract methods**
-    - **Non-constants field** (other than `public static final`)
+- Interfaces **cannot be instantiated** directly.
+- All methods in an interface are **implicitly public and abstract**, unless they are static or default methods.
+- All fields in an interface are **implicitly public, static, and final** (constants).
+- Interfaces provide a way to define common behavior across multiple unrelated classes.
+
+## Declaring Interfaces
+
+To declare an interface, use the `interface` keyword:
+
+```java
+public interface Animal {
+    void makeSound(); // Abstract method (implicitly public and abstract)
+}
+```
+
+### **What Can an Interface Contain?**
+
+| Feature             | Supported   | Notes                                |
+|---------------------|-------------|--------------------------------------|
+| Constant Fields     | ✅           | `public static final` (implicitly)   |
+| Abstract Methods    | ✅           | `public abstract` (implicitly)       |
+| Default Methods     | ✅ (Java 8+) | Requires `default` keyword           |
+| Static Methods      | ✅ (Java 8+) | Requires `static` keyword            |
+| Private Methods     | ✅ (Java 9+) | Can be used for helper methods       |
+| Constructors        | ❌           | Not allowed in interfaces            |
+| Non-constant Fields | ❌           | Fields must be `public static final` |
+
+### **Example: Interface with Different Method Types**
+
+```java
+public interface Vehicle {
+    int WHEELS = 4; // Implicitly public, static, and final
+
+    void start(); // Abstract method
+
+    default void honk() { // Default method with implementation
+        System.out.println("Beep! Beep!");
+    }
+
+    static void displayInfo() { // Static method with implementation
+        System.out.println("Vehicles can be driven.");
+    }
+}
+```
 
 ## Interface Inheritance
 
-1. **Extending Multiple Interfaces**: An interface can extend multiple interfaces, allowing a more flexible inheritance
-   structure.
-2. **Cannot Extend a Class**: An interface cannot extend a class, as it is designed to be implemented by classes, not
-   inherited.
-3. **Class Inheritance**: A class can extend only one class but can implement multiple interfaces.
+### **1. Extending Multiple Interfaces**
+
+An interface can extend multiple interfaces, allowing a flexible inheritance structure.
+
+```java
+public interface Flyable {
+    void fly();
+}
+
+public interface Swimmable {
+    void swim();
+}
+
+public interface Amphibious extends Flyable, Swimmable {
+}
+```
+
+### **2. Implementing an Interface in a Class**
+
+A class must provide implementations for all abstract methods of an interface it implements.
+
+```java
+public class Car implements Vehicle {
+    @Override
+    public void start() {
+        System.out.println("Car is starting...");
+    }
+}
+```
+
+### **3. A Class Can Implement Multiple Interfaces**
+
+```java
+public class Duck implements Flyable, Swimmable {
+    @Override
+    public void fly() {
+        System.out.println("Duck is flying.");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Duck is swimming.");
+    }
+}
+```
+
+## Interface Usage
+
+### **1. Polymorphism**
+
+Interfaces enable polymorphism by allowing different classes to be treated as instances of the same type.
+
+```java
+Flyable bird = new Duck(); // A Duck is Flyable bird.
+
+fly();
+```
+
+### **2. Multiple Inheritance**
+
+Java does not support multiple inheritance with classes, but interfaces allow a class to inherit behavior from multiple
+sources.
+
+```java
+public interface Runnable {
+    void run();
+}
+
+public interface Jumpable {
+    void jump();
+}
+
+public class Athlete implements Runnable, Jumpable {
+    @Override
+    public void run() {
+        System.out.println("Athlete is running.");
+    }
+
+    @Override
+    public void jump() {
+        System.out.println("Athlete is jumping.");
+    }
+}
+```
+
+### **3. API Contracts**
+
+Interfaces define a contract that ensures a class implements specific behavior, making them ideal for defining APIs.
+
+```java
+public interface Repository {
+    void save(String data);
+    String findById(int id);
+}
+
+public class DatabaseRepository implements Repository {
+    @Override
+    public void save(String data) {
+        System.out.println("Saving data: " + data);
+    }
+
+    @Override
+    public String findById(int id) {
+        return "Data with ID: " + id;
+    }
+}
+```
+
+### **4. Default Methods (Java 8+)**
+
+Interfaces can have methods with a default implementation, allowing new functionality to be added without breaking
+existing implementations.
+
+```java
+public interface Gadget {
+    default void charge() {
+        System.out.println("Charging...");
+    }
+}
+```
 
 ## Advantages of Interfaces
 
-- **Code Reusability**: Classes can implement multiple interfaces, promoting code reuse.
-- **Loose Coupling**: Interfaces allow classes to interact without needing to know the specifics of each other, enabling
-  a more flexible and maintainable design.
-- **Multiple Inheritance of Type**: Through interfaces, a class can inherit multiple types (behavior), overcoming the
-  limitation of single inheritance in Java classes.
+- **Code Reusability** – Classes can implement multiple interfaces, promoting modularity.
+- **Loose Coupling** – Reduces dependencies between components.
+- **Multiple Inheritance of Type** – A class can inherit multiple behaviors through interfaces.
+- **Flexible Design** – Interfaces make code extensible and maintainable.
 
-Interfaces are a powerful way to define common behavior across different classes, ensuring consistency while promoting
-flexibility.
+### **Conclusion**
+
+Interfaces are a powerful tool in Java that provide abstraction, promote code reuse, and enable flexible design
+patterns. By using interfaces effectively, developers can build scalable, maintainable, and well-structured
+applications.
+
