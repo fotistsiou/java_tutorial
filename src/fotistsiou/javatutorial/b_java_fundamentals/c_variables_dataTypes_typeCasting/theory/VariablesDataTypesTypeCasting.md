@@ -15,19 +15,6 @@
     - All values of primitive types are stored in stack memory.
     - Variables of reference types store addresses of objects located in heap memory.
 
-# Wrapper Classes
-
-Wrapper Classes provide a way to use primitive data types as objects. Each primitive type has a class dedicated to it.
-These classes are known as wrappers and they are immutable (just like strings).
-
-Wrapper classes can be used in different situations:
-- when a variable can be null (absence of a value)
-- when you need to store values in generic collections (will be considered in the next topics)
-- when you want to use special methods of these classes
-
-The following table lists all primitive types and the corresponding wrapper classes:
-![wrapper_classes.png](images/wrapper_classes.png)
-
 # Type Casting
 
 - In Java, there are 2 types of casting:
