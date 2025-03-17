@@ -11,6 +11,7 @@ Wrapper classes can be used in different situations:
 - when you want to use special methods of these classes
 
 The following table lists all primitive types and the corresponding wrapper classes:
+
 ![wrapper_classes.png](images/wrapper_classes.png)
 
 ## Boxing and unboxing
