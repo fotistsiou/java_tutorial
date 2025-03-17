@@ -20,6 +20,11 @@
 Wrapper Classes provide a way to use primitive data types as objects. Each primitive type has a class dedicated to it.
 These classes are known as wrappers and they are immutable (just like strings).
 
+Wrapper classes can be used in different situations:
+- when a variable can be null (absence of a value)
+- when you need to store values in generic collections (will be considered in the next topics)
+- when you want to use special methods of these classes
+
 - byte -> Byte
 - short -> Short
 - int -> Integer

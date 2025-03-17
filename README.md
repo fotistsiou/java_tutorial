@@ -46,6 +46,7 @@
         - [Numbers](https://www.w3schools.com/java/java_data_types_numbers.asp)
         - [Booleans](https://www.w3schools.com/java/java_data_types_boolean.asp)
         - [Characters](https://www.w3schools.com/java/java_data_types_characters.asp)
+        - [Wrapper classes](https://hyperskill.org/learn/step/3595)
     - [Type Casting](https://www.w3schools.com/java/java_type_casting.asp)
         - Widening Casting
         - Narrowing Casting
