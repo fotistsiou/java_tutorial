@@ -25,14 +25,8 @@ Wrapper classes can be used in different situations:
 - when you need to store values in generic collections (will be considered in the next topics)
 - when you want to use special methods of these classes
 
-- byte -> Byte
-- short -> Short
-- int -> Integer
-- long -> Long
-- float -> Float
-- double -> Double
-- boolean -> Boolean
-- char -> Character
+The following table lists all primitive types and the corresponding wrapper classes:
+![wrapper_classes.png](images/wrapper_classes.png)
 
 # Type Casting
 
