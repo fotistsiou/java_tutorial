@@ -1,7 +1,8 @@
 # Wrapper Classes
 
-Wrapper Classes provide a way to use primitive data types as objects. Each primitive type has a class dedicated to it.
-These classes are known as wrappers and they are immutable (just like strings).
+Wrapper classes allow us to represent primitive types as objects, that are reference data types.
+Each primitive type has a class dedicated to it. These classes are known as wrappers and they are immutable (just like 
+strings).
 
 Wrapper classes can be used in different situations:
 
@@ -77,13 +78,35 @@ meaningfully equal, for example, it checks if two wrappers or strings have the s
 ```java
 Long i1 = Long.valueOf("2000");
 Long i2 = Long.valueOf("2000");
-System.out.
-
-println(i1 ==i2);      // false
-System.out.
-
-println(i1.equals(i2)); // true
+System.out.println(i1 ==i2);      // false
+System.out.println(i1.equals(i2)); // true
 ```
 
 Do not forget about this feature when working with wrappers. Even though they correspond to primitive types, wrapper
 objects are reference types!
+
+## NPE when unboxing
+
+There is one possible problem when unboxing. If the wrapper object is null, the unboxing throws a
+`NullPointerException`.
+
+```java
+Long longVal = null;
+long primitiveLong = longVal; // It throws an NPE
+```
+
+To fix it, we can add a conditional statement that produces a default value:
+
+```java
+long unboxed = val != null ? val : 0; // No NPE here
+```
+
+Another example is arithmetic operations on `Integer`, `Long`, `Double` and other numeric wrapper types. They may cause 
+an **NPE** since auto-unboxing is involved.
+
+```java
+Integer n1 = 50;
+Integer n2 = null;
+Integer result = n1 / n2; // It throws an NPE
+```
+
