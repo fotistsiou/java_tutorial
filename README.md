@@ -128,7 +128,19 @@
 - [Threads](https://www.w3schools.com/java/java_threads.asp)
 - [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
-## 3. Java Ecosystem
+## 3. Java Advanced Topics
+
+- - Advanced Threads
+    - Simple-Threading
+    - Multi-Threading
+    - Concurrent Programming
+    - Threading – Synchronization
+- Design Patterns
+- Garbage Collection - Memory Management
+- [Generics](https://hyperskill.org/learn/step/3492)
+- Streams
+
+## 4. Java Ecosystem
 
 - Build Tools
     - Maven
@@ -140,23 +152,23 @@
     - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
     - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
 
-## 4. Logging
+## 5. Logging
 
 - [Introduction to logging](https://hyperskill.org/learn/step/5538)
 
-## 5. Testing
+## 6. Testing
 
 - Unit Testing
 - Integration Testing
 - Behavior Testing
 
-## 6. Databases
+## 7. Databases
 
 - SQL
 - NoSQL
 - JDBC
 
-## 7. Frameworks & ORMs
+## 8. Frameworks & ORMs
 
 - Frameworks
     - Spring
@@ -166,18 +178,6 @@
     - Spring Data JPA
     - Hibernate
     - EBean
-
-## 8. Java Advanced Topics
-
-- Design Patterns
-- Garbage Collection - Memory Management
-- Generics
-- Streams
-- Advanced Threads
-    - Simple-Threading
-    - Multi-Threading
-    - Concurrent Programming
-    - Threading – Synchronization
 
 ## 9. Java Other Topics
 
