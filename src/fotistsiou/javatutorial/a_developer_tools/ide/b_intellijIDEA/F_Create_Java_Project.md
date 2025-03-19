@@ -8,7 +8,7 @@
 6. Select the build system that you want to use in your project (e.g. IntelliJ).
 7. From the JDK list, select or add the JDK that you want to use in your project.
 8. Disable the 'Add sample code' option.
-9. Create a new package in the src folder (e.g. fotistsiou.javatutorial.b_java_fundamentals)
+9. Create a new package in the src folder (e.g. fotistsiou.javatutorial.b_java_fundamentals_topics)
 10. Write your code.
 
 ![CreateJavaProject.png](../images/CreateJavaProject.png)
