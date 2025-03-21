@@ -126,7 +126,6 @@
     - Patterns
     - Quantifiers
 - [Threads](https://www.w3schools.com/java/java_threads.asp)
-- [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
 
 ## 3. Java Advanced Topics
 
@@ -136,9 +135,11 @@
     - Concurrent Programming
     - Threading – Synchronization
 - Design Patterns
+- [Functional Programming](https://hyperskill.org/learn/step/11635)
+  - [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
+  - Streams
 - Garbage Collection - Memory Management
 - [Generics](https://hyperskill.org/learn/step/3492)
-- Streams
 
 ## 4. Java Ecosystem
 
