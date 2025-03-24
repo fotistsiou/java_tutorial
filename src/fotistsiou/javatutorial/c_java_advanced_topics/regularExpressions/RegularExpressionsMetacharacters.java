@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_java_fundamentals_topics.n_regularExpressions;
+package fotistsiou.javatutorial.c_java_advanced_topics.regularExpressions;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
