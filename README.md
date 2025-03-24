@@ -120,12 +120,6 @@
         - [What are bugs](https://hyperskill.org/learn/step/5504)
     - [Exception Handling](https://hyperskill.org/learn/step/3552)
     - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
-- [Regular Expressions](https://www.w3schools.com/java/java_regex.asp)
-    - Regular Expression
-    - Metacharacters
-    - Patterns
-    - Quantifiers
-- [Threads](https://www.w3schools.com/java/java_threads.asp)
 
 ## 3. Java Advanced Topics
 
@@ -140,6 +134,14 @@
   - Streams
 - Garbage Collection - Memory Management
 - [Generics](https://hyperskill.org/learn/step/3492)
+- Multi-Threading & Multi-Processing
+  - [Synchronous - Asynchronous - Parallel](https://hyperskill.org/learn/step/9332)
+  - [Threads](https://www.w3schools.com/java/java_threads.asp)
+- [Regular Expressions](https://www.w3schools.com/java/java_regex.asp)
+    - Regular Expression
+    - Metacharacters
+    - Patterns
+    - Quantifiers
 
 ## 4. Java Ecosystem
 
