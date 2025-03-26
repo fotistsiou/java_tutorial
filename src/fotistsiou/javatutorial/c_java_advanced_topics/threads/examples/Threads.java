@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.c_java_advanced_topics.multiThreading_multiProcessing.examples;
+package fotistsiou.javatutorial.c_java_advanced_topics.threads.examples;
 
 public class Threads {
     // ExtendsThread Inner class that extends Thread class

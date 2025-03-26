@@ -1,14 +1,17 @@
 # Threads
 
-- Threads.md allows a program:
-    - to operate more efficiently by doing multiple things at the same time.
-    - to perform complicated tasks in the background without interrupting the main program.
-- There are two ways to create a thread:
-    - By extending the Thread class.
-    - By extending the Runnable interface.
-      The major difference is that when a class extends the Thread class, you cannot extend any other class, but by
-      implementing the Runnable interface, it is possible to extend from another class as well, like: class MyClass
-      extends OtherClass implements Runnable.
+Threads allows a program:
+
+- To operate more efficiently by doing multiple things at the same time.
+- To perform complicated tasks in the background without interrupting the main program.
+
+There are two ways to create a thread:
+
+- By extending the Thread class.
+- By implementing the Runnable interface.
+
+The major difference is that when a class extends the Thread class, you cannot extend any other class, but by
+implementing the Runnable interface, it is possible to extend from another class as well.
 
 ## Concurrency Problems
 

@@ -123,25 +123,25 @@
 
 ## 3. Java Advanced Topics
 
-- - Advanced Threads
-    - Simple-Threading
-    - Multi-Threading
-    - Concurrent Programming
-    - Threading – Synchronization
 - Design Patterns
 - [Functional Programming](https://hyperskill.org/learn/step/11635)
-  - [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
-  - Streams
+    - [Lambda Expressions](https://www.w3schools.com/java/java_lambda.asp)
+    - Streams
 - Garbage Collection - Memory Management
 - [Generics](https://hyperskill.org/learn/step/3492)
-- Multi-Threading & Multi-Processing
-  - [Synchronous - Asynchronous - Parallel](https://hyperskill.org/learn/step/9332)
-  - [Threads](https://www.w3schools.com/java/java_threads.asp)
 - [Regular Expressions](https://www.w3schools.com/java/java_regex.asp)
     - Regular Expression
     - Metacharacters
     - Patterns
     - Quantifiers
+- Threads
+    - [Synchronous - Asynchronous - Parallel](https://hyperskill.org/learn/step/9332)
+    - [Processes & Threads](https://hyperskill.org/learn/step/9420)
+    - [Threads](https://www.w3schools.com/java/java_threads.asp)
+    - Simple-Threading
+    - Multi-Threading
+    - Concurrent Programming
+    - Threading – Synchronization
 
 ## 4. Java Ecosystem
 
@@ -202,4 +202,4 @@
 
 - Basic GUI Programming
 - Event Driven Programming
-- Functional Programming
+- [Functional Programming](https://hyperskill.org/learn/step/11635)
