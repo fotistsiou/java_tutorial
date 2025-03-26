@@ -115,11 +115,11 @@
     - [APIs Handling](https://www.baeldung.com/java-9-http-client)
 - Exceptions & Bugs
     - Exceptions
-        - [Try - Catch - Finally](https://www.w3schools.com/java/java_try_catch.asp)
+        - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
+        - [Exception Handling](https://hyperskill.org/learn/step/3552)
     - Bugs
         - [What are bugs](https://hyperskill.org/learn/step/5504)
-    - [Exception Handling](https://hyperskill.org/learn/step/3552)
-    - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
+        - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
 
 ## 3. Java Advanced Topics
 
