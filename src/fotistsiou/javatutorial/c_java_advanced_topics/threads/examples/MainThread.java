@@ -15,5 +15,9 @@ public class MainThread {
         // Change characteristics of the main thread
         t.setName("my-thread");
         System.out.println("New name: " + t.getName());
+
+        // Min and Max Priorities
+        System.out.println("Min Priority: " + java.lang.Thread.MIN_PRIORITY);
+        System.out.println("Max Priority: " + java.lang.Thread.MAX_PRIORITY);
     }
 }
