@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.c_java_advanced_topics.functional_programming.lambdaExpressions;
+package fotistsiou.javatutorial.c_java_advanced_topics.functional_programming.examples;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;
