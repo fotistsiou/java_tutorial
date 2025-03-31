@@ -1,6 +1,7 @@
 package fotistsiou.javatutorial.c_java_advanced_topics.threads.examples;
 
 public class CustomThreads {
+    // 1. Create a custom thread by extending the Thread class.
     static class ExtendsThread extends Thread {
         @Override
         public void run() {
@@ -8,6 +9,7 @@ public class CustomThreads {
         }
     }
 
+    // 2. Create a custom thread by implementing the Runnable interface.
     static class ImplementsRunnable implements Runnable {
         @Override
         public void run() {
@@ -15,32 +17,23 @@ public class CustomThreads {
         }
     }
 
-    static class ResolveConcurrencyProblem extends Thread {
-        @Override
-        public void run() {
-            System.out.println("This code is inside of the ResolveConcurrencyProblem class");
-        }
-    }
-
     public static void main(String[] args) {
-        // The thread can be run by creating an instance of the class and call its start() method
+        // Start a thread by extending the Thread class
         ExtendsThread thread1 = new ExtendsThread();
         thread1.start();
         System.out.println("This code is outside of the ExtendsThread class");
 
-        // The thread can be run by passing an instance of the class to a Thread object's constructor and then calling
-        // the thread's start() method.
+        // Starting a thread by implementing the Runnable interface and pass the implementation to the constructor
+        // of the Thread class
         ImplementsRunnable obj = new ImplementsRunnable();
         Thread thread2 = new Thread(obj);
         thread2.start();
         System.out.println("This code is outside of the ImplementsRunnable class");
 
-        // Resolve Concurrency Problem
-        ResolveConcurrencyProblem thread3 = new ResolveConcurrencyProblem();
-        thread3.start();
-        while(thread3.isAlive()) { // The program wait for the thread to finish
-            System.out.println("Waiting...");
-        }
-        System.out.println("This code is outside of the ResolveConcurrencyProblem class");
+        // 3. Create a custom thread using lambda expressions
+        Thread thread4 = new Thread(() -> {
+            System.out.println(String.format("Hello, I'm %s!", Thread.currentThread().getName()));
+        });
+        thread4.start();
     }
 }
