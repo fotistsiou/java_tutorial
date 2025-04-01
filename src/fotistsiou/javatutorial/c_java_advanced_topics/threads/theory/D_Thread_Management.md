@@ -18,7 +18,7 @@ The **static method** `Thread.sleep()` causes the currently executing thread to 
 number of milliseconds. This is an efficient means of making processor time available for the other threads of an
 application or other applications that might be running on a computer.
 
-### TimeUnit
+## TimeUnit
 
 Another way to make the current thread sleep is to use the special class `TimeUnit` from the package
 `java.util.concurrent`:
