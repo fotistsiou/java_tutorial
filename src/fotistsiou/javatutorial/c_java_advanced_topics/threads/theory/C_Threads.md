@@ -21,6 +21,10 @@ To obtain the characteristics of the main thread have to obtain a reference to i
 
 Some of the characteristics of the main thread:
 
+- The `getName()` method returns the name of the thread as a `String`. Each thread in Java has a name, which can be
+  explicitly set using the `setName(String name)` method or assigned automatically by the JVM if not specified.
+- The `threadId()` method returns a unique identifier for the thread as a `long` value. This ID is assigned by the JVM
+  and remains constant for the lifetime of the thread.
 - The invocation `t.isAlive()` returns whether the thread has been started and hasn't died yet.
 - Every thread has a **priority**, and the `getPriority()` method returns the priority of a given thread. Threads with a
   higher priority are executed in preference to threads with lower priorities.

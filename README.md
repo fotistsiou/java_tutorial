@@ -137,7 +137,9 @@
 - Threads
     - [Synchronous - Asynchronous - Parallel](https://hyperskill.org/learn/step/9332)
     - [Processes & Threads](https://hyperskill.org/learn/step/9420)
-    - [Threads](https://www.w3schools.com/java/java_threads.asp)
+    - [Threads](https://hyperskill.org/learn/step/4875)
+    - [Thread Management](https://hyperskill.org/learn/step/3619)
+    - [Concurrency Problems](https://www.w3schools.com/java/java_threads.asp)
     - Simple-Threading
     - Multi-Threading
     - Concurrent Programming
