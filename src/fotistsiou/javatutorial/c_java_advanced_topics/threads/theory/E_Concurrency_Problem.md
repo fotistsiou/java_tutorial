@@ -14,5 +14,13 @@ run. When the threads and main program are reading and writing the same variable
 problems that result from this are called **concurrency problems**.
 
 To avoid **concurrency problems**, it is best to share as few attributes between threads as possible. If attributes need
-to be shared, one possible solution is to use the `isAlive()` method of the thread to check whether the thread has
-finished running before using any attributes that the thread can change.
+to be shared, you can use:
+
+- `isAlive()`: This method checks if a thread is still running. While it can be used to check if a thread has finished
+  execution before accessing shared attributes, it does not provide synchronization or prevent race conditions.
+- `sleep()`: This pauses a thread for a specified duration. While it can be used to introduce delays, it does not help
+  with safely sharing attributes between threads.
+- `TimeUnit`: This is a utility class that provides time-based operations (e.g., `TimeUnit.SECONDS.sleep(1)`). It works
+  similarly to `Thread.sleep()`, but with improved readability.
+- `join()`: This makes one thread wait for another to finish execution. It ensures that a thread completes before
+  another one proceeds, helping avoid race conditions in some cases.
