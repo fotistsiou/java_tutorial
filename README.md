@@ -1,11 +1,7 @@
 # Java Developer Roadmap
 
-## 1. Developer Tools
+## 1. Development Tools & Environment
 
-- Command Line
-    - [Command Line Overview](https://hyperskill.org/learn/step/8977)
-    - [Parameters & Options](https://hyperskill.org/learn/step/9746)
-- Git
 - IDE
     - [IDE](https://hyperskill.org/learn/step/10996)
     - IntelliJ IDEA
@@ -16,10 +12,18 @@
         - [JetBrains Academy plugin](https://hyperskill.org/learn/step/5839)
         - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
         - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-
+- Git (Git, GitHub)
+- Build Tools (Maven)
+- JVM
+    - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
+    - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
+    - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
+- Command Line
+    - [Command Line Overview](https://hyperskill.org/learn/step/8977)
+    - [Parameters & Options](https://hyperskill.org/learn/step/9746)
 - Linux
 
-## 2. Java Fundamentals Topics
+## 2. Fundamental Topics
 
 - Syntax, Conventions & Comments
     - [Syntax](https://www.w3schools.com/java/java_syntax.asp)
@@ -117,11 +121,39 @@
     - Exceptions
         - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
         - [Exception Handling](https://hyperskill.org/learn/step/3552)
-    - Bugs
-        - [What are bugs](https://hyperskill.org/learn/step/5504)
-        - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
+    -
 
-## 3. Java Advanced Topics
+## 3. Logging & Debugging
+
+- [Introduction To Logging](https://hyperskill.org/learn/step/5538)
+- Logging Tools
+    - SLF4J for Java Logging
+    - Logback for Spring Logging
+- Introduction To Debugging
+    - [What are bugs](https://hyperskill.org/learn/step/5504)
+    - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
+- Debugging Tools
+    - IDE Debugger
+
+## 4. Testing
+
+- JUnit 5: standard testing framework for writing unit tests in Java
+- Mockito: mocking dependencies and writing isolated unit tests
+- Spring Boot Test: integration tests using annotations
+
+## 5. Databases
+
+- SQL - Relational Databases
+- NoSQL - No Relational Databases
+- JDBC
+
+## 6. Frameworks & ORMs
+
+- MVC: Auto-configuration, REST Controllers
+- ORM: Spring Data JPA, Hibernate
+- Spring Security: authentication, JWT, OAuth2
+
+## 7. Advanced Topics
 
 - Design Patterns
 - [Functional Programming](https://hyperskill.org/learn/step/11635)
@@ -145,46 +177,7 @@
     - Concurrent Programming
     - Threading – Synchronization
 
-## 4. Java Ecosystem
-
-- Build Tools
-    - Maven
-    - Gradle
-    - Ant
-    - Bazel
-- JVM
-    - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
-    - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)
-    - [Running Programs Locally](https://hyperskill.org/learn/step/3746)
-
-## 5. Logging
-
-- [Introduction to logging](https://hyperskill.org/learn/step/5538)
-
-## 6. Testing
-
-- Unit Testing
-- Integration Testing
-- Behavior Testing
-
-## 7. Databases
-
-- SQL
-- NoSQL
-- JDBC
-
-## 8. Frameworks & ORMs
-
-- Frameworks
-    - Spring
-    - Spring Boot
-    - Quarkus
-- ORMs
-    - Spring Data JPA
-    - Hibernate
-    - EBean
-
-## 9. Java Other Topics
+## 8. Other Topics
 
 - Benchmarking
 - Built-In Functional Interfaces
@@ -199,9 +192,3 @@
 - Passing Arguments
 - Reflection
 - Servlets & JSP
-
-## 10. Programming Concepts
-
-- Basic GUI Programming
-- Event Driven Programming
-- [Functional Programming](https://hyperskill.org/learn/step/11635)
