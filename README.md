@@ -4,13 +4,12 @@
 
 - IDE
     - [IDE](https://hyperskill.org/learn/step/10996)
-    - IntelliJ IDEA
-        - [Intro](https://hyperskill.org/learn/step/37202)
-        - [Basics](https://hyperskill.org/learn/step/5819)
-        - [Run Configurations](https://hyperskill.org/learn/step/10630)
-        - [JetBrains Academy Plugin](https://hyperskill.org/learn/step/5839)
-        - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
-        - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
+    - [IntelliJ Intro](https://hyperskill.org/learn/step/37202)
+    - [IntelliJ Basics](https://hyperskill.org/learn/step/5819)
+    - [IntelliJ Run Configurations](https://hyperskill.org/learn/step/10630)
+    - [JetBrains Academy Plugin](https://hyperskill.org/learn/step/5839)
+    - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
+    - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
 - Git (Git, GitHub)
 - Build Tools (Maven)
 - JVM
@@ -119,6 +118,7 @@
 - Exceptions
     - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
     - [Exception Handling](https://hyperskill.org/learn/step/3552)
+- HTTP Basics
 
 ## 3. Logging & Debugging
 

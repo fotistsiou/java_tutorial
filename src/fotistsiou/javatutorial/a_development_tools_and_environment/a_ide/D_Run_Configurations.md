@@ -6,11 +6,11 @@ IntelliJ IDEA uses run/debug configurations to run, debug, and test applications
 
 The application run/debug configuration enables you to run or debug applications via the main method. To set up a configuration open the Edit Configurations dialog.
 
-![run_configurations_1.png](../images/run_configurations_1.png)
+![run_configurations_1.png](images/run_configurations_1.png)
 
 The command-line arguments to pass at the startup of the program are configured at the Build and run section in the Program arguments field.
 
-![run_configurations_2.png](../images/run_configurations_2.png)
+![run_configurations_2.png](images/run_configurations_2.png)
 
 The arguments are passed as a sequence of strings separated by whitespaces. While running a program, the strings would be the command-line arguments passed to its entry points. The delimiters between command-line elements are whitespace characters and the end-of-line delimiter is the newline character.
 
@@ -33,4 +33,4 @@ When specifying arguments, follow these rules:
 - If an argument includes double quotes (as part of the argument), escape the double quotes using backslashes, for example, \"quoted_value\".
 
 For example, if you want to pass two arguments, --data and text.txt, you should insert them as in the following example using the rules above:
-![run_configurations_3.png](../images/run_configurations_3.png)
+![run_configurations_3.png](images/run_configurations_3.png)

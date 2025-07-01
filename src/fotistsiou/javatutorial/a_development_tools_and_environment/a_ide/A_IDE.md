@@ -19,7 +19,7 @@ functions.
 
 This was, for example, Turbo Pascal, created by Borland:
 
-![ide_1.png](../images/ide_1.png)
+![ide_1.png](images/ide_1.png)
 
 The first IDEs were designed to be operated via a console or terminal, which were new in themselves. Indeed, before 
 that, programs were generally created on paper and entered into the machine using pre-prepared paper media such as 
@@ -51,7 +51,7 @@ for Python, and PyCharm.
 
 As an example, this is what the IntelliJ IDEA IDE looks like:
 
-![ide_2.png](../images/ide_2.png)
+![ide_2.png](images/ide_2.png)
 
 All of these environments can be run on Windows, macOS, or GNU/Linux.
 
@@ -68,7 +68,7 @@ and does this either immediately before starting the program (compilation) or li
 3. Build automation tools, which get the code ready and put everything together.
 4. A Debugger, which looks for errors in the code and immediately reports them.
 
-![ide_3.svg](../images/ide_3.svg)
+![ide_3.svg](images/ide_3.svg)
 
 By and large, using an IDE makes you a more productive developer because an IDE provides tight-knit components with a 
 similar user interface. It also automates some routine tasks and even gives you advice and feedback. That's all because 

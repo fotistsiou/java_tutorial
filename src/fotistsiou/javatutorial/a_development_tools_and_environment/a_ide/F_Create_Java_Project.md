@@ -11,4 +11,4 @@
 9. Create a new package in the src folder (e.g. fotistsiou.javatutorial.b_fundamental_topics)
 10. Write your code.
 
-![CreateJavaProject.png](../images/CreateJavaProject.png)
+![CreateJavaProject.png](images/CreateJavaProject.png)
