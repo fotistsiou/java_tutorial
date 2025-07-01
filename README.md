@@ -5,10 +5,10 @@
 - IDE
     - [IDE](https://hyperskill.org/learn/step/10996)
     - IntelliJ IDEA
-        - [IntelliJ IDEA](https://hyperskill.org/learn/step/37202)
-        - [IntelliJ IDEA Basics](https://hyperskill.org/learn/step/5819)
-        - [IntelliJ IDEA run configurations](https://hyperskill.org/learn/step/10630)
-        - [JetBrains Academy plugin](https://hyperskill.org/learn/step/5839)
+        - [Intro](https://hyperskill.org/learn/step/37202)
+        - [Basics](https://hyperskill.org/learn/step/5819)
+        - [Run Configurations](https://hyperskill.org/learn/step/10630)
+        - [JetBrains Academy Plugin](https://hyperskill.org/learn/step/5839)
         - [Create Java Project](https://www.jetbrains.com/help/idea/new-project-wizard.html)
         - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
 - Git (Git, GitHub)
@@ -132,7 +132,7 @@
     - [What are bugs](https://hyperskill.org/learn/step/5504)
     - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
 - Debugging Tools
-    - [IDE Debugger](https://hyperskill.org/learn/step/37206)
+    - [IntelliJ Debugger](https://hyperskill.org/learn/step/37206)
 
 ## 4. Testing
 

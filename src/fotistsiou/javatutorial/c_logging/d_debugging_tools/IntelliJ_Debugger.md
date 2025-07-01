@@ -18,7 +18,7 @@ how these tools work.
 
 1. Click on the green triangle Run button in the gutter and select Run 'Demo.main()' in the popup. The IDE will then
    start compiling your code.
-   ![run_and_debug_1.png](../images/run_and_debug_1.png)
+   ![run_and_debug_1.png](../../a_development_tools_and_environment/a_ide/images/run_and_debug_1.png)
 2. You'll see the result in the Run window that pops up.
 
 ### Debug:
@@ -28,7 +28,7 @@ how these tools work.
    Ctrl+F8 (Windows, Linux).
 2. To activate the debugger, click on the **Bug** button next to the **Run** button. The **Debugger** window will
    consequently appear with the result.
-   ![run_and_debug_2.png](../images/run_and_debug_2.png)
+   ![run_and_debug_2.png](../../a_development_tools_and_environment/a_ide/images/run_and_debug_2.png)
 
 ## Customize IntelliJ IDEA
 
@@ -37,7 +37,7 @@ There are many settings that you can configure based on what you want or need.
 1. To configure your IDE, select IntelliJ IDEA | Preferences (macOS) or File | Settings (Windows and Linux). For
    example, go to Appearance & Behavior | Appearance and choose different themes. In this topic, we use Darcula.
 2. If you want to find something specific in the settings, use the search box as shown below.
-   ![run_and_debug_3.png](../images/run_and_debug_3.png)
+   ![run_and_debug_3.png](../../a_development_tools_and_environment/a_ide/images/run_and_debug_3.png)
 
 ## Study more features in IntelliJ IDEA
 
@@ -45,4 +45,4 @@ You can continue exploring the IDE with helpful interactive courses right inside
 
 1. Select the Learn section on the Welcome screen and click on Start learning. The IDE will open a demo project with
    step-by-step instructions to guide you through all the most prominent features and tools that IntelliJ IDEA offers.
-   ![run_and_debug_4.png](../images/run_and_debug_4.png)
+   ![run_and_debug_4.png](../../a_development_tools_and_environment/a_ide/images/run_and_debug_4.png)
