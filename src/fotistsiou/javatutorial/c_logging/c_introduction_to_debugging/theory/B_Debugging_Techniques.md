@@ -26,8 +26,8 @@ they will inform you about what's happening under the hood at runtime.
 > 3. Click on `Modify options` link and choose `Add VM options`
 > 4. Add `-ea` to the `VM options box`.
 
-![assertions_1.png](./images/assertions_1.png)
-![assertions_2.png](./images/assertions_2.png)
+![assertions_1.png](../../../b_fundamental_topics/m_exceptions/theory/images/assertions_1.png)
+![assertions_2.png](../../../b_fundamental_topics/m_exceptions/theory/images/assertions_2.png)
 
 ## Debugger
 

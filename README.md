@@ -116,11 +116,9 @@
 - Files & APIs
     - [Files Handling](https://www.w3schools.com/java/java_files.asp)
     - [APIs Handling](https://www.baeldung.com/java-9-http-client)
-- Exceptions & Bugs
-    - Exceptions
-        - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
-        - [Exception Handling](https://hyperskill.org/learn/step/3552)
-    -
+- Exceptions
+    - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
+    - [Exception Handling](https://hyperskill.org/learn/step/3552)
 
 ## 3. Logging & Debugging
 

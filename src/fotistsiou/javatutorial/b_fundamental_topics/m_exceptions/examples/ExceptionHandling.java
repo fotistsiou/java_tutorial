@@ -1,8 +1,8 @@
-package fotistsiou.javatutorial.b_fundamental_topics.m_exceptions_bugs.examples;
+package fotistsiou.javatutorial.b_fundamental_topics.m_exceptions.examples;
 
 import java.util.Scanner;
 
-public class ErrorsHandlingDebuggingTechniques {
+public class ExceptionHandling {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -36,12 +36,6 @@ public class ErrorsHandlingDebuggingTechniques {
         } else {
             System.out.println("Invalid number: " + input);
         }
-
-        // Assertions
-        System.out.println("Enter a number greater than 0: ");
-        int positiveNumber = scanner.nextInt();
-        assert (positiveNumber > 0) : "Invalid number";
-        System.out.println("Your number is" + positiveNumber);
 
         scanner.close();
     }
