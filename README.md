@@ -48,8 +48,6 @@
         - [Characters](https://www.w3schools.com/java/java_data_types_characters.asp)
         - [Wrapper classes](https://hyperskill.org/learn/step/3595)
     - [Type Casting](https://www.w3schools.com/java/java_type_casting.asp)
-        - Widening Casting
-        - Narrowing Casting
 - [Operators](https://www.w3schools.com/java/java_operators.asp)
 - Conditional Statements
     - [If Statement](https://www.w3schools.com/java/java_conditions.asp)
@@ -59,7 +57,8 @@
     - [Do While Loop](https://www.w3schools.com/java/java_while_loop_do.asp)
     - [For Loop](https://www.w3schools.com/java/java_for_loop.asp)
     - [Break & Continue](https://www.w3schools.com/java/java_break.asp)
-- [Arrays](https://www.w3schools.com/java/java_arrays.asp)
+- Arrays
+    - [Arrays](https://www.w3schools.com/java/java_arrays.asp)
     - [One-Dimensional Arrays](https://www.w3schools.com/java/java_arrays.asp)
     - [Multi-Dimensional Arrays](https://www.w3schools.com/java/java_arrays_multi.asp)
 - Methods
