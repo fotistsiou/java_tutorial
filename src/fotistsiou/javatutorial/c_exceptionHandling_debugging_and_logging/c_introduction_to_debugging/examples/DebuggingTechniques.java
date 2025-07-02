@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.c_logging_and_debugging.c_introduction_to_debugging.examples;
+package fotistsiou.javatutorial.c_exceptionHandling_debugging_and_logging.c_introduction_to_debugging.examples;
 
 import java.util.Scanner;
 

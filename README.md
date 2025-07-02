@@ -115,22 +115,24 @@
 - Files & APIs
     - [Files Handling](https://www.w3schools.com/java/java_files.asp)
     - [APIs Handling](https://www.baeldung.com/java-9-http-client)
-- Exceptions
-    - [Java Exceptions - Try...Catch](https://www.w3schools.com/java/java_try_catch.asp)
-    - [Exception Handling](https://hyperskill.org/learn/step/3552)
 - HTTP Basics
 
-## 3. Logging & Debugging
+## 3. Exception Handling, Debugging & Logging
 
-- [Introduction To Logging](https://hyperskill.org/learn/step/5538)
-- Logging Tools
-    - SLF4J for Java Logging
-    - Logback for Spring Logging
+- Introduction To Exception Handling
+    - [Exceptions](https://www.w3schools.com/java/java_try_catch.asp)
+- Exception Handling Tools
+    - [Exception Handling](https://hyperskill.org/learn/step/3552)
 - Introduction To Debugging
     - [What are bugs](https://hyperskill.org/learn/step/5504)
     - [Debugging Techniques](https://hyperskill.org/learn/step/13775)
 - Debugging Tools
     - [IntelliJ Debugger](https://hyperskill.org/learn/step/37206)
+- Introduction To Logging
+    - [Introduction To Logging](https://hyperskill.org/learn/step/5538)
+- Logging Tools
+    - SLF4J for Java Logging
+    - Logback for Spring Logging
 
 ## 4. Testing
 

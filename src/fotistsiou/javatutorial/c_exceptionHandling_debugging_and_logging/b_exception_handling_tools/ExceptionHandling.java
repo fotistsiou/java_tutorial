@@ -1,4 +1,4 @@
-package fotistsiou.javatutorial.b_fundamental_topics.m_exceptions.examples;
+package fotistsiou.javatutorial.c_exceptionHandling_debugging_and_logging.b_exception_handling_tools;
 
 import java.util.Scanner;
 
