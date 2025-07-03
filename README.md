@@ -75,22 +75,14 @@
     - [Classes & Objects](https://www.w3schools.com/java/java_classes.asp)
     - [Attributes](https://www.w3schools.com/java/java_class_attributes.asp)
     - [Methods](https://www.w3schools.com/java/java_class_methods.asp)
-    - [Constructors](https://www.w3schools.com/java/java_constructors.asp)
+    - Constructors
+        - [Constructors](https://www.w3schools.com/java/java_constructors.asp)
         - [This](https://www.w3schools.com/java/ref_keyword_this.asp)
         - [Super](https://www.w3schools.com/java/ref_keyword_super.asp)
     - [Modifiers](https://www.w3schools.com/java/java_modifiers.asp)
-        - Access Modifiers
-        - Non-Access Modifiers
     - [Encapsulation](https://www.w3schools.com/java/java_encapsulation.asp)
-        - Getters
-        - Setters
     - [Inheritance](https://www.w3schools.com/java/java_inheritance.asp)
-        - Extends
-        - Super-Classes
-        - Sub-Classes
     - [Polymorphism](https://www.geeksforgeeks.org/polymorphism-in-java/)
-        - Compile-time Polymorphism - Overloading
-        - Runtime Polymorphism - Overriding
     - [Abstraction](https://www.w3schools.com/java/java_abstract.asp)
     - [Interface](https://www.w3schools.com/java/java_interface.asp)
     - Anonymization
@@ -100,8 +92,6 @@
     - [Records](https://www.baeldung.com/java-record-keyword)
     - [Annotations](https://www.geeksforgeeks.org/annotations-in-java/)
     - [Advanced Sorting](https://www.w3schools.com/java/java_advanced_sorting.asp)
-        - Comparator
-        - Comparable
 - Collections Framework
     - [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
     - [LinkedList](https://www.w3schools.com/java/java_linkedlist.asp)
