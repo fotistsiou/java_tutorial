@@ -12,8 +12,9 @@
     - [Create Java Application](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
 - Git (Git, GitHub)
 - Build Tools
-    - Intro To Build Tools
-      - [Build tools](https://hyperskill.org/learn/step/4284)
+  - [Intro To Build Tools](https://hyperskill.org/learn/step/4284)
+  - [Jar Files](https://hyperskill.org/learn/step/4311)
+
 - JVM
     - [JVM, JRE & JDK](https://hyperskill.org/learn/step/3499)
     - [Write, Compile & Run](https://hyperskill.org/learn/step/3739)

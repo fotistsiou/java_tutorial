@@ -1,7 +1,5 @@
 # Intro To Build Tools
 
-## Build Tools
-
 A **build tool** is a program that automates the process of creating executable applications from source code.
 The build process includes compiling sources and linking and packaging the code into a usable or executable form.
 
@@ -26,3 +24,4 @@ There are three main build tools for Java-based projects: **Apache Ant**, **Apac
 3. **Gradle** is a new tool compared to Ant and Maven. It was released in 2007 and is now standard for Android
    applications. Also, developers use it for server and desktop development. Gradle aims to “combine the power and
    flexibility of Ant with the dependency management and conventions of Maven into a more effective way to build.”
+
